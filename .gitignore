@@ -1,0 +1,65 @@
+# Local credentials. Never commit these files.
+.secrets.json
+.env
+.env.*
+!.env.example
+
+# Local browser profiles used only for interface capture and testing. They can
+# contain session material and are never deployment assets.
+.capture_*/
+.pytest_cache/
+
+# Python runtime artifacts.
+__pycache__/
+*.py[cod]
+
+# Generated application database and SQLite runtime files.
+data/app/*.sqlite3
+data/app/*.sqlite3-wal
+data/app/*.sqlite3-shm
+data/app/feedback.sqlite3
+data/app/test_feedback.sqlite3
+
+# Frontend build and dependency artifacts.
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Offline research corpus and training artifacts. The deployed application is
+# reconstructed from the immutable release archive in deploy/ and the small
+# runtime reference layers in data/reference/. Do not upload the raw corpus or
+# local modeling workspaces as part of the public application repository.
+data/app/
+data/interim/
+data/model_releases/
+data/raw/
+data/snapshots/
+data/work/
+
+# Research-only material not required to run the released application.
+baselines/
+catboost_info/
+config/
+external/
+external_benchmarks/
+manuscript/
+metadata/
+reports/
+results_*.txt
+
+# The API exposes only these compact, read-only validation summaries. All
+# other experimental outputs remain in the local research workspace.
+results/*
+!results/phase2_v16_appalachian_robust_validation/
+!results/phase2_v16_appalachian_robust_validation/**
+!results/us_state_eligibility_audit_v1/
+!results/us_state_eligibility_audit_v1/**
+!results/us_eligible_state_benchmark_v1/
+!results/us_eligible_state_benchmark_v1/**
+!results/us_fallback_state_benchmark_v1/
+!results/us_fallback_state_benchmark_v1/**
+
+# Only the database preparation script runs on Render. The remaining scripts
+# are offline acquisition, modeling, validation, and manuscript utilities.
+scripts/*
+!scripts/prepare_render_database.py

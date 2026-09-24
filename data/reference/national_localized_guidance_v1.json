@@ -1,0 +1,4935 @@
+{
+  "catalog": "national-localized-guidance-v1",
+  "generated_at_utc": "2026-08-21T23:12:27.712831+00:00",
+  "selection": "Exact cells passed the 2022-to-2023 held-out documented-link seasonal-overlap replay against their statewide fallback.",
+  "claim_boundary": "This is a locally evidence-supported potential-forage recommendation, not proof of feeding, bee health, crop yield, establishment, or a planting guarantee.",
+  "states": {
+    "AZ": {
+      "cells": {
+        "AZ_0p5_32.0_-111.0": {
+          "bounds": [
+            32.0,
+            -111.0,
+            32.5,
+            -110.5
+          ],
+          "local_evidence": {
+            "flowering_checks": 96947,
+            "flowering_years": 18,
+            "supported_flower_plants": 53,
+            "bee_records": 318,
+            "supported_bee_species": 5,
+            "local_strict_edges": 39,
+            "environment_features_available": 10,
+            "test_bee_week_events": 42,
+            "test_flower_week_records": 5395,
+            "local_documented_overlap": 0.5238095238095238,
+            "statewide_documented_overlap": 0.4523809523809524
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 117,
+              "scientific_name": "Larrea tridentata",
+              "common_name": "creosote bush",
+              "modeled_weeks_at_or_above_20_percent": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52
+              ],
+              "modeled_peak_flowering_week": 15,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "ancylandrena larreae",
+                    "calliopsis puellae",
+                    "megandrena enceliae"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora californica",
+                    "bombus crotchii",
+                    "bombus pensylvanicus",
+                    "diadasia rinconis",
+                    "ericrocis lata",
+                    "habropoda pallida",
+                    "triepeolus lunatus",
+                    "triepeolus verbesinae",
+                    "xylocopa californica",
+                    "xylocopa tabaniformis"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "caupolicana yarrowi",
+                    "hylaeus mesillae"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon angelicus",
+                    "agapostemon melliventris",
+                    "halictus ligatus",
+                    "halictus tripartitus",
+                    "lasioglossum semicaeruleum",
+                    "lasioglossum sisymbrii",
+                    "nomia tetrazonata"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "anthidiellum ehrhorni",
+                    "anthidiellum notatum",
+                    "anthidium maculosum",
+                    "megachile policaris",
+                    "osmia clarescens",
+                    "stelis perpulchra",
+                    "trachusa larreae"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 859,
+              "scientific_name": "Encelia farinosa",
+              "common_name": "brittlebush",
+              "modeled_weeks_at_or_above_20_percent": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "modeled_peak_flowering_week": 16,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena palpalis",
+                    "andrena prunorum",
+                    "calliopsis puellae",
+                    "megandrena enceliae"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora californica",
+                    "bombus californicus",
+                    "habropoda pallida"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon angelicus",
+                    "agapostemon melliventris",
+                    "augochlorella pomoniella",
+                    "halictus ligatus",
+                    "lasioglossum sisymbrii"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "anthidiellum ehrhorni",
+                    "stelis perpulchra"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 957,
+              "scientific_name": "Penstemon parryi",
+              "common_name": "Parry's beardtongue",
+              "modeled_weeks_at_or_above_20_percent": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "modeled_peak_flowering_week": 13,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora californica",
+                    "triepeolus verbesinae",
+                    "xylocopa californica"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "halictus ligatus"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "ashmeadiella bucconis",
+                    "hoplitis producta",
+                    "osmia clarescens"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 16,
+              "scientific_name": "Fouquieria splendens",
+              "common_name": "ocotillo",
+              "modeled_weeks_at_or_above_20_percent": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "modeled_peak_flowering_week": 17,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus pensylvanicus",
+                    "xylocopa californica"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 22,
+              "scientific_name": "Olneya tesota",
+              "common_name": "desert ironwood",
+              "modeled_weeks_at_or_above_20_percent": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "modeled_peak_flowering_week": 21,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "centris pallida",
+                    "xylocopa californica"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 6,
+              "npn_species_id": 122,
+              "scientific_name": "Parkinsonia florida",
+              "common_name": "blue paloverde",
+              "modeled_weeks_at_or_above_20_percent": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "modeled_peak_flowering_week": 17,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "megandrena enceliae"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "xylocopa californica"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 7,
+              "npn_species_id": 438,
+              "scientific_name": "Salvia columbariae",
+              "common_name": "chia",
+              "modeled_weeks_at_or_above_20_percent": [
+                16,
+                17,
+                18
+              ],
+              "modeled_peak_flowering_week": 18,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora californica",
+                    "bombus melanopygus"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "CO": {
+      "cells": {
+        "CO_0p5_40.5_-105.0": {
+          "bounds": [
+            40.5,
+            -105.0,
+            41.0,
+            -104.5
+          ],
+          "local_evidence": {
+            "flowering_checks": 18070,
+            "flowering_years": 12,
+            "supported_flower_plants": 16,
+            "bee_records": 2942,
+            "supported_bee_species": 12,
+            "local_strict_edges": 26,
+            "environment_features_available": 10,
+            "test_bee_week_events": 47,
+            "test_flower_week_records": 513,
+            "local_documented_overlap": 0.2978723404255319,
+            "statewide_documented_overlap": 0.1276595744680851
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 931,
+              "scientific_name": "Monarda fistulosa",
+              "common_name": "wild bergamot",
+              "modeled_weeks_at_or_above_20_percent": [
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+              ],
+              "modeled_peak_flowering_week": 31,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora abrupta",
+                    "anthophora bomboides",
+                    "anthophora occidentalis",
+                    "anthophora terminalis",
+                    "anthophora walshii",
+                    "bombus appositus",
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus californicus",
+                    "bombus centralis",
+                    "bombus citrinus",
+                    "bombus fervidus",
+                    "bombus flavifrons",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus insularis",
+                    "bombus melanopygus",
+                    "bombus nevadensis",
+                    "bombus occidentalis",
+                    "bombus pensylvanicus",
+                    "bombus perplexus",
+                    "bombus rufocinctus",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "bombus vosnesenskii",
+                    "ceratina calcarata",
+                    "ceratina strenua",
+                    "florilegus condignus",
+                    "melissodes communis",
+                    "melissodes trinodis",
+                    "melitoma taurea",
+                    "peponapis pruinosa",
+                    "triepeolus lunatus",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon splendens",
+                    "agapostemon virescens",
+                    "augochlora pura",
+                    "augochlorella aurata",
+                    "dieunomia heteropoda",
+                    "dufourea monardae",
+                    "halictus confusus",
+                    "halictus ligatus",
+                    "halictus tripartitus",
+                    "lasioglossum anomalum",
+                    "lasioglossum cressonii",
+                    "lasioglossum imitatum",
+                    "lasioglossum vierecki"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "megachile campanulae",
+                    "megachile frigida",
+                    "megachile gemula",
+                    "megachile inermis",
+                    "megachile latimanus",
+                    "megachile pugnata",
+                    "megachile relativa",
+                    "stelis louisae"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 224,
+              "scientific_name": "Asclepias speciosa",
+              "common_name": "showy milkweed",
+              "modeled_weeks_at_or_above_20_percent": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "modeled_peak_flowering_week": 26,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena thaspii"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora occidentalis",
+                    "anthophora urbana",
+                    "bombus appositus",
+                    "bombus flavifrons",
+                    "bombus griseocollis",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus morrisoni",
+                    "bombus nevadensis",
+                    "bombus occidentalis",
+                    "bombus pensylvanicus",
+                    "bombus perplexus",
+                    "bombus rufocinctus",
+                    "xylocopa californica"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "megachile perihirta"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 1501,
+              "scientific_name": "Thelesperma filifolium",
+              "common_name": "stiff greenthread",
+              "modeled_weeks_at_or_above_20_percent": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "modeled_peak_flowering_week": 26,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "halictus ligatus",
+                    "halictus tripartitus"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "CT": {
+      "cells": {
+        "CT_0p5_41.0_-73.5": {
+          "bounds": [
+            41.0,
+            -73.5,
+            41.5,
+            -73.0
+          ],
+          "local_evidence": {
+            "flowering_checks": 6155,
+            "flowering_years": 14,
+            "supported_flower_plants": 6,
+            "bee_records": 1676,
+            "supported_bee_species": 9,
+            "local_strict_edges": 15,
+            "environment_features_available": 10,
+            "test_bee_week_events": 106,
+            "test_flower_week_records": 106,
+            "local_documented_overlap": 0.0754716981132075,
+            "statewide_documented_overlap": 0.0
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 199,
+              "scientific_name": "Asclepias syriaca",
+              "common_name": "common milkweed",
+              "modeled_weeks_at_or_above_20_percent": [
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "modeled_peak_flowering_week": 26,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena crataegi",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora abrupta",
+                    "anthophora bomboides",
+                    "anthophora walshii",
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus citrinus",
+                    "bombus fervidus",
+                    "bombus fraternus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus perplexus",
+                    "bombus sandersoni",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "nomada vegana",
+                    "peponapis pruinosa",
+                    "triepeolus donatus",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "hylaeus modestus",
+                    "hylaeus nelumbonis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura",
+                    "augochlorella aurata",
+                    "halictus confusus",
+                    "lasioglossum pilosum",
+                    "lasioglossum versatum",
+                    "lasioglossum vierecki"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "heriades leavitti",
+                    "megachile addenda",
+                    "megachile campanulae",
+                    "megachile frigida",
+                    "megachile latimanus",
+                    "megachile melanophaea",
+                    "megachile pugnata",
+                    "megachile texana",
+                    "megachile xylocopoides",
+                    "osmia pumila"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 3,
+              "scientific_name": "Acer rubrum",
+              "common_name": "red maple",
+              "modeled_weeks_at_or_above_20_percent": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "modeled_peak_flowering_week": 13,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena frigida",
+                    "andrena tridens",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus impatiens",
+                    "bombus terricola",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "lasioglossum coeruleum"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 82,
+              "scientific_name": "Liriodendron tulipifera",
+              "common_name": "tuliptree",
+              "modeled_weeks_at_or_above_20_percent": [
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "modeled_peak_flowering_week": 24,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus impatiens",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes thoracicus"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "LA": {
+      "cells": {
+        "LA_0p5_30.0_-90.0": {
+          "bounds": [
+            30.0,
+            -90.0,
+            30.5,
+            -89.5
+          ],
+          "local_evidence": {
+            "flowering_checks": 11847,
+            "flowering_years": 9,
+            "supported_flower_plants": 18,
+            "bee_records": 360,
+            "supported_bee_species": 5,
+            "local_strict_edges": 10,
+            "environment_features_available": 10,
+            "test_bee_week_events": 51,
+            "test_flower_week_records": 570,
+            "local_documented_overlap": 0.0588235294117647,
+            "statewide_documented_overlap": 0.0
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 1467,
+              "scientific_name": "Ilex vomitoria",
+              "common_name": "yaupon",
+              "modeled_weeks_at_or_above_20_percent": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "modeled_peak_flowering_week": 13,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus pensylvanicus",
+                    "xylocopa virginica"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "MA": {
+      "cells": {
+        "MA_0p5_42.0_-72.5": {
+          "bounds": [
+            42.0,
+            -72.5,
+            42.5,
+            -72.0
+          ],
+          "local_evidence": {
+            "flowering_checks": 7124,
+            "flowering_years": 12,
+            "supported_flower_plants": 11,
+            "bee_records": 2166,
+            "supported_bee_species": 17,
+            "local_strict_edges": 17,
+            "environment_features_available": 10,
+            "test_bee_week_events": 59,
+            "test_flower_week_records": 470,
+            "local_documented_overlap": 0.1186440677966101,
+            "statewide_documented_overlap": 0.0
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 199,
+              "scientific_name": "Asclepias syriaca",
+              "common_name": "common milkweed",
+              "modeled_weeks_at_or_above_20_percent": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "modeled_peak_flowering_week": 26,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena crataegi",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora abrupta",
+                    "anthophora bomboides",
+                    "anthophora walshii",
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus citrinus",
+                    "bombus fervidus",
+                    "bombus fraternus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus perplexus",
+                    "bombus sandersoni",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "nomada vegana",
+                    "peponapis pruinosa",
+                    "triepeolus donatus",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "hylaeus modestus",
+                    "hylaeus nelumbonis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura",
+                    "augochlorella aurata",
+                    "halictus confusus",
+                    "lasioglossum pilosum",
+                    "lasioglossum versatum",
+                    "lasioglossum vierecki"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "heriades leavitti",
+                    "megachile addenda",
+                    "megachile campanulae",
+                    "megachile frigida",
+                    "megachile latimanus",
+                    "megachile melanophaea",
+                    "megachile pugnata",
+                    "megachile texana",
+                    "megachile xylocopoides",
+                    "osmia pumila"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 3,
+              "scientific_name": "Acer rubrum",
+              "common_name": "red maple",
+              "modeled_weeks_at_or_above_20_percent": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "modeled_peak_flowering_week": 15,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena frigida",
+                    "andrena tridens",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus impatiens",
+                    "bombus terricola",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "lasioglossum coeruleum"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "ME": {
+      "cells": {
+        "ME_0p5_43.0_-71.0": {
+          "bounds": [
+            43.0,
+            -71.0,
+            43.5,
+            -70.5
+          ],
+          "local_evidence": {
+            "flowering_checks": 28188,
+            "flowering_years": 17,
+            "supported_flower_plants": 30,
+            "bee_records": 10309,
+            "supported_bee_species": 31,
+            "local_strict_edges": 103,
+            "environment_features_available": 10,
+            "test_bee_week_events": 49,
+            "test_flower_week_records": 1043,
+            "local_documented_overlap": 0.4897959183673469,
+            "statewide_documented_overlap": 0.0
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 199,
+              "scientific_name": "Asclepias syriaca",
+              "common_name": "common milkweed",
+              "modeled_weeks_at_or_above_20_percent": [
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "modeled_peak_flowering_week": 27,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena crataegi",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora abrupta",
+                    "anthophora bomboides",
+                    "anthophora walshii",
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus citrinus",
+                    "bombus fervidus",
+                    "bombus fraternus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus perplexus",
+                    "bombus sandersoni",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "nomada vegana",
+                    "peponapis pruinosa",
+                    "triepeolus donatus",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "hylaeus modestus",
+                    "hylaeus nelumbonis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura",
+                    "augochlorella aurata",
+                    "halictus confusus",
+                    "lasioglossum pilosum",
+                    "lasioglossum versatum",
+                    "lasioglossum vierecki"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "heriades leavitti",
+                    "megachile addenda",
+                    "megachile campanulae",
+                    "megachile frigida",
+                    "megachile latimanus",
+                    "megachile melanophaea",
+                    "megachile pugnata",
+                    "megachile texana",
+                    "megachile xylocopoides",
+                    "osmia pumila"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 94,
+              "scientific_name": "Vaccinium corymbosum",
+              "common_name": "highbush blueberry",
+              "modeled_weeks_at_or_above_20_percent": [
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "modeled_peak_flowering_week": 21,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena barbilabris",
+                    "andrena bradleyi",
+                    "andrena carlini",
+                    "andrena carolina",
+                    "andrena cressonii",
+                    "andrena frigida",
+                    "andrena hemileuca",
+                    "andrena hilaris",
+                    "andrena mariae",
+                    "andrena miranda",
+                    "andrena miserabilis",
+                    "andrena nigrocaerulea",
+                    "andrena nivalis",
+                    "andrena prunorum",
+                    "andrena salicifloris",
+                    "andrena suavis",
+                    "andrena transnigra",
+                    "andrena trevoris",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus californicus",
+                    "bombus fervidus",
+                    "bombus flavifrons",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus perplexus",
+                    "bombus ternarius",
+                    "bombus vagans",
+                    "bombus vosnesenskii",
+                    "ceratina acantha",
+                    "ceratina calcarata",
+                    "ceratina nanula",
+                    "habropoda laboriosa",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis",
+                    "colletes thoracicus",
+                    "colletes validus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon splendens",
+                    "agapostemon texanus",
+                    "augochlora pura",
+                    "lasioglossum brunneiventre",
+                    "lasioglossum cressonii",
+                    "lasioglossum laevissimum",
+                    "lasioglossum nevadense",
+                    "lasioglossum pacatum",
+                    "lasioglossum pruinosum",
+                    "lasioglossum sagax",
+                    "lasioglossum truncatum"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "hoplitis producta",
+                    "osmia proxima",
+                    "osmia pumila",
+                    "osmia simillima"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 17,
+              "scientific_name": "Fragaria virginiana",
+              "common_name": "Virginia strawberry",
+              "modeled_weeks_at_or_above_20_percent": [
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "modeled_peak_flowering_week": 21,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena alleghaniensis",
+                    "andrena candida",
+                    "andrena carlini",
+                    "andrena cressonii",
+                    "andrena melanochroa",
+                    "andrena nasonii",
+                    "andrena nivalis"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bifarius",
+                    "bombus bimaculatus",
+                    "bombus impatiens",
+                    "bombus vagans",
+                    "ceratina acantha",
+                    "ceratina calcarata",
+                    "ceratina nanula",
+                    "nomada cressonii",
+                    "nomada gracilis",
+                    "nomada maculata",
+                    "triepeolus simplex"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes productus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon sericeus",
+                    "augochlorella aurata",
+                    "halictus confusus",
+                    "halictus tripartitus",
+                    "lasioglossum cinctipes",
+                    "lasioglossum incompletum",
+                    "lasioglossum nevadense",
+                    "lasioglossum pacatum",
+                    "lasioglossum titusi",
+                    "lasioglossum vierecki"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "chelostoma philadelphi",
+                    "osmia pumila",
+                    "stelis permaculata"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 747,
+              "scientific_name": "Solidago sempervirens",
+              "common_name": "seaside goldenrod",
+              "modeled_weeks_at_or_above_20_percent": [
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45
+              ],
+              "modeled_peak_flowering_week": 42,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena asteris",
+                    "andrena braccata",
+                    "andrena hirticincta",
+                    "andrena nubecula",
+                    "perdita octomaculata"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus citrinus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "epeolus pusillus",
+                    "nomada fervida",
+                    "nomada placida",
+                    "xylocopa micans",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes americanus",
+                    "colletes compactus",
+                    "colletes simulans",
+                    "hylaeus mesillae",
+                    "hylaeus modestus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon splendens",
+                    "agapostemon virescens",
+                    "augochlora pura",
+                    "halictus ligatus",
+                    "halictus poeyi",
+                    "lasioglossum marinum",
+                    "lasioglossum pilosum"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "coelioxys dolichos",
+                    "megachile mendica",
+                    "megachile xylocopoides"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 897,
+              "scientific_name": "Ilex verticillata",
+              "common_name": "common winterberry ",
+              "modeled_weeks_at_or_above_20_percent": [
+                26,
+                27
+              ],
+              "modeled_peak_flowering_week": 26,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena crataegi",
+                    "andrena robertsonii",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus perplexus",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "hylaeus modestus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 6,
+              "npn_species_id": 1503,
+              "scientific_name": "Vaccinium angustifolium",
+              "common_name": "lowbush blueberry",
+              "modeled_weeks_at_or_above_20_percent": [
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "modeled_peak_flowering_week": 21,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena bradleyi",
+                    "andrena carlini",
+                    "andrena carolina",
+                    "andrena rufosignata",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus perplexus",
+                    "bombus ternarius",
+                    "bombus vagans",
+                    "habropoda laboriosa",
+                    "nomada luteola",
+                    "nomada luteoloides",
+                    "nomada xanthura",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis",
+                    "colletes validus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura",
+                    "lasioglossum vierecki"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 7,
+              "npn_species_id": 161,
+              "scientific_name": "Erythronium americanum",
+              "common_name": "dogtooth violet",
+              "modeled_weeks_at_or_above_20_percent": [
+                17,
+                18,
+                19,
+                20
+              ],
+              "modeled_peak_flowering_week": 19,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena carlini",
+                    "andrena cressonii",
+                    "andrena dunningi",
+                    "andrena erigeniae",
+                    "andrena erythronii",
+                    "andrena hippotes",
+                    "andrena tridens"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus impatiens",
+                    "bombus perplexus",
+                    "bombus ternarius",
+                    "nomada luteoloides"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "osmia bucephala"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "NC": {
+      "cells": {
+        "NC_0p5_35.5_-79.0": {
+          "bounds": [
+            35.5,
+            -79.0,
+            36.0,
+            -78.5
+          ],
+          "local_evidence": {
+            "flowering_checks": 12597,
+            "flowering_years": 15,
+            "supported_flower_plants": 20,
+            "bee_records": 530,
+            "supported_bee_species": 5,
+            "local_strict_edges": 20,
+            "environment_features_available": 10,
+            "test_bee_week_events": 50,
+            "test_flower_week_records": 762,
+            "local_documented_overlap": 0.06,
+            "statewide_documented_overlap": 0.0
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 7,
+              "scientific_name": "Cercis canadensis",
+              "common_name": "eastern redbud",
+              "modeled_weeks_at_or_above_20_percent": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "modeled_peak_flowering_week": 13,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena carlini",
+                    "andrena mandibularis",
+                    "andrena tridens"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus fervidus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus pensylvanicus",
+                    "bombus perplexus",
+                    "bombus rufocinctus",
+                    "habropoda laboriosa",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "halictus confusus"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "osmia bucephala"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 195,
+              "scientific_name": "Asclepias tuberosa",
+              "common_name": "butterfly milkweed",
+              "modeled_weeks_at_or_above_20_percent": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "modeled_peak_flowering_week": 28,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena quintilis",
+                    "protandrena cockerelli"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora abrupta",
+                    "anthophora bomboides",
+                    "anthophora terminalis",
+                    "anthophora urbana",
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus citrinus",
+                    "bombus fervidus",
+                    "bombus fraternus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus insularis",
+                    "bombus pensylvanicus",
+                    "bombus perplexus",
+                    "bombus rufocinctus",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "ceratina calcarata",
+                    "ceratina dupla",
+                    "epeolus bifasciatus",
+                    "epeolus lectoides",
+                    "melissodes comptoides",
+                    "melissodes dentiventris",
+                    "melissodes trinodis",
+                    "nomada illinoensis",
+                    "nomada vegana",
+                    "triepeolus lunatus",
+                    "triepeolus remigatus",
+                    "xylocopa californica",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes nudus",
+                    "colletes willistoni"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon sericeus",
+                    "agapostemon splendens",
+                    "agapostemon texanus",
+                    "agapostemon virescens",
+                    "augochlora pura",
+                    "augochlorella aurata",
+                    "halictus confusus",
+                    "halictus farinosus",
+                    "halictus ligatus",
+                    "lasioglossum coriaceum",
+                    "lasioglossum fuscipenne",
+                    "lasioglossum lusorium"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "anthidiellum notatum",
+                    "anthidiellum perplexum",
+                    "coelioxys sayi",
+                    "dianthidium simile",
+                    "megachile addenda",
+                    "megachile albitarsis",
+                    "megachile campanulae",
+                    "megachile exilis",
+                    "megachile frigida",
+                    "megachile frugalis",
+                    "megachile gemula",
+                    "megachile latimanus",
+                    "megachile mendica",
+                    "megachile montivaga",
+                    "megachile policaris",
+                    "megachile pruina",
+                    "megachile pugnata",
+                    "megachile texana",
+                    "megachile xylocopoides",
+                    "paranthidium jugatorium",
+                    "stelis louisae"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 3,
+              "scientific_name": "Acer rubrum",
+              "common_name": "red maple",
+              "modeled_weeks_at_or_above_20_percent": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "modeled_peak_flowering_week": 12,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena frigida",
+                    "andrena tridens",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus impatiens",
+                    "bombus terricola",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "lasioglossum coeruleum"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 82,
+              "scientific_name": "Liriodendron tulipifera",
+              "common_name": "tuliptree",
+              "modeled_weeks_at_or_above_20_percent": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "modeled_peak_flowering_week": 19,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus impatiens",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes thoracicus"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 28,
+              "scientific_name": "Prunus serotina",
+              "common_name": "black cherry",
+              "modeled_weeks_at_or_above_20_percent": [],
+              "modeled_peak_flowering_week": 16,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena carlini",
+                    "andrena confederata",
+                    "andrena cressonii",
+                    "andrena mandibularis",
+                    "andrena miserabilis",
+                    "andrena nasonii",
+                    "andrena tridens",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "nomada maculata",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis",
+                    "hylaeus annulatus"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "NC_0p5_35.5_-82.5": {
+          "bounds": [
+            35.5,
+            -82.5,
+            36.0,
+            -82.0
+          ],
+          "local_evidence": {
+            "flowering_checks": 13743,
+            "flowering_years": 13,
+            "supported_flower_plants": 36,
+            "bee_records": 1550,
+            "supported_bee_species": 9,
+            "local_strict_edges": 43,
+            "environment_features_available": 10,
+            "test_bee_week_events": 111,
+            "test_flower_week_records": 916,
+            "local_documented_overlap": 0.2162162162162162,
+            "statewide_documented_overlap": 0.081081081081081
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 94,
+              "scientific_name": "Vaccinium corymbosum",
+              "common_name": "highbush blueberry",
+              "modeled_weeks_at_or_above_20_percent": [
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "modeled_peak_flowering_week": 24,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena barbilabris",
+                    "andrena bradleyi",
+                    "andrena carlini",
+                    "andrena carolina",
+                    "andrena cressonii",
+                    "andrena frigida",
+                    "andrena hemileuca",
+                    "andrena hilaris",
+                    "andrena mariae",
+                    "andrena miranda",
+                    "andrena miserabilis",
+                    "andrena nigrocaerulea",
+                    "andrena nivalis",
+                    "andrena prunorum",
+                    "andrena salicifloris",
+                    "andrena suavis",
+                    "andrena transnigra",
+                    "andrena trevoris",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus californicus",
+                    "bombus fervidus",
+                    "bombus flavifrons",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus perplexus",
+                    "bombus ternarius",
+                    "bombus vagans",
+                    "bombus vosnesenskii",
+                    "ceratina acantha",
+                    "ceratina calcarata",
+                    "ceratina nanula",
+                    "habropoda laboriosa",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis",
+                    "colletes thoracicus",
+                    "colletes validus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon splendens",
+                    "agapostemon texanus",
+                    "augochlora pura",
+                    "lasioglossum brunneiventre",
+                    "lasioglossum cressonii",
+                    "lasioglossum laevissimum",
+                    "lasioglossum nevadense",
+                    "lasioglossum pacatum",
+                    "lasioglossum pruinosum",
+                    "lasioglossum sagax",
+                    "lasioglossum truncatum"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "hoplitis producta",
+                    "osmia proxima",
+                    "osmia pumila",
+                    "osmia simillima"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 93,
+              "scientific_name": "Tilia americana",
+              "common_name": "American basswood",
+              "modeled_weeks_at_or_above_20_percent": [],
+              "modeled_peak_flowering_week": 17,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena thaspii"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora abrupta",
+                    "bombus bimaculatus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus perplexus",
+                    "bombus ternarius"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 904,
+              "scientific_name": "Kalmia latifolia",
+              "common_name": "mountain laurel",
+              "modeled_weeks_at_or_above_20_percent": [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "modeled_peak_flowering_week": 26,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena bradleyi",
+                    "andrena kalmiae"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora abrupta",
+                    "bombus bimaculatus",
+                    "bombus impatiens",
+                    "bombus perplexus",
+                    "bombus sandersoni"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 3,
+              "scientific_name": "Acer rubrum",
+              "common_name": "red maple",
+              "modeled_weeks_at_or_above_20_percent": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "modeled_peak_flowering_week": 12,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena frigida",
+                    "andrena tridens",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus impatiens",
+                    "bombus terricola",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "lasioglossum coeruleum"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 28,
+              "scientific_name": "Prunus serotina",
+              "common_name": "black cherry",
+              "modeled_weeks_at_or_above_20_percent": [],
+              "modeled_peak_flowering_week": 16,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena carlini",
+                    "andrena confederata",
+                    "andrena cressonii",
+                    "andrena mandibularis",
+                    "andrena miserabilis",
+                    "andrena nasonii",
+                    "andrena tridens",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "nomada maculata",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis",
+                    "hylaeus annulatus"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 6,
+              "npn_species_id": 82,
+              "scientific_name": "Liriodendron tulipifera",
+              "common_name": "tuliptree",
+              "modeled_weeks_at_or_above_20_percent": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+              ],
+              "modeled_peak_flowering_week": 19,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus impatiens",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes thoracicus"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 7,
+              "npn_species_id": 1172,
+              "scientific_name": "Aesculus flava",
+              "common_name": "yellow buckeye",
+              "modeled_weeks_at_or_above_20_percent": [
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "modeled_peak_flowering_week": 20,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus griseocollis",
+                    "bombus impatiens"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "NC_0p5_36.0_-79.0": {
+          "bounds": [
+            36.0,
+            -79.0,
+            36.5,
+            -78.5
+          ],
+          "local_evidence": {
+            "flowering_checks": 1463,
+            "flowering_years": 4,
+            "supported_flower_plants": 6,
+            "bee_records": 3042,
+            "supported_bee_species": 6,
+            "local_strict_edges": 26,
+            "environment_features_available": 10,
+            "test_bee_week_events": 143,
+            "test_flower_week_records": 162,
+            "local_documented_overlap": 0.4055944055944055,
+            "statewide_documented_overlap": 0.3356643356643357
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 195,
+              "scientific_name": "Asclepias tuberosa",
+              "common_name": "butterfly milkweed",
+              "modeled_weeks_at_or_above_20_percent": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "modeled_peak_flowering_week": 28,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena quintilis",
+                    "protandrena cockerelli"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora abrupta",
+                    "anthophora bomboides",
+                    "anthophora terminalis",
+                    "anthophora urbana",
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus citrinus",
+                    "bombus fervidus",
+                    "bombus fraternus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus insularis",
+                    "bombus pensylvanicus",
+                    "bombus perplexus",
+                    "bombus rufocinctus",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "ceratina calcarata",
+                    "ceratina dupla",
+                    "epeolus bifasciatus",
+                    "epeolus lectoides",
+                    "melissodes comptoides",
+                    "melissodes dentiventris",
+                    "melissodes trinodis",
+                    "nomada illinoensis",
+                    "nomada vegana",
+                    "triepeolus lunatus",
+                    "triepeolus remigatus",
+                    "xylocopa californica",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes nudus",
+                    "colletes willistoni"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon sericeus",
+                    "agapostemon splendens",
+                    "agapostemon texanus",
+                    "agapostemon virescens",
+                    "augochlora pura",
+                    "augochlorella aurata",
+                    "halictus confusus",
+                    "halictus farinosus",
+                    "halictus ligatus",
+                    "lasioglossum coriaceum",
+                    "lasioglossum fuscipenne",
+                    "lasioglossum lusorium"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "anthidiellum notatum",
+                    "anthidiellum perplexum",
+                    "coelioxys sayi",
+                    "dianthidium simile",
+                    "megachile addenda",
+                    "megachile albitarsis",
+                    "megachile campanulae",
+                    "megachile exilis",
+                    "megachile frigida",
+                    "megachile frugalis",
+                    "megachile gemula",
+                    "megachile latimanus",
+                    "megachile mendica",
+                    "megachile montivaga",
+                    "megachile policaris",
+                    "megachile pruina",
+                    "megachile pugnata",
+                    "megachile texana",
+                    "megachile xylocopoides",
+                    "paranthidium jugatorium",
+                    "stelis louisae"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 202,
+              "scientific_name": "Echinacea purpurea",
+              "common_name": "eastern purple coneflower",
+              "modeled_weeks_at_or_above_20_percent": [
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "modeled_peak_flowering_week": 26,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena rudbeckiae"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus appositus",
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus californicus",
+                    "bombus centralis",
+                    "bombus citrinus",
+                    "bombus fervidus",
+                    "bombus flavifrons",
+                    "bombus fraternus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus occidentalis",
+                    "bombus pensylvanicus",
+                    "bombus perplexus",
+                    "bombus rufocinctus",
+                    "bombus suckleyi",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "bombus vosnesenskii",
+                    "ceratina calcarata",
+                    "ceratina strenua",
+                    "diadasia enavata",
+                    "melissodes trinodis",
+                    "ptilothrix bombiformis",
+                    "triepeolus concavus",
+                    "triepeolus lunatus",
+                    "triepeolus remigatus",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "hylaeus modestus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon sericeus",
+                    "agapostemon splendens",
+                    "agapostemon virescens",
+                    "augochlora pura",
+                    "halictus confusus",
+                    "halictus ligatus",
+                    "halictus poeyi",
+                    "lasioglossum coriaceum",
+                    "lasioglossum imitatum",
+                    "lasioglossum pectorale",
+                    "lasioglossum pilosum"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "megachile campanulae",
+                    "megachile frugalis",
+                    "megachile inermis",
+                    "megachile inimica",
+                    "megachile latimanus",
+                    "megachile mendica",
+                    "megachile montivaga",
+                    "megachile parallela",
+                    "megachile perihirta",
+                    "megachile policaris",
+                    "megachile pugnata",
+                    "megachile texana",
+                    "megachile xylocopoides",
+                    "paranthidium jugatorium",
+                    "stelis louisae"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 912,
+              "scientific_name": "Liatris spicata",
+              "common_name": "dense blazing star",
+              "modeled_weeks_at_or_above_20_percent": [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "modeled_peak_flowering_week": 28,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus citrinus",
+                    "bombus fervidus",
+                    "bombus fraternus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus nevadensis",
+                    "bombus occidentalis",
+                    "bombus pensylvanicus",
+                    "bombus perplexus",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "xylocopa micans",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon splendens",
+                    "agapostemon virescens",
+                    "halictus ligatus",
+                    "halictus poeyi"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "anthidiellum notatum",
+                    "megachile latimanus",
+                    "megachile montivaga",
+                    "megachile pugnata",
+                    "megachile texana"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 1637,
+              "scientific_name": "Rudbeckia hirta",
+              "common_name": "blackeyed Susan",
+              "modeled_weeks_at_or_above_20_percent": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "modeled_peak_flowering_week": 28,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena asteris",
+                    "andrena crataegi",
+                    "andrena rudbeckiae",
+                    "andrena thaspii"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus centralis",
+                    "bombus fervidus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus melanopygus",
+                    "bombus occidentalis",
+                    "bombus perplexus",
+                    "bombus rufocinctus",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "bombus vosnesenskii",
+                    "ceratina calcarata",
+                    "ceratina strenua",
+                    "diadasia enavata",
+                    "epeolus bifasciatus",
+                    "epeolus scutellaris",
+                    "holcopasites calliopsidis",
+                    "melissodes trinodis",
+                    "nomada erigeronis",
+                    "triepeolus helianthi",
+                    "triepeolus lunatus",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon sericeus",
+                    "agapostemon virescens",
+                    "augochlora pura",
+                    "augochlorella aurata",
+                    "dieunomia heteropoda",
+                    "halictus confusus",
+                    "halictus farinosus",
+                    "halictus ligatus",
+                    "halictus parallelus",
+                    "halictus poeyi",
+                    "halictus tripartitus",
+                    "lasioglossum coriaceum",
+                    "lasioglossum pectorale",
+                    "lasioglossum pilosum",
+                    "lasioglossum versatum"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "megachile inimica",
+                    "megachile latimanus",
+                    "megachile mendica",
+                    "megachile petulans",
+                    "megachile policaris",
+                    "megachile pugnata",
+                    "megachile relativa",
+                    "megachile xylocopoides",
+                    "paranthidium jugatorium"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 147,
+              "scientific_name": "Aquilegia canadensis",
+              "common_name": "red columbine",
+              "modeled_weeks_at_or_above_20_percent": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26
+              ],
+              "modeled_peak_flowering_week": 19,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus centralis",
+                    "bombus fervidus",
+                    "bombus griseocollis",
+                    "bombus pensylvanicus",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "bombus vosnesenskii",
+                    "xylocopa virginica"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "NH": {
+      "cells": {
+        "NH_0p5_44.0_-72.0": {
+          "bounds": [
+            44.0,
+            -72.0,
+            44.5,
+            -71.5
+          ],
+          "local_evidence": {
+            "flowering_checks": 6869,
+            "flowering_years": 13,
+            "supported_flower_plants": 12,
+            "bee_records": 611,
+            "supported_bee_species": 5,
+            "local_strict_edges": 10,
+            "environment_features_available": 10,
+            "test_bee_week_events": 41,
+            "test_flower_week_records": 750,
+            "local_documented_overlap": 0.1219512195121951,
+            "statewide_documented_overlap": 0.0
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 313,
+              "scientific_name": "Rhododendron groenlandicum",
+              "common_name": "bog Labrador tea",
+              "modeled_weeks_at_or_above_20_percent": [
+                24,
+                25,
+                26,
+                27,
+                28
+              ],
+              "modeled_peak_flowering_week": 26,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena alleghaniensis",
+                    "andrena carlini",
+                    "andrena carolina",
+                    "andrena mandibularis",
+                    "andrena nivalis",
+                    "andrena regularis",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus mixtus",
+                    "bombus sandersoni",
+                    "bombus sylvicola",
+                    "bombus ternarius",
+                    "bombus terricola"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 11,
+              "scientific_name": "Cornus canadensis",
+              "common_name": "bunchberry dogwood",
+              "modeled_weeks_at_or_above_20_percent": [
+                23,
+                24,
+                25,
+                26,
+                27
+              ],
+              "modeled_peak_flowering_week": 25,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena krigiana"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus ternarius",
+                    "bombus vagans",
+                    "nomada gracilis"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 328,
+              "scientific_name": "Vaccinium uliginosum",
+              "common_name": "bog blueberry",
+              "modeled_weeks_at_or_above_20_percent": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                52
+              ],
+              "modeled_peak_flowering_week": 27,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena canadensis"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus sandersoni",
+                    "bombus ternarius"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 9,
+              "scientific_name": "Clintonia borealis",
+              "common_name": "bluebead",
+              "modeled_weeks_at_or_above_20_percent": [
+                22,
+                23,
+                24,
+                25
+              ],
+              "modeled_peak_flowering_week": 23,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus perplexus",
+                    "bombus sandersoni",
+                    "bombus ternarius"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 194,
+              "scientific_name": "Trillium undulatum",
+              "common_name": "painted trillium",
+              "modeled_weeks_at_or_above_20_percent": [
+                20,
+                21,
+                22,
+                23
+              ],
+              "modeled_peak_flowering_week": 21,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus impatiens"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 6,
+              "npn_species_id": 329,
+              "scientific_name": "Vaccinium vitis-idaea",
+              "common_name": "lingonberry",
+              "modeled_weeks_at_or_above_20_percent": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "modeled_peak_flowering_week": 27,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus sylvicola",
+                    "bombus ternarius"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 7,
+              "npn_species_id": 743,
+              "scientific_name": "Diapensia lapponica",
+              "common_name": "pincushion plant",
+              "modeled_weeks_at_or_above_20_percent": [
+                21,
+                22,
+                23,
+                24,
+                25,
+                52
+              ],
+              "modeled_peak_flowering_week": 23,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus ternarius"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "NY": {
+      "cells": {
+        "NY_0p5_41.0_-74.0": {
+          "bounds": [
+            41.0,
+            -74.0,
+            41.5,
+            -73.5
+          ],
+          "local_evidence": {
+            "flowering_checks": 19981,
+            "flowering_years": 12,
+            "supported_flower_plants": 14,
+            "bee_records": 5285,
+            "supported_bee_species": 12,
+            "local_strict_edges": 14,
+            "environment_features_available": 10,
+            "test_bee_week_events": 186,
+            "test_flower_week_records": 664,
+            "local_documented_overlap": 0.0913978494623656,
+            "statewide_documented_overlap": 0.0
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 166,
+              "scientific_name": "Impatiens capensis",
+              "common_name": "jewelweed",
+              "modeled_weeks_at_or_above_20_percent": [
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "modeled_peak_flowering_week": 36,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena andrenoides",
+                    "andrena hirticincta",
+                    "andrena miserabilis"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora terminalis",
+                    "bombus borealis",
+                    "bombus fervidus",
+                    "bombus impatiens",
+                    "bombus pensylvanicus",
+                    "bombus ternarius",
+                    "bombus vagans",
+                    "ceratina dupla",
+                    "melissodes agilis",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes nudus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura",
+                    "halictus ligatus"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "megachile mendica"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 3,
+              "scientific_name": "Acer rubrum",
+              "common_name": "red maple",
+              "modeled_weeks_at_or_above_20_percent": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "modeled_peak_flowering_week": 15,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena frigida",
+                    "andrena tridens",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus impatiens",
+                    "bombus terricola",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "lasioglossum coeruleum"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 82,
+              "scientific_name": "Liriodendron tulipifera",
+              "common_name": "tuliptree",
+              "modeled_weeks_at_or_above_20_percent": [
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "modeled_peak_flowering_week": 22,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus impatiens",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes thoracicus"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 915,
+              "scientific_name": "Lindera benzoin",
+              "common_name": "northern spicebush",
+              "modeled_weeks_at_or_above_20_percent": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "modeled_peak_flowering_week": 16,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis",
+                    "hylaeus modestus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "NY_0p5_41.5_-74.0": {
+          "bounds": [
+            41.5,
+            -74.0,
+            42.0,
+            -73.5
+          ],
+          "local_evidence": {
+            "flowering_checks": 48206,
+            "flowering_years": 17,
+            "supported_flower_plants": 27,
+            "bee_records": 756,
+            "supported_bee_species": 6,
+            "local_strict_edges": 44,
+            "environment_features_available": 10,
+            "test_bee_week_events": 58,
+            "test_flower_week_records": 978,
+            "local_documented_overlap": 0.6206896551724138,
+            "statewide_documented_overlap": 0.1551724137931034
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 197,
+              "scientific_name": "Asclepias incarnata",
+              "common_name": "swamp milkweed",
+              "modeled_weeks_at_or_above_20_percent": [
+                24,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+              ],
+              "modeled_peak_flowering_week": 29,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "protandrena cockerelli"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora bomboides",
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus citrinus",
+                    "bombus fraternus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus pensylvanicus",
+                    "bombus perplexus",
+                    "bombus rufocinctus",
+                    "bombus terricola",
+                    "melitoma taurea",
+                    "nomada articulata",
+                    "ptilothrix bombiformis",
+                    "xylocopa micans",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "hylaeus modestus",
+                    "hylaeus nelumbonis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura",
+                    "halictus confusus",
+                    "halictus ligatus",
+                    "lasioglossum pectorale",
+                    "lasioglossum pilosum",
+                    "lasioglossum quebecense",
+                    "nomia nortoni"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "megachile campanulae",
+                    "megachile frigida",
+                    "megachile inermis",
+                    "megachile mendica",
+                    "megachile rugifrons",
+                    "megachile texana"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 199,
+              "scientific_name": "Asclepias syriaca",
+              "common_name": "common milkweed",
+              "modeled_weeks_at_or_above_20_percent": [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "modeled_peak_flowering_week": 26,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena crataegi",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora abrupta",
+                    "anthophora bomboides",
+                    "anthophora walshii",
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus citrinus",
+                    "bombus fervidus",
+                    "bombus fraternus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus perplexus",
+                    "bombus sandersoni",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "nomada vegana",
+                    "peponapis pruinosa",
+                    "triepeolus donatus",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "hylaeus modestus",
+                    "hylaeus nelumbonis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura",
+                    "augochlorella aurata",
+                    "halictus confusus",
+                    "lasioglossum pilosum",
+                    "lasioglossum versatum",
+                    "lasioglossum vierecki"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "heriades leavitti",
+                    "megachile addenda",
+                    "megachile campanulae",
+                    "megachile frigida",
+                    "megachile latimanus",
+                    "megachile melanophaea",
+                    "megachile pugnata",
+                    "megachile texana",
+                    "megachile xylocopoides",
+                    "osmia pumila"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 912,
+              "scientific_name": "Liatris spicata",
+              "common_name": "dense blazing star",
+              "modeled_weeks_at_or_above_20_percent": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34
+              ],
+              "modeled_peak_flowering_week": 30,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus citrinus",
+                    "bombus fervidus",
+                    "bombus fraternus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus nevadensis",
+                    "bombus occidentalis",
+                    "bombus pensylvanicus",
+                    "bombus perplexus",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "xylocopa micans",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon splendens",
+                    "agapostemon virescens",
+                    "halictus ligatus",
+                    "halictus poeyi"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "anthidiellum notatum",
+                    "megachile latimanus",
+                    "megachile montivaga",
+                    "megachile pugnata",
+                    "megachile texana"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 931,
+              "scientific_name": "Monarda fistulosa",
+              "common_name": "wild bergamot",
+              "modeled_weeks_at_or_above_20_percent": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34
+              ],
+              "modeled_peak_flowering_week": 30,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora abrupta",
+                    "anthophora bomboides",
+                    "anthophora occidentalis",
+                    "anthophora terminalis",
+                    "anthophora walshii",
+                    "bombus appositus",
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus californicus",
+                    "bombus centralis",
+                    "bombus citrinus",
+                    "bombus fervidus",
+                    "bombus flavifrons",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus insularis",
+                    "bombus melanopygus",
+                    "bombus nevadensis",
+                    "bombus occidentalis",
+                    "bombus pensylvanicus",
+                    "bombus perplexus",
+                    "bombus rufocinctus",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "bombus vosnesenskii",
+                    "ceratina calcarata",
+                    "ceratina strenua",
+                    "florilegus condignus",
+                    "melissodes communis",
+                    "melissodes trinodis",
+                    "melitoma taurea",
+                    "peponapis pruinosa",
+                    "triepeolus lunatus",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon splendens",
+                    "agapostemon virescens",
+                    "augochlora pura",
+                    "augochlorella aurata",
+                    "dieunomia heteropoda",
+                    "dufourea monardae",
+                    "halictus confusus",
+                    "halictus ligatus",
+                    "halictus tripartitus",
+                    "lasioglossum anomalum",
+                    "lasioglossum cressonii",
+                    "lasioglossum imitatum",
+                    "lasioglossum vierecki"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "megachile campanulae",
+                    "megachile frigida",
+                    "megachile gemula",
+                    "megachile inermis",
+                    "megachile latimanus",
+                    "megachile pugnata",
+                    "megachile relativa",
+                    "stelis louisae"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 1063,
+              "scientific_name": "Vernonia noveboracensis",
+              "common_name": "New York ironweed",
+              "modeled_weeks_at_or_above_20_percent": [
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43
+              ],
+              "modeled_peak_flowering_week": 38,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus fervidus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus pensylvanicus",
+                    "bombus vagans",
+                    "ceratina calcarata",
+                    "melissodes trinodis",
+                    "triepeolus helianthi",
+                    "triepeolus lunatus",
+                    "triepeolus remigatus",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon sericeus",
+                    "agapostemon splendens",
+                    "agapostemon virescens",
+                    "augochlora pura",
+                    "halictus ligatus",
+                    "lasioglossum pilosum"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "megachile inimica",
+                    "megachile latimanus",
+                    "megachile pugnata",
+                    "megachile texana",
+                    "megachile xylocopoides"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 6,
+              "npn_species_id": 842,
+              "scientific_name": "Cypripedium acaule",
+              "common_name": "moccasin flower",
+              "modeled_weeks_at_or_above_20_percent": [
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "modeled_peak_flowering_week": 21,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus borealis",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus rufocinctus",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 7,
+              "npn_species_id": 166,
+              "scientific_name": "Impatiens capensis",
+              "common_name": "jewelweed",
+              "modeled_weeks_at_or_above_20_percent": [
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "modeled_peak_flowering_week": 36,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena andrenoides",
+                    "andrena hirticincta",
+                    "andrena miserabilis"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora terminalis",
+                    "bombus borealis",
+                    "bombus fervidus",
+                    "bombus impatiens",
+                    "bombus pensylvanicus",
+                    "bombus ternarius",
+                    "bombus vagans",
+                    "ceratina dupla",
+                    "melissodes agilis",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes nudus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura",
+                    "halictus ligatus"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "megachile mendica"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "OH": {
+      "cells": {
+        "OH_0p5_40.0_-83.0": {
+          "bounds": [
+            40.0,
+            -83.0,
+            40.5,
+            -82.5
+          ],
+          "local_evidence": {
+            "flowering_checks": 5154,
+            "flowering_years": 7,
+            "supported_flower_plants": 32,
+            "bee_records": 1757,
+            "supported_bee_species": 9,
+            "local_strict_edges": 121,
+            "environment_features_available": 10,
+            "test_bee_week_events": 108,
+            "test_flower_week_records": 1041,
+            "local_documented_overlap": 0.0833333333333333,
+            "statewide_documented_overlap": 0.0
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 850,
+              "scientific_name": "Dicentra cucullaria",
+              "common_name": "dutchman's breeches",
+              "modeled_weeks_at_or_above_20_percent": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "modeled_peak_flowering_week": 17,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus fervidus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus perplexus",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "nomada luteoloides"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "osmia bucephala"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 1065,
+              "scientific_name": "Viola sororia",
+              "common_name": "common blue violet",
+              "modeled_weeks_at_or_above_20_percent": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ],
+              "modeled_peak_flowering_week": 19,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena carlini",
+                    "andrena vicina",
+                    "andrena violae"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus vagans",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "osmia atriventris",
+                    "osmia conjuncta",
+                    "osmia simillima"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 1175,
+              "scientific_name": "Cardamine concatenata",
+              "common_name": "cutleaf toothwort",
+              "modeled_weeks_at_or_above_20_percent": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "modeled_peak_flowering_week": 15,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena arabis",
+                    "andrena carlini",
+                    "andrena cressonii",
+                    "andrena dunningi",
+                    "andrena erigeniae",
+                    "andrena pruni",
+                    "andrena rugosa",
+                    "andrena tridens"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus citrinus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus perplexus",
+                    "nomada luteoloides",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura",
+                    "lasioglossum coeruleum",
+                    "lasioglossum fuscipenne"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 8,
+              "scientific_name": "Claytonia virginica",
+              "common_name": "Virginia springbeauty",
+              "modeled_weeks_at_or_above_20_percent": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "modeled_peak_flowering_week": 17,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena carlini",
+                    "andrena cressonii",
+                    "andrena dunningi",
+                    "andrena erigeniae",
+                    "andrena imitatrix",
+                    "andrena mandibularis",
+                    "andrena miserabilis",
+                    "andrena nasonii",
+                    "andrena rugosa",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus impatiens",
+                    "bombus ternarius",
+                    "ceratina calcarata",
+                    "ceratina strenua",
+                    "nomada denticulata",
+                    "nomada luteoloides",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon virescens",
+                    "augochlora pura",
+                    "halictus confusus",
+                    "lasioglossum coeruleum",
+                    "lasioglossum quebecense",
+                    "lasioglossum versans"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 161,
+              "scientific_name": "Erythronium americanum",
+              "common_name": "dogtooth violet",
+              "modeled_weeks_at_or_above_20_percent": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "modeled_peak_flowering_week": 16,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena carlini",
+                    "andrena cressonii",
+                    "andrena dunningi",
+                    "andrena erigeniae",
+                    "andrena erythronii",
+                    "andrena hippotes",
+                    "andrena tridens"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bimaculatus",
+                    "bombus impatiens",
+                    "bombus perplexus",
+                    "bombus ternarius",
+                    "nomada luteoloides"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "osmia bucephala"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 6,
+              "npn_species_id": 961,
+              "scientific_name": "Phlox divaricata",
+              "common_name": "wild blue phlox",
+              "modeled_weeks_at_or_above_20_percent": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ],
+              "modeled_peak_flowering_week": 19,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena erigeniae"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "xylocopa virginica"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 7,
+              "npn_species_id": 38,
+              "scientific_name": "Trillium grandiflorum",
+              "common_name": "white trillium",
+              "modeled_weeks_at_or_above_20_percent": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "modeled_peak_flowering_week": 18,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus impatiens"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "augochlora pura"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "OR": {
+      "cells": {
+        "OR_0p5_45.0_-123.0": {
+          "bounds": [
+            45.0,
+            -123.0,
+            45.5,
+            -122.5
+          ],
+          "local_evidence": {
+            "flowering_checks": 5134,
+            "flowering_years": 16,
+            "supported_flower_plants": 23,
+            "bee_records": 6390,
+            "supported_bee_species": 13,
+            "local_strict_edges": 60,
+            "environment_features_available": 10,
+            "test_bee_week_events": 45,
+            "test_flower_week_records": 165,
+            "local_documented_overlap": 0.2888888888888888,
+            "statewide_documented_overlap": 0.1555555555555555
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 92,
+              "scientific_name": "Symphoricarpos albus",
+              "common_name": "common snowberry",
+              "modeled_weeks_at_or_above_20_percent": [
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "modeled_peak_flowering_week": 26,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena auricoma",
+                    "andrena hemileuca",
+                    "andrena miranda",
+                    "andrena nivalis",
+                    "andrena prunorum",
+                    "andrena salicifloris",
+                    "andrena sola",
+                    "andrena subtilis",
+                    "andrena thaspii",
+                    "andrena trevoris",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus appositus",
+                    "bombus bifarius",
+                    "bombus bimaculatus",
+                    "bombus californicus",
+                    "bombus caliginosus",
+                    "bombus centralis",
+                    "bombus flavifrons",
+                    "bombus frigidus",
+                    "bombus impatiens",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus occidentalis",
+                    "bombus rufocinctus",
+                    "bombus sitkensis",
+                    "bombus ternarius",
+                    "bombus vagans",
+                    "bombus vosnesenskii",
+                    "ceratina acantha"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes kincaidii",
+                    "hylaeus modestus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "lasioglossum nigroviride",
+                    "lasioglossum occidentale",
+                    "lasioglossum pacatum"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "hoplitis albifrons",
+                    "megachile melanophaea",
+                    "megachile perihirta",
+                    "megachile pugnata"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 1637,
+              "scientific_name": "Rudbeckia hirta",
+              "common_name": "blackeyed Susan",
+              "modeled_weeks_at_or_above_20_percent": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46
+              ],
+              "modeled_peak_flowering_week": 41,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena asteris",
+                    "andrena crataegi",
+                    "andrena rudbeckiae",
+                    "andrena thaspii"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus borealis",
+                    "bombus centralis",
+                    "bombus fervidus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus melanopygus",
+                    "bombus occidentalis",
+                    "bombus perplexus",
+                    "bombus rufocinctus",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vagans",
+                    "bombus vosnesenskii",
+                    "ceratina calcarata",
+                    "ceratina strenua",
+                    "diadasia enavata",
+                    "epeolus bifasciatus",
+                    "epeolus scutellaris",
+                    "holcopasites calliopsidis",
+                    "melissodes trinodis",
+                    "nomada erigeronis",
+                    "triepeolus helianthi",
+                    "triepeolus lunatus",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon sericeus",
+                    "agapostemon virescens",
+                    "augochlora pura",
+                    "augochlorella aurata",
+                    "dieunomia heteropoda",
+                    "halictus confusus",
+                    "halictus farinosus",
+                    "halictus ligatus",
+                    "halictus parallelus",
+                    "halictus poeyi",
+                    "halictus tripartitus",
+                    "lasioglossum coriaceum",
+                    "lasioglossum pectorale",
+                    "lasioglossum pilosum",
+                    "lasioglossum versatum"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "megachile inimica",
+                    "megachile latimanus",
+                    "megachile mendica",
+                    "megachile petulans",
+                    "megachile policaris",
+                    "megachile pugnata",
+                    "megachile relativa",
+                    "megachile xylocopoides",
+                    "paranthidium jugatorium"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 321,
+              "scientific_name": "Rubus parviflorus",
+              "common_name": "thimbleberry",
+              "modeled_weeks_at_or_above_20_percent": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "modeled_peak_flowering_week": 23,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena cressonii"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus appositus",
+                    "bombus flavifrons",
+                    "bombus impatiens",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus perplexus",
+                    "bombus rufocinctus",
+                    "bombus sitkensis",
+                    "bombus ternarius",
+                    "bombus vagans",
+                    "bombus vosnesenskii"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 997,
+              "scientific_name": "Ribes sanguineum",
+              "common_name": "redflower currant",
+              "modeled_weeks_at_or_above_20_percent": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+              ],
+              "modeled_peak_flowering_week": 13,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena hemileuca"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora pacifica",
+                    "bombus flavifrons",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus sitkensis",
+                    "bombus vosnesenskii"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 719,
+              "scientific_name": "Rubus spectabilis",
+              "common_name": "salmonberry",
+              "modeled_weeks_at_or_above_20_percent": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "modeled_peak_flowering_week": 15,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena hemileuca"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus flavifrons",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus sitkensis",
+                    "bombus vosnesenskii"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "lasioglossum pacatum"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 6,
+              "npn_species_id": 942,
+              "scientific_name": "Oemleria cerasiformis",
+              "common_name": "Indian plum",
+              "modeled_weeks_at_or_above_20_percent": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "modeled_peak_flowering_week": 12,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus flavifrons",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus vosnesenskii"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 7,
+              "npn_species_id": 1,
+              "scientific_name": "Acer macrophyllum",
+              "common_name": "bigleaf maple",
+              "modeled_weeks_at_or_above_20_percent": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+              ],
+              "modeled_peak_flowering_week": 16,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus melanopygus",
+                    "bombus sitkensis",
+                    "bombus vosnesenskii"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "WA": {
+      "cells": {
+        "WA_0p5_45.5_-122.5": {
+          "bounds": [
+            45.5,
+            -122.5,
+            46.0,
+            -122.0
+          ],
+          "local_evidence": {
+            "flowering_checks": 21906,
+            "flowering_years": 10,
+            "supported_flower_plants": 14,
+            "bee_records": 3227,
+            "supported_bee_species": 16,
+            "local_strict_edges": 30,
+            "environment_features_available": 10,
+            "test_bee_week_events": 126,
+            "test_flower_week_records": 561,
+            "local_documented_overlap": 0.1507936507936507,
+            "statewide_documented_overlap": 0.0793650793650793
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 311,
+              "scientific_name": "Gaultheria shallon",
+              "common_name": "salal",
+              "modeled_weeks_at_or_above_20_percent": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "modeled_peak_flowering_week": 27,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus caliginosus",
+                    "bombus flavifrons",
+                    "bombus impatiens",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus sitkensis",
+                    "bombus vosnesenskii"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "WA_0p5_47.5_-122.5": {
+          "bounds": [
+            47.5,
+            -122.5,
+            48.0,
+            -122.0
+          ],
+          "local_evidence": {
+            "flowering_checks": 6236,
+            "flowering_years": 17,
+            "supported_flower_plants": 15,
+            "bee_records": 2014,
+            "supported_bee_species": 10,
+            "local_strict_edges": 44,
+            "environment_features_available": 10,
+            "test_bee_week_events": 113,
+            "test_flower_week_records": 334,
+            "local_documented_overlap": 0.5221238938053098,
+            "statewide_documented_overlap": 0.3097345132743362
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 92,
+              "scientific_name": "Symphoricarpos albus",
+              "common_name": "common snowberry",
+              "modeled_weeks_at_or_above_20_percent": [
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "modeled_peak_flowering_week": 26,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena auricoma",
+                    "andrena hemileuca",
+                    "andrena miranda",
+                    "andrena nivalis",
+                    "andrena prunorum",
+                    "andrena salicifloris",
+                    "andrena sola",
+                    "andrena subtilis",
+                    "andrena thaspii",
+                    "andrena trevoris",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus appositus",
+                    "bombus bifarius",
+                    "bombus bimaculatus",
+                    "bombus californicus",
+                    "bombus caliginosus",
+                    "bombus centralis",
+                    "bombus flavifrons",
+                    "bombus frigidus",
+                    "bombus impatiens",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus occidentalis",
+                    "bombus rufocinctus",
+                    "bombus sitkensis",
+                    "bombus ternarius",
+                    "bombus vagans",
+                    "bombus vosnesenskii",
+                    "ceratina acantha"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes kincaidii",
+                    "hylaeus modestus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "lasioglossum nigroviride",
+                    "lasioglossum occidentale",
+                    "lasioglossum pacatum"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "hoplitis albifrons",
+                    "megachile melanophaea",
+                    "megachile perihirta",
+                    "megachile pugnata"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 924,
+              "scientific_name": "Berberis aquifolium",
+              "common_name": "hollyleaved barberry",
+              "modeled_weeks_at_or_above_20_percent": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "modeled_peak_flowering_week": 14,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena prunorum",
+                    "andrena salicifloris",
+                    "andrena thaspii"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora pacifica",
+                    "bombus bifarius",
+                    "bombus centralis",
+                    "bombus flavifrons",
+                    "bombus griseocollis",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus occidentalis",
+                    "bombus rufocinctus",
+                    "bombus sitkensis",
+                    "bombus vosnesenskii",
+                    "habropoda miserabilis",
+                    "xylocopa virginica"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "halictus ligatus",
+                    "lasioglossum cressonii"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 311,
+              "scientific_name": "Gaultheria shallon",
+              "common_name": "salal",
+              "modeled_weeks_at_or_above_20_percent": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "modeled_peak_flowering_week": 27,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus caliginosus",
+                    "bombus flavifrons",
+                    "bombus impatiens",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus sitkensis",
+                    "bombus vosnesenskii"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 104,
+              "scientific_name": "Arctostaphylos uva-ursi",
+              "common_name": "kinnikinnick",
+              "modeled_weeks_at_or_above_20_percent": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "modeled_peak_flowering_week": 17,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena bradleyi",
+                    "andrena carlini",
+                    "andrena nivalis",
+                    "andrena scurra",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bifarius",
+                    "bombus bimaculatus",
+                    "bombus caliginosus",
+                    "bombus centralis",
+                    "bombus flavifrons",
+                    "bombus impatiens",
+                    "bombus insularis",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus rufocinctus",
+                    "bombus ternarius",
+                    "bombus terricola",
+                    "bombus vosnesenskii",
+                    "ceratina acantha",
+                    "habropoda laboriosa"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "lasioglossum brunneiventre"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 312,
+              "scientific_name": "Holodiscus discolor",
+              "common_name": "oceanspray",
+              "modeled_weeks_at_or_above_20_percent": [
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "modeled_peak_flowering_week": 28,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena amphibola",
+                    "andrena crataegi",
+                    "andrena cressonii",
+                    "andrena nivalis",
+                    "andrena prunorum",
+                    "andrena rufosignata",
+                    "andrena salicifloris",
+                    "andrena trevoris",
+                    "perdita salicis"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora bomboides",
+                    "anthophora terminalis",
+                    "bombus bifarius",
+                    "bombus centralis",
+                    "bombus flavifrons",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus occidentalis",
+                    "bombus rufocinctus",
+                    "bombus vosnesenskii",
+                    "ceratina acantha",
+                    "epeolus minimus"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes kincaidii",
+                    "hylaeus modestus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "halictus confusus",
+                    "halictus ligatus",
+                    "lasioglossum cressonii",
+                    "lasioglossum laevissimum",
+                    "lasioglossum marinense",
+                    "lasioglossum nevadense",
+                    "lasioglossum sisymbrii"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "megachile perihirta"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 6,
+              "npn_species_id": 70,
+              "scientific_name": "Cornus sericea",
+              "common_name": "redosier dogwood",
+              "modeled_weeks_at_or_above_20_percent": [
+                19,
+                20,
+                21,
+                22
+              ],
+              "modeled_peak_flowering_week": 20,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena carlini",
+                    "andrena crataegi",
+                    "andrena cressonii",
+                    "andrena fragilis",
+                    "andrena integra",
+                    "andrena persimulata",
+                    "andrena rufosignata",
+                    "andrena vicina"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus auricomus",
+                    "bombus bimaculatus",
+                    "bombus fervidus",
+                    "bombus griseocollis",
+                    "bombus impatiens",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus occidentalis",
+                    "bombus vosnesenskii"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes inaequalis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "agapostemon sericeus",
+                    "agapostemon virescens",
+                    "augochlora pura",
+                    "halictus confusus",
+                    "lasioglossum pilosum"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 7,
+              "npn_species_id": 107,
+              "scientific_name": "Ceanothus velutinus",
+              "common_name": "snowbrush ceanothus",
+              "modeled_weeks_at_or_above_20_percent": [
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "modeled_peak_flowering_week": 23,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena cleodora",
+                    "andrena melanochroa",
+                    "andrena topazana"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus bifarius",
+                    "bombus melanopygus",
+                    "bombus occidentalis",
+                    "bombus vosnesenskii"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "hylaeus basalis"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "lasioglossum marinense",
+                    "lasioglossum nigroviride",
+                    "lasioglossum sedi"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "WA_0p5_48.5_-122.5": {
+          "bounds": [
+            48.5,
+            -122.5,
+            49.0,
+            -122.0
+          ],
+          "local_evidence": {
+            "flowering_checks": 1299,
+            "flowering_years": 9,
+            "supported_flower_plants": 6,
+            "bee_records": 790,
+            "supported_bee_species": 7,
+            "local_strict_edges": 11,
+            "environment_features_available": 10,
+            "test_bee_week_events": 91,
+            "test_flower_week_records": 158,
+            "local_documented_overlap": 0.2087912087912088,
+            "statewide_documented_overlap": 0.1208791208791208
+          },
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 312,
+              "scientific_name": "Holodiscus discolor",
+              "common_name": "oceanspray",
+              "modeled_weeks_at_or_above_20_percent": [
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "modeled_peak_flowering_week": 28,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Andrenidae",
+                  "bees": [
+                    "andrena amphibola",
+                    "andrena crataegi",
+                    "andrena cressonii",
+                    "andrena nivalis",
+                    "andrena prunorum",
+                    "andrena rufosignata",
+                    "andrena salicifloris",
+                    "andrena trevoris",
+                    "perdita salicis"
+                  ]
+                },
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "anthophora bomboides",
+                    "anthophora terminalis",
+                    "bombus bifarius",
+                    "bombus centralis",
+                    "bombus flavifrons",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus occidentalis",
+                    "bombus rufocinctus",
+                    "bombus vosnesenskii",
+                    "ceratina acantha",
+                    "epeolus minimus"
+                  ]
+                },
+                {
+                  "bee_group": "Colletidae",
+                  "bees": [
+                    "colletes kincaidii",
+                    "hylaeus modestus"
+                  ]
+                },
+                {
+                  "bee_group": "Halictidae",
+                  "bees": [
+                    "halictus confusus",
+                    "halictus ligatus",
+                    "lasioglossum cressonii",
+                    "lasioglossum laevissimum",
+                    "lasioglossum marinense",
+                    "lasioglossum nevadense",
+                    "lasioglossum sisymbrii"
+                  ]
+                },
+                {
+                  "bee_group": "Megachilidae",
+                  "bees": [
+                    "megachile perihirta"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 942,
+              "scientific_name": "Oemleria cerasiformis",
+              "common_name": "Indian plum",
+              "modeled_weeks_at_or_above_20_percent": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "modeled_peak_flowering_week": 13,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus flavifrons",
+                    "bombus melanopygus",
+                    "bombus mixtus",
+                    "bombus vosnesenskii"
+                  ]
+                }
+              ]
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 1,
+              "scientific_name": "Acer macrophyllum",
+              "common_name": "bigleaf maple",
+              "modeled_weeks_at_or_above_20_percent": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ],
+              "modeled_peak_flowering_week": 17,
+              "documented_native_bee_groups": [
+                {
+                  "bee_group": "Apidae",
+                  "bees": [
+                    "bombus melanopygus",
+                    "bombus sitkensis",
+                    "bombus vosnesenskii"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

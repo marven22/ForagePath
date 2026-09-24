@@ -1,0 +1,39 @@
+services:
+  - type: web
+    name: pollinator-forage-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-app.txt && python scripts/prepare_render_database.py
+    startCommand: uvicorn app_backend.api:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.11
+      - key: POLLINATOR_DATABASE_PATH
+        value: data/app/pollinator_forage.sqlite3
+      - key: POLLINATOR_ALLOWED_ORIGINS
+        sync: false
+      - key: FEEDBACK_DATABASE_URL
+        fromDatabase:
+          name: pollinator-forage-feedback
+          property: connectionString
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_CHAT_MODEL
+        value: gpt-5.6-luna
+  - type: web
+    name: pollinator-forage-ui
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    autoDeployTrigger: commit
+    envVars:
+      - key: VITE_API_BASE_URL
+        sync: false
+databases:
+  - name: pollinator-forage-feedback
+    plan: free
+    databaseName: pollinator_feedback
+    user: pollinator_feedback

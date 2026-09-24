@@ -1,0 +1,13 @@
+{
+  "states_audited": 50,
+  "flower_gate": ">=3 years, >=20 checks, and both flowering/non-flowering observations for a native candidate in the state",
+  "bee_gate": ">=25 records, >=3 years, >=10 weeks, >=3 grid cells for a native bee in the state",
+  "full_release_gate": ">=20 supported plants, >=20 activity-supported bees, >=10 linked plants, >=10 linked bees, >=25 strict A/B edges",
+  "fallback_gate": ">=5, >=5, >=3, >=3, >=5 for the same quantities",
+  "result_counts": {
+    "evidence_limited_do_not_release_recommendations": 4,
+    "full_state_model_eligible": 24,
+    "statewide_fallback_only": 22
+  },
+  "limitations": "GBIF records are opportunistic presences. Strict links are national documented evidence, not proof of a local interaction at every location. This audit is eligibility for a standardized state pipeline, not a claim of local recommendation validity."
+}

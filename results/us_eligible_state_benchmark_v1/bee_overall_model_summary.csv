@@ -1,0 +1,5 @@
+method,test_occurrences,future_top80_coverage,future_mean_log_probability
+grid_species_profile,231602,0.8860286180602931,-3.6224458657496545
+hierarchical_grid_state_profile,231602,0.8654847540176682,-3.3298356654271424
+state_species_profile,231602,0.7625711349642922,-3.247730815585533
+uniform_week,231602,0.9884672843930536,-3.951243718581427

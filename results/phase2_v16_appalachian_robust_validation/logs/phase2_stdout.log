@@ -1,0 +1,42 @@
+{
+  "validation_designs": {
+    "rolling_origin": "The model and all learned link evidence precede the held-out calendar year.",
+    "leave_one_study_out": "No interaction labels from the held-out study enter CatBoost or two-tower training; earlier local timing supports remain available for the decision."
+  },
+  "link_layers": [
+    "strict documented training links",
+    "full-feature CatBoost",
+    "trait two-tower neural model"
+  ],
+  "mixture_sizes": [
+    3,
+    5,
+    7
+  ],
+  "not_claimed": "Field benefit, bee health, abundance, pollination, or crop yield."
+}
+  validation_design  mixture_size                           method  frequency_coverage  bee_coverage  week_coverage  bee_week_coverage
+leave_one_study_out             3         catboost_supported_links            0.265332      0.426549       0.593556           0.352409
+leave_one_study_out             3                      random_mean            0.151892      0.280692       0.440596           0.207764
+leave_one_study_out             3 strict_documented_training_links            0.189330      0.357907       0.506151           0.270984
+leave_one_study_out             3        two_tower_supported_links            0.257547      0.411741       0.625733           0.348795
+leave_one_study_out             5         catboost_supported_links            0.362920      0.544340       0.708420           0.449082
+leave_one_study_out             5                      random_mean            0.256729      0.412633       0.603558           0.326993
+leave_one_study_out             5 strict_documented_training_links            0.303023      0.454853       0.669798           0.373831
+leave_one_study_out             5        two_tower_supported_links            0.414823      0.520275       0.736370           0.450186
+leave_one_study_out             7         catboost_supported_links            0.457095      0.624887       0.818668           0.543195
+leave_one_study_out             7                      random_mean            0.362361      0.519031       0.715087           0.435427
+leave_one_study_out             7 strict_documented_training_links            0.417780      0.561338       0.742176           0.481545
+leave_one_study_out             7        two_tower_supported_links            0.470864      0.582175       0.803313           0.513188
+     rolling_origin             3         catboost_supported_links            0.356294      0.553557       0.750833           0.437738
+     rolling_origin             3                      random_mean            0.152317      0.312134       0.455136           0.214488
+     rolling_origin             3 strict_documented_training_links            0.346661      0.538882       0.679802           0.404347
+     rolling_origin             3        two_tower_supported_links            0.338962      0.544800       0.717857           0.409890
+     rolling_origin             5         catboost_supported_links            0.454678      0.654482       0.815992           0.536987
+     rolling_origin             5                      random_mean            0.247716      0.447970       0.624642           0.333151
+     rolling_origin             5 strict_documented_training_links            0.397920      0.596652       0.746706           0.465479
+     rolling_origin             5        two_tower_supported_links            0.448686      0.643978       0.815873           0.510314
+     rolling_origin             7         catboost_supported_links            0.520675      0.714833       0.858254           0.608956
+     rolling_origin             7                      random_mean            0.352039      0.557899       0.736702           0.442408
+     rolling_origin             7 strict_documented_training_links            0.524485      0.700716       0.842817           0.578079
+     rolling_origin             7        two_tower_supported_links            0.532162      0.699910       0.851865           0.577165

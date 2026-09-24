@@ -1,0 +1,11 @@
+numpy>=2.0
+pandas>=2.0
+scikit-learn>=1.5
+scipy>=1.14
+catboost>=1.2
+pytorch-tabnet>=4.1
+matplotlib>=3.9
+requests>=2.31
+pyproj>=3.7
+pyshp>=2.3
+openpyxl>=3.1

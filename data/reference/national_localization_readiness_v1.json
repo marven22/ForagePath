@@ -1,0 +1,314 @@
+{
+  "catalog": "us-localization-readiness-v1",
+  "generated_at_utc": "2026-08-21T23:06:24.543531+00:00",
+  "grid_resolution_degrees": 0.5,
+  "promotion_gate": {
+    "supported_flower_plants": 3,
+    "supported_bee_species": 5,
+    "same_cell_documented_strict_edges": 5,
+    "environment_features": 6
+  },
+  "claim_boundary": "Passing this audit creates a local candidate only. A state must still pass a time-held-out local recommendation replay before its statewide guidance may be replaced in the application.",
+  "states": {
+    "AK": {
+      "observed_grid_cells": 33,
+      "state_grid_cells": 1321,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "AL": {
+      "observed_grid_cells": 15,
+      "state_grid_cells": 58,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "AR": {
+      "observed_grid_cells": 14,
+      "state_grid_cells": 59,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "AZ": {
+      "observed_grid_cells": 38,
+      "state_grid_cells": 128,
+      "local_candidate_ready_cells": 1,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "CA": {
+      "observed_grid_cells": 83,
+      "state_grid_cells": 186,
+      "local_candidate_ready_cells": 6,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "CO": {
+      "observed_grid_cells": 34,
+      "state_grid_cells": 112,
+      "local_candidate_ready_cells": 3,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "CT": {
+      "observed_grid_cells": 7,
+      "state_grid_cells": 9,
+      "local_candidate_ready_cells": 1,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "DE": {
+      "observed_grid_cells": 3,
+      "state_grid_cells": 4,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "FL": {
+      "observed_grid_cells": 37,
+      "state_grid_cells": 79,
+      "local_candidate_ready_cells": 1,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "GA": {
+      "observed_grid_cells": 22,
+      "state_grid_cells": 69,
+      "local_candidate_ready_cells": 1,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "HI": {
+      "observed_grid_cells": 6,
+      "state_grid_cells": 17,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "IA": {
+      "observed_grid_cells": 15,
+      "state_grid_cells": 71,
+      "local_candidate_ready_cells": 1,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "ID": {
+      "observed_grid_cells": 21,
+      "state_grid_cells": 106,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "IL": {
+      "observed_grid_cells": 42,
+      "state_grid_cells": 70,
+      "local_candidate_ready_cells": 1,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "IN": {
+      "observed_grid_cells": 42,
+      "state_grid_cells": 51,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "KS": {
+      "observed_grid_cells": 15,
+      "state_grid_cells": 90,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "KY": {
+      "observed_grid_cells": 18,
+      "state_grid_cells": 57,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "LA": {
+      "observed_grid_cells": 16,
+      "state_grid_cells": 57,
+      "local_candidate_ready_cells": 1,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "MA": {
+      "observed_grid_cells": 17,
+      "state_grid_cells": 17,
+      "local_candidate_ready_cells": 2,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "MD": {
+      "observed_grid_cells": 17,
+      "state_grid_cells": 21,
+      "local_candidate_ready_cells": 4,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "ME": {
+      "observed_grid_cells": 33,
+      "state_grid_cells": 50,
+      "local_candidate_ready_cells": 2,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "MI": {
+      "observed_grid_cells": 38,
+      "state_grid_cells": 98,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "MN": {
+      "observed_grid_cells": 67,
+      "state_grid_cells": 120,
+      "local_candidate_ready_cells": 2,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "MO": {
+      "observed_grid_cells": 25,
+      "state_grid_cells": 86,
+      "local_candidate_ready_cells": 1,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "MS": {
+      "observed_grid_cells": 11,
+      "state_grid_cells": 57,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "MT": {
+      "observed_grid_cells": 13,
+      "state_grid_cells": 186,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "NC": {
+      "observed_grid_cells": 52,
+      "state_grid_cells": 63,
+      "local_candidate_ready_cells": 4,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "ND": {
+      "observed_grid_cells": 15,
+      "state_grid_cells": 88,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "NE": {
+      "observed_grid_cells": 10,
+      "state_grid_cells": 91,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "NH": {
+      "observed_grid_cells": 14,
+      "state_grid_cells": 16,
+      "local_candidate_ready_cells": 1,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "NJ": {
+      "observed_grid_cells": 10,
+      "state_grid_cells": 13,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "NM": {
+      "observed_grid_cells": 15,
+      "state_grid_cells": 127,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "NV": {
+      "observed_grid_cells": 8,
+      "state_grid_cells": 128,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "NY": {
+      "observed_grid_cells": 49,
+      "state_grid_cells": 72,
+      "local_candidate_ready_cells": 5,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "OH": {
+      "observed_grid_cells": 30,
+      "state_grid_cells": 55,
+      "local_candidate_ready_cells": 4,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "OK": {
+      "observed_grid_cells": 16,
+      "state_grid_cells": 79,
+      "local_candidate_ready_cells": 1,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "OR": {
+      "observed_grid_cells": 49,
+      "state_grid_cells": 121,
+      "local_candidate_ready_cells": 6,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "PA": {
+      "observed_grid_cells": 37,
+      "state_grid_cells": 59,
+      "local_candidate_ready_cells": 7,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "RI": {
+      "observed_grid_cells": 3,
+      "state_grid_cells": 3,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "SC": {
+      "observed_grid_cells": 24,
+      "state_grid_cells": 41,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "SD": {
+      "observed_grid_cells": 19,
+      "state_grid_cells": 94,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "TN": {
+      "observed_grid_cells": 23,
+      "state_grid_cells": 53,
+      "local_candidate_ready_cells": 1,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "TX": {
+      "observed_grid_cells": 63,
+      "state_grid_cells": 286,
+      "local_candidate_ready_cells": 2,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "UT": {
+      "observed_grid_cells": 14,
+      "state_grid_cells": 92,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "VA": {
+      "observed_grid_cells": 38,
+      "state_grid_cells": 56,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "VT": {
+      "observed_grid_cells": 9,
+      "state_grid_cells": 15,
+      "local_candidate_ready_cells": 2,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "WA": {
+      "observed_grid_cells": 37,
+      "state_grid_cells": 96,
+      "local_candidate_ready_cells": 4,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "WI": {
+      "observed_grid_cells": 52,
+      "state_grid_cells": 80,
+      "local_candidate_ready_cells": 1,
+      "local_release_status": "candidate_cells_need_held_out_local_replay"
+    },
+    "WV": {
+      "observed_grid_cells": 18,
+      "state_grid_cells": 39,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    },
+    "WY": {
+      "observed_grid_cells": 11,
+      "state_grid_cells": 112,
+      "local_candidate_ready_cells": 0,
+      "local_release_status": "statewide_fallback_only"
+    }
+  }
+}

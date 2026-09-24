@@ -1,0 +1,5013 @@
+{
+  "generated_at_utc": "2026-08-18T02:33:12.838887+00:00",
+  "release": {
+    "release_id": "v40-2026-08-17",
+    "methodology_version": "V40"
+  },
+  "policy": {
+    "policy_version": "spatial-policy-v1",
+    "grid_resolution_degrees": 0.5,
+    "county_fallback_max_km": 80.0,
+    "ecological_fallback_max_km": 160.0,
+    "minimum_environment_features": 6,
+    "rationale": {
+      "local": "A location is local only when it falls inside the exact modeled half-degree cell.",
+      "county": "The 80 km county limit is slightly larger than the approximate diagonal of one half-degree cell in these states.",
+      "ecological": "The 160 km ecological limit allows at most about two grid diagonals and requires measured environmental similarity.",
+      "statewide": "When finer evidence is unavailable, the modal published mixture for the state and planting class is returned as statewide guidance."
+    }
+  },
+  "boundary_source": {
+    "name": "U.S. Census Bureau TIGERweb State_County service",
+    "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer",
+    "retrieved_at_utc": "2026-08-18T02:33:12.838897+00:00",
+    "simplification_degrees": 0.002
+  },
+  "environment_features": [
+    "elevation_mean_m",
+    "soil_ph_mean",
+    "soil_awc_mean",
+    "soil_organic_matter_pct",
+    "landcover_agriculture_fraction",
+    "landcover_forest_fraction",
+    "landcover_grass_pasture_fraction",
+    "landcover_developed_fraction",
+    "climate_tmax_mean_c",
+    "climate_tmin_mean_c",
+    "climate_weekly_precip_mean_mm",
+    "climate_weekly_gdd_mean"
+  ],
+  "states": {
+    "PA": {
+      "boundary_path": "data/reference/boundaries/PA.geojson",
+      "boundary_sha256": "6d75142c264b0445a6c85736d30321de05eb4e219b1cf5bccf43b13d01e5662c",
+      "environment_source": "data/interim/localization/pa_ecological_grid_features.csv",
+      "cells": {
+        "PA_0p5_39.5_-80.5": {
+          "bounds": [
+            39.5,
+            -80.5,
+            40.0,
+            -80.0
+          ],
+          "representative_latitude": 39.85,
+          "representative_longitude": -80.25,
+          "state_area_fraction": 0.6,
+          "county": {
+            "geoid": "42059",
+            "name": "Greene"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 370.8377746582,
+            "soil_ph_mean": 6.080824659727782,
+            "soil_awc_mean": 0.1675593808380037,
+            "soil_organic_matter_pct": 2.2464838537496665,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.7333333333333333,
+            "landcover_grass_pasture_fraction": 0.2,
+            "landcover_developed_fraction": 0.0666666666666666,
+            "climate_tmax_mean_c": 17.11883710801394,
+            "climate_tmin_mean_c": 6.072868342458935,
+            "climate_weekly_precip_mean_mm": 19.715662020905924,
+            "climate_weekly_gdd_mean": 36.60181184668989
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 195,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_39.5_-80.0": {
+          "bounds": [
+            39.5,
+            -80.0,
+            40.0,
+            -79.5
+          ],
+          "representative_latitude": 39.85,
+          "representative_longitude": -79.75,
+          "state_area_fraction": 0.6,
+          "county": {
+            "geoid": "42051",
+            "name": "Fayette"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 455.0125773112667,
+            "soil_ph_mean": 5.272026368586988,
+            "soil_awc_mean": 0.1434115792490684,
+            "soil_organic_matter_pct": 6.924352249928346,
+            "landcover_agriculture_fraction": 0.0666666666666666,
+            "landcover_forest_fraction": 0.4,
+            "landcover_grass_pasture_fraction": 0.2666666666666666,
+            "landcover_developed_fraction": 0.1333333333333333,
+            "climate_tmax_mean_c": 17.11883710801394,
+            "climate_tmin_mean_c": 6.072868342458935,
+            "climate_weekly_precip_mean_mm": 19.715662020905924,
+            "climate_weekly_gdd_mean": 36.60181184668989
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 361,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_39.5_-79.5": {
+          "bounds": [
+            39.5,
+            -79.5,
+            40.0,
+            -79.0
+          ],
+          "representative_latitude": 39.85,
+          "representative_longitude": -79.25,
+          "state_area_fraction": 0.6,
+          "county": {
+            "geoid": "42111",
+            "name": "Somerset"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 632.4935689290669,
+            "soil_ph_mean": 4.84766081871345,
+            "soil_awc_mean": 0.1328304093567252,
+            "soil_organic_matter_pct": 5.921198830409357,
+            "landcover_agriculture_fraction": 0.1333333333333333,
+            "landcover_forest_fraction": 0.6666666666666666,
+            "landcover_grass_pasture_fraction": 0.0666666666666666,
+            "landcover_developed_fraction": 0.0666666666666666,
+            "climate_tmax_mean_c": 15.780349676455948,
+            "climate_tmin_mean_c": 5.3003652314584375,
+            "climate_weekly_precip_mean_mm": 20.30817073170732,
+            "climate_weekly_gdd_mean": 32.17089721254356
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 609,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_39.5_-79.0": {
+          "bounds": [
+            39.5,
+            -79.0,
+            40.0,
+            -78.5
+          ],
+          "representative_latitude": 39.85,
+          "representative_longitude": -78.75,
+          "state_area_fraction": 0.6,
+          "county": {
+            "geoid": "42009",
+            "name": "Bedford"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 578.2353902181334,
+            "soil_ph_mean": 5.020642076502733,
+            "soil_awc_mean": 0.1266885245901639,
+            "soil_organic_matter_pct": 3.5438688524590165,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.7333333333333333,
+            "landcover_grass_pasture_fraction": 0.1333333333333333,
+            "landcover_developed_fraction": 0.1333333333333333,
+            "climate_tmax_mean_c": 15.889118342458936,
+            "climate_tmin_mean_c": 5.222300273768044,
+            "climate_weekly_precip_mean_mm": 20.018571428571427,
+            "climate_weekly_gdd_mean": 32.418797909407665
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 101,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_39.5_-78.5": {
+          "bounds": [
+            39.5,
+            -78.5,
+            40.0,
+            -78.0
+          ],
+          "representative_latitude": 39.85,
+          "representative_longitude": -78.25,
+          "state_area_fraction": 0.6,
+          "county": {
+            "geoid": "42057",
+            "name": "Fulton"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 317.4772145590667,
+            "soil_ph_mean": 5.570561738208797,
+            "soil_awc_mean": 0.1278518812930577,
+            "soil_organic_matter_pct": 1.302407260201378,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.6,
+            "landcover_grass_pasture_fraction": 0.3333333333333333,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 16.94066450970632,
+            "climate_tmin_mean_c": 5.790836859133897,
+            "climate_weekly_precip_mean_mm": 20.156637630662026,
+            "climate_weekly_gdd_mean": 35.95351916376307
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 83,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": 351,
+            "bee_sampling_events": 44,
+            "bee_observation_years": 3,
+            "native_bee_species": 33,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "Pennsylvania five-cell validation audit"
+          }
+        },
+        "PA_0p5_39.5_-78.0": {
+          "bounds": [
+            39.5,
+            -78.0,
+            40.0,
+            -77.5
+          ],
+          "representative_latitude": 39.85,
+          "representative_longitude": -77.75,
+          "state_area_fraction": 0.6,
+          "county": {
+            "geoid": "42055",
+            "name": "Franklin"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 268.8420399984,
+            "soil_ph_mean": 5.6577930848190165,
+            "soil_awc_mean": 0.1633678069477592,
+            "soil_organic_matter_pct": 4.384570502431118,
+            "landcover_agriculture_fraction": 0.2666666666666666,
+            "landcover_forest_fraction": 0.3333333333333333,
+            "landcover_grass_pasture_fraction": 0.1333333333333333,
+            "landcover_developed_fraction": 0.2,
+            "climate_tmax_mean_c": 17.087127302140367,
+            "climate_tmin_mean_c": 6.203133399701344,
+            "climate_weekly_precip_mean_mm": 20.91205574912892,
+            "climate_weekly_gdd_mean": 37.13428571428572
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 120,
+            "flowering_observations": 42,
+            "flowering_observation_years": 4,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_39.5_-77.5": {
+          "bounds": [
+            39.5,
+            -77.5,
+            40.0,
+            -77.0
+          ],
+          "representative_latitude": 39.85,
+          "representative_longitude": -77.25,
+          "state_area_fraction": 0.6,
+          "county": {
+            "geoid": "42001",
+            "name": "Adams"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 235.86287028,
+            "soil_ph_mean": 5.707768924302789,
+            "soil_awc_mean": 0.1662523240371846,
+            "soil_organic_matter_pct": 1.8297277556440903,
+            "landcover_agriculture_fraction": 0.2,
+            "landcover_forest_fraction": 0.2666666666666666,
+            "landcover_grass_pasture_fraction": 0.4,
+            "landcover_developed_fraction": 0.1333333333333333,
+            "climate_tmax_mean_c": 17.087127302140367,
+            "climate_tmin_mean_c": 6.203133399701344,
+            "climate_weekly_precip_mean_mm": 20.91205574912892,
+            "climate_weekly_gdd_mean": 37.13428571428572
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 637,
+            "flowering_observations": 14,
+            "flowering_observation_years": 2,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_39.5_-77.0": {
+          "bounds": [
+            39.5,
+            -77.0,
+            40.0,
+            -76.5
+          ],
+          "representative_latitude": 39.85,
+          "representative_longitude": -76.75,
+          "state_area_fraction": 0.6,
+          "county": {
+            "geoid": "42133",
+            "name": "York"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 211.63846486406663,
+            "soil_ph_mean": 5.33234398782344,
+            "soil_awc_mean": 0.151672619047619,
+            "soil_organic_matter_pct": 2.127480974124809,
+            "landcover_agriculture_fraction": 0.2666666666666666,
+            "landcover_forest_fraction": 0.4,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.2666666666666666,
+            "climate_tmax_mean_c": 17.49843205574913,
+            "climate_tmin_mean_c": 6.814375933300149,
+            "climate_weekly_precip_mean_mm": 21.421080139372823,
+            "climate_weekly_gdd_mean": 38.92812717770035
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 407,
+            "flowering_observations": 19,
+            "flowering_observation_years": 5,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_39.5_-76.5": {
+          "bounds": [
+            39.5,
+            -76.5,
+            40.0,
+            -76.0
+          ],
+          "representative_latitude": 39.85,
+          "representative_longitude": -76.25,
+          "state_area_fraction": 0.6,
+          "county": {
+            "geoid": "42071",
+            "name": "Lancaster"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 135.72493464153334,
+            "soil_ph_mean": 5.595358048162231,
+            "soil_awc_mean": 0.1710182606004333,
+            "soil_organic_matter_pct": 2.121031368821293,
+            "landcover_agriculture_fraction": 0.2666666666666666,
+            "landcover_forest_fraction": 0.2666666666666666,
+            "landcover_grass_pasture_fraction": 0.0666666666666666,
+            "landcover_developed_fraction": 0.2,
+            "climate_tmax_mean_c": 17.503064957690395,
+            "climate_tmin_mean_c": 7.002780612244897,
+            "climate_weekly_precip_mean_mm": 22.514216027874564,
+            "climate_weekly_gdd_mean": 38.99650696864112
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 973,
+            "flowering_observations": 274,
+            "flowering_observation_years": 2,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": 8,
+            "bee_sampling_events": 1,
+            "bee_observation_years": 1,
+            "native_bee_species": 3,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "Pennsylvania five-cell validation audit"
+          }
+        },
+        "PA_0p5_39.5_-76.0": {
+          "bounds": [
+            39.5,
+            -76.0,
+            40.0,
+            -75.5
+          ],
+          "representative_latitude": 39.875,
+          "representative_longitude": -75.77499999999999,
+          "state_area_fraction": 0.48,
+          "county": {
+            "geoid": "42029",
+            "name": "Chester"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 125.60355122875,
+            "soil_ph_mean": 5.654923889406648,
+            "soil_awc_mean": 0.1668546132339235,
+            "soil_organic_matter_pct": 2.1443150046598323,
+            "landcover_agriculture_fraction": 0.0833333333333333,
+            "landcover_forest_fraction": 0.4166666666666667,
+            "landcover_grass_pasture_fraction": 0.5,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 17.879061722249872,
+            "climate_tmin_mean_c": 7.276331508213041,
+            "climate_weekly_precip_mean_mm": 23.0644425087108,
+            "climate_weekly_gdd_mean": 40.151106271777
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1613,
+            "flowering_observations": 9,
+            "flowering_observation_years": 6,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": 22,
+            "bee_sampling_events": 1,
+            "bee_observation_years": 1,
+            "native_bee_species": 9,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "Pennsylvania five-cell validation audit"
+          }
+        },
+        "PA_0p5_39.5_-75.5": {
+          "bounds": [
+            39.5,
+            -75.5,
+            40.0,
+            -75.0
+          ],
+          "representative_latitude": 39.91666666666666,
+          "representative_longitude": -75.33333333333333,
+          "state_area_fraction": 0.24,
+          "county": {
+            "geoid": "42045",
+            "name": "Delaware"
+          },
+          "ecological_cluster": 2,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 46.281628608666665,
+            "soil_ph_mean": 6.468306010928962,
+            "soil_awc_mean": 0.1505737704918033,
+            "soil_organic_matter_pct": 2.631830601092896,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.1666666666666666,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.8333333333333334,
+            "climate_tmax_mean_c": 17.879061722249872,
+            "climate_tmin_mean_c": 7.276331508213041,
+            "climate_weekly_precip_mean_mm": 23.0644425087108,
+            "climate_weekly_gdd_mean": 40.151106271777
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 2351,
+            "flowering_observations": 183,
+            "flowering_observation_years": 7,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": 7,
+            "bee_sampling_events": 1,
+            "bee_observation_years": 1,
+            "native_bee_species": 5,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "Pennsylvania five-cell validation audit"
+          }
+        },
+        "PA_0p5_40.0_-80.5": {
+          "bounds": [
+            40.0,
+            -80.5,
+            40.5,
+            -80.0
+          ],
+          "representative_latitude": 40.25,
+          "representative_longitude": -80.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42125",
+            "name": "Washington"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 343.92928466796,
+            "soil_ph_mean": 6.088951111111111,
+            "soil_awc_mean": 0.1578115555555555,
+            "soil_organic_matter_pct": 2.1651422222222223,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.6,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.28,
+            "climate_tmax_mean_c": 16.975393852663014,
+            "climate_tmin_mean_c": 5.722515555002489,
+            "climate_weekly_precip_mean_mm": 18.80761324041812,
+            "climate_weekly_gdd_mean": 36.02006968641115
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1668,
+            "flowering_observations": 28,
+            "flowering_observation_years": 7,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.0_-80.0": {
+          "bounds": [
+            40.0,
+            -80.0,
+            40.5,
+            -79.5
+          ],
+          "representative_latitude": 40.25,
+          "representative_longitude": -79.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42129",
+            "name": "Westmoreland"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 339.85895324708,
+            "soil_ph_mean": 5.56812734082397,
+            "soil_awc_mean": 0.1735056179775281,
+            "soil_organic_matter_pct": 3.8573548689138577,
+            "landcover_agriculture_fraction": 0.08,
+            "landcover_forest_fraction": 0.32,
+            "landcover_grass_pasture_fraction": 0.16,
+            "landcover_developed_fraction": 0.4,
+            "climate_tmax_mean_c": 16.975393852663014,
+            "climate_tmin_mean_c": 5.722515555002489,
+            "climate_weekly_precip_mean_mm": 18.80761324041812,
+            "climate_weekly_gdd_mean": 36.02006968641115
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 2429,
+            "flowering_observations": 12,
+            "flowering_observation_years": 2,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.0_-79.5": {
+          "bounds": [
+            40.0,
+            -79.5,
+            40.5,
+            -79.0
+          ],
+          "representative_latitude": 40.25,
+          "representative_longitude": -79.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42129",
+            "name": "Westmoreland"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 505.14058349604,
+            "soil_ph_mean": 5.224300254452926,
+            "soil_awc_mean": 0.1521738761662425,
+            "soil_organic_matter_pct": 6.0120653095843934,
+            "landcover_agriculture_fraction": 0.04,
+            "landcover_forest_fraction": 0.6,
+            "landcover_grass_pasture_fraction": 0.2,
+            "landcover_developed_fraction": 0.08,
+            "climate_tmax_mean_c": 16.244183673469387,
+            "climate_tmin_mean_c": 5.392073792931807,
+            "climate_weekly_precip_mean_mm": 19.890383275261325,
+            "climate_weekly_gdd_mean": 33.75089721254356
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1534,
+            "flowering_observations": 1264,
+            "flowering_observation_years": 5,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": 21,
+            "bee_sampling_events": 3,
+            "bee_observation_years": 1,
+            "native_bee_species": 9,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "Pennsylvania five-cell validation audit"
+          }
+        },
+        "PA_0p5_40.0_-79.0": {
+          "bounds": [
+            40.0,
+            -79.0,
+            40.5,
+            -78.5
+          ],
+          "representative_latitude": 40.25,
+          "representative_longitude": -78.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42021",
+            "name": "Cambria"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 597.08519531252,
+            "soil_ph_mean": 5.122233725490196,
+            "soil_awc_mean": 0.133033725490196,
+            "soil_organic_matter_pct": 4.0646012549019614,
+            "landcover_agriculture_fraction": 0.12,
+            "landcover_forest_fraction": 0.6,
+            "landcover_grass_pasture_fraction": 0.08,
+            "landcover_developed_fraction": 0.12,
+            "climate_tmax_mean_c": 15.207231209556994,
+            "climate_tmin_mean_c": 4.7626381284221,
+            "climate_weekly_precip_mean_mm": 20.25168989547038,
+            "climate_weekly_gdd_mean": 30.538745644599302
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 344,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.0_-78.5": {
+          "bounds": [
+            40.0,
+            -78.5,
+            40.5,
+            -78.0
+          ],
+          "representative_latitude": 40.25,
+          "representative_longitude": -78.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42009",
+            "name": "Bedford"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 418.30933227544,
+            "soil_ph_mean": 5.1321830985915495,
+            "soil_awc_mean": 0.1263378716744914,
+            "soil_organic_matter_pct": 4.435673708920189,
+            "landcover_agriculture_fraction": 0.04,
+            "landcover_forest_fraction": 0.72,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.12,
+            "climate_tmax_mean_c": 16.254331134892983,
+            "climate_tmin_mean_c": 5.16752799900448,
+            "climate_weekly_precip_mean_mm": 20.227073170731707,
+            "climate_weekly_gdd_mean": 33.692726480836235
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 412,
+            "flowering_observations": 5,
+            "flowering_observation_years": 1,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.0_-78.0": {
+          "bounds": [
+            40.0,
+            -78.0,
+            40.5,
+            -77.5
+          ],
+          "representative_latitude": 40.25,
+          "representative_longitude": -77.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42061",
+            "name": "Huntingdon"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 325.87146911628,
+            "soil_ph_mean": 5.155466666666666,
+            "soil_awc_mean": 0.1301749019607843,
+            "soil_organic_matter_pct": 3.7459082352941175,
+            "landcover_agriculture_fraction": 0.12,
+            "landcover_forest_fraction": 0.68,
+            "landcover_grass_pasture_fraction": 0.2,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 16.639828272772522,
+            "climate_tmin_mean_c": 5.594982578397213,
+            "climate_weekly_precip_mean_mm": 20.444442508710804,
+            "climate_weekly_gdd_mean": 35.31517421602788
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 173,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.0_-77.5": {
+          "bounds": [
+            40.0,
+            -77.5,
+            40.5,
+            -77.0
+          ],
+          "representative_latitude": 40.25,
+          "representative_longitude": -77.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42041",
+            "name": "Cumberland"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 205.01268615732,
+            "soil_ph_mean": 5.531464530892449,
+            "soil_awc_mean": 0.146906941266209,
+            "soil_organic_matter_pct": 3.014313501144165,
+            "landcover_agriculture_fraction": 0.32,
+            "landcover_forest_fraction": 0.44,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.12,
+            "climate_tmax_mean_c": 16.639828272772522,
+            "climate_tmin_mean_c": 5.594982578397213,
+            "climate_weekly_precip_mean_mm": 20.444442508710804,
+            "climate_weekly_gdd_mean": 35.31517421602788
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 976,
+            "flowering_observations": 951,
+            "flowering_observation_years": 9,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": 313,
+            "bee_sampling_events": 45,
+            "bee_observation_years": 2,
+            "native_bee_species": 27,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "Pennsylvania five-cell validation audit"
+          }
+        },
+        "PA_0p5_40.0_-77.0": {
+          "bounds": [
+            40.0,
+            -77.0,
+            40.5,
+            -76.5
+          ],
+          "representative_latitude": 40.25,
+          "representative_longitude": -76.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42043",
+            "name": "Dauphin"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 172.46672546383996,
+            "soil_ph_mean": 5.409059205190592,
+            "soil_awc_mean": 0.12975249500998,
+            "soil_organic_matter_pct": 1.620352798053528,
+            "landcover_agriculture_fraction": 0.08,
+            "landcover_forest_fraction": 0.4,
+            "landcover_grass_pasture_fraction": 0.16,
+            "landcover_developed_fraction": 0.28,
+            "climate_tmax_mean_c": 16.92330637132902,
+            "climate_tmin_mean_c": 6.072496266799402,
+            "climate_weekly_precip_mean_mm": 21.35357142857143,
+            "climate_weekly_gdd_mean": 36.72914634146341
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1566,
+            "flowering_observations": 1329,
+            "flowering_observation_years": 11,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.0_-76.5": {
+          "bounds": [
+            40.0,
+            -76.5,
+            40.5,
+            -76.0
+          ],
+          "representative_latitude": 40.25,
+          "representative_longitude": -76.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42071",
+            "name": "Lancaster"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 151.87365325928,
+            "soil_ph_mean": 5.6399696279422935,
+            "soil_awc_mean": 0.1511700835231587,
+            "soil_organic_matter_pct": 2.0412376613515564,
+            "landcover_agriculture_fraction": 0.24,
+            "landcover_forest_fraction": 0.24,
+            "landcover_grass_pasture_fraction": 0.16,
+            "landcover_developed_fraction": 0.36,
+            "climate_tmax_mean_c": 16.657439646590344,
+            "climate_tmin_mean_c": 5.971358262817322,
+            "climate_weekly_precip_mean_mm": 22.84815331010453,
+            "climate_weekly_gdd_mean": 35.754311846689895
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1082,
+            "flowering_observations": 1195,
+            "flowering_observation_years": 7,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.0_-76.0": {
+          "bounds": [
+            40.0,
+            -76.0,
+            40.5,
+            -75.5
+          ],
+          "representative_latitude": 40.25,
+          "representative_longitude": -75.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42011",
+            "name": "Berks"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 150.65756225592,
+            "soil_ph_mean": 5.776162079510704,
+            "soil_awc_mean": 0.1399280177187154,
+            "soil_organic_matter_pct": 2.1853295956506966,
+            "landcover_agriculture_fraction": 0.2,
+            "landcover_forest_fraction": 0.36,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.32,
+            "climate_tmax_mean_c": 16.880316699850674,
+            "climate_tmin_mean_c": 6.132213165754107,
+            "climate_weekly_precip_mean_mm": 23.13614982578397,
+            "climate_weekly_gdd_mean": 36.38873693379791
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 2800,
+            "flowering_observations": 104,
+            "flowering_observation_years": 5,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.0_-75.5": {
+          "bounds": [
+            40.0,
+            -75.5,
+            40.5,
+            -75.0
+          ],
+          "representative_latitude": 40.24166666666667,
+          "representative_longitude": -75.25833333333334,
+          "state_area_fraction": 0.96,
+          "county": {
+            "geoid": "42091",
+            "name": "Montgomery"
+          },
+          "ecological_cluster": 2,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 106.44153634716668,
+            "soil_ph_mean": 5.908548624238605,
+            "soil_awc_mean": 0.1514651655119322,
+            "soil_organic_matter_pct": 2.049684940138626,
+            "landcover_agriculture_fraction": 0.0416666666666666,
+            "landcover_forest_fraction": 0.2916666666666667,
+            "landcover_grass_pasture_fraction": 0.25,
+            "landcover_developed_fraction": 0.375,
+            "climate_tmax_mean_c": 17.943234196117473,
+            "climate_tmin_mean_c": 7.490069064211051,
+            "climate_weekly_precip_mean_mm": 23.013240418118468,
+            "climate_weekly_gdd_mean": 39.99804006968641
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 8026,
+            "flowering_observations": 1594,
+            "flowering_observation_years": 10,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": 3456,
+            "bee_sampling_events": 315,
+            "bee_observation_years": 3,
+            "native_bee_species": 54,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "Pennsylvania five-cell validation audit"
+          }
+        },
+        "PA_0p5_40.0_-75.0": {
+          "bounds": [
+            40.0,
+            -75.0,
+            40.5,
+            -74.5
+          ],
+          "representative_latitude": 40.21666666666667,
+          "representative_longitude": -74.88333333333334,
+          "state_area_fraction": 0.24,
+          "county": {
+            "geoid": "42017",
+            "name": "Bucks"
+          },
+          "ecological_cluster": 2,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 38.25890835116667,
+            "soil_ph_mean": 5.776115485564304,
+            "soil_awc_mean": 0.1191625615763546,
+            "soil_organic_matter_pct": 1.983267716535433,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.1666666666666666,
+            "landcover_grass_pasture_fraction": 0.1666666666666666,
+            "landcover_developed_fraction": 0.6666666666666666,
+            "climate_tmax_mean_c": 17.943234196117473,
+            "climate_tmin_mean_c": 7.490069064211051,
+            "climate_weekly_precip_mean_mm": 23.013240418118468,
+            "climate_weekly_gdd_mean": 39.99804006968641
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1040,
+            "flowering_observations": 1431,
+            "flowering_observation_years": 2,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.5_-80.5": {
+          "bounds": [
+            40.5,
+            -80.5,
+            41.0,
+            -80.0
+          ],
+          "representative_latitude": 40.75,
+          "representative_longitude": -80.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42007",
+            "name": "Beaver"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 348.31820434564,
+            "soil_ph_mean": 5.221377887788779,
+            "soil_awc_mean": 0.1610607260726073,
+            "soil_organic_matter_pct": 3.99491501650165,
+            "landcover_agriculture_fraction": 0.12,
+            "landcover_forest_fraction": 0.44,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.32,
+            "climate_tmax_mean_c": 15.987604529616725,
+            "climate_tmin_mean_c": 4.982356893977103,
+            "climate_weekly_precip_mean_mm": 18.81369337979094,
+            "climate_weekly_gdd_mean": 33.11920731707317
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1932,
+            "flowering_observations": 78,
+            "flowering_observation_years": 4,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.5_-80.0": {
+          "bounds": [
+            40.5,
+            -80.0,
+            41.0,
+            -79.5
+          ],
+          "representative_latitude": 40.75,
+          "representative_longitude": -79.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42019",
+            "name": "Butler"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 353.0316212973333,
+            "soil_ph_mean": 5.038476430976431,
+            "soil_awc_mean": 0.1696764309764309,
+            "soil_organic_matter_pct": 3.5039132996633,
+            "landcover_agriculture_fraction": 0.12,
+            "landcover_forest_fraction": 0.36,
+            "landcover_grass_pasture_fraction": 0.2,
+            "landcover_developed_fraction": 0.28,
+            "climate_tmax_mean_c": 15.987604529616725,
+            "climate_tmin_mean_c": 4.982356893977103,
+            "climate_weekly_precip_mean_mm": 18.81369337979094,
+            "climate_weekly_gdd_mean": 33.11920731707317
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1669,
+            "flowering_observations": 323,
+            "flowering_observation_years": 5,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.5_-79.5": {
+          "bounds": [
+            40.5,
+            -79.5,
+            41.0,
+            -79.0
+          ],
+          "representative_latitude": 40.75,
+          "representative_longitude": -79.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42005",
+            "name": "Armstrong"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 369.4797193738889,
+            "soil_ph_mean": 5.06940031152648,
+            "soil_awc_mean": 0.1575537383177569,
+            "soil_organic_matter_pct": 3.71428738317757,
+            "landcover_agriculture_fraction": 0.08,
+            "landcover_forest_fraction": 0.52,
+            "landcover_grass_pasture_fraction": 0.32,
+            "landcover_developed_fraction": 0.04,
+            "climate_tmax_mean_c": 15.465933922349429,
+            "climate_tmin_mean_c": 4.710993653558984,
+            "climate_weekly_precip_mean_mm": 19.8808362369338,
+            "climate_weekly_gdd_mean": 31.340897212543556
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 481,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.5_-79.0": {
+          "bounds": [
+            40.5,
+            -79.0,
+            41.0,
+            -78.5
+          ],
+          "representative_latitude": 40.75,
+          "representative_longitude": -78.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42033",
+            "name": "Clearfield"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 499.8738878037778,
+            "soil_ph_mean": 5.041463869463869,
+            "soil_awc_mean": 0.1468477078477078,
+            "soil_organic_matter_pct": 5.999405439005439,
+            "landcover_agriculture_fraction": 0.08,
+            "landcover_forest_fraction": 0.56,
+            "landcover_grass_pasture_fraction": 0.24,
+            "landcover_developed_fraction": 0.12,
+            "climate_tmax_mean_c": 14.756268666002986,
+            "climate_tmin_mean_c": 4.303150199104032,
+            "climate_weekly_precip_mean_mm": 20.35217770034843,
+            "climate_weekly_gdd_mean": 29.282691637630663
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 109,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.5_-78.5": {
+          "bounds": [
+            40.5,
+            -78.5,
+            41.0,
+            -78.0
+          ],
+          "representative_latitude": 40.75,
+          "representative_longitude": -78.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42027",
+            "name": "Centre"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 500.66700195308,
+            "soil_ph_mean": 5.2043120831394445,
+            "soil_awc_mean": 0.1140623545835272,
+            "soil_organic_matter_pct": 2.6128299984488907,
+            "landcover_agriculture_fraction": 0.04,
+            "landcover_forest_fraction": 0.64,
+            "landcover_grass_pasture_fraction": 0.08,
+            "landcover_developed_fraction": 0.16,
+            "climate_tmax_mean_c": 14.825442384270785,
+            "climate_tmin_mean_c": 4.223892483822797,
+            "climate_weekly_precip_mean_mm": 20.50587108013937,
+            "climate_weekly_gdd_mean": 29.52950348432056
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 388,
+            "flowering_observations": 27,
+            "flowering_observation_years": 2,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.5_-78.0": {
+          "bounds": [
+            40.5,
+            -78.0,
+            41.0,
+            -77.5
+          ],
+          "representative_latitude": 40.75,
+          "representative_longitude": -77.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42027",
+            "name": "Centre"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 330.24649386933334,
+            "soil_ph_mean": 5.150455974842767,
+            "soil_awc_mean": 0.1322617924528302,
+            "soil_organic_matter_pct": 2.6694850628930817,
+            "landcover_agriculture_fraction": 0.08,
+            "landcover_forest_fraction": 0.68,
+            "landcover_grass_pasture_fraction": 0.2,
+            "landcover_developed_fraction": 0.04,
+            "climate_tmax_mean_c": 15.331159780985566,
+            "climate_tmin_mean_c": 4.6049869337979095,
+            "climate_weekly_precip_mean_mm": 20.53343205574913,
+            "climate_weekly_gdd_mean": 31.20080139372822
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1479,
+            "flowering_observations": 533,
+            "flowering_observation_years": 7,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": 527,
+            "bee_sampling_events": 55,
+            "bee_observation_years": 3,
+            "native_bee_species": 44,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "Pennsylvania five-cell validation audit"
+          }
+        },
+        "PA_0p5_40.5_-77.5": {
+          "bounds": [
+            40.5,
+            -77.5,
+            41.0,
+            -77.0
+          ],
+          "representative_latitude": 40.75,
+          "representative_longitude": -77.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42109",
+            "name": "Snyder"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 292.7505204943334,
+            "soil_ph_mean": 4.927216666666666,
+            "soil_awc_mean": 0.1185258333333333,
+            "soil_organic_matter_pct": 2.7431875,
+            "landcover_agriculture_fraction": 0.16,
+            "landcover_forest_fraction": 0.6,
+            "landcover_grass_pasture_fraction": 0.08,
+            "landcover_developed_fraction": 0.12,
+            "climate_tmax_mean_c": 15.331159780985566,
+            "climate_tmin_mean_c": 4.6049869337979095,
+            "climate_weekly_precip_mean_mm": 20.53343205574913,
+            "climate_weekly_gdd_mean": 31.20080139372822
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 257,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.5_-77.0": {
+          "bounds": [
+            40.5,
+            -77.0,
+            41.0,
+            -76.5
+          ],
+          "representative_latitude": 40.75,
+          "representative_longitude": -76.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42097",
+            "name": "Northumberland"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 218.26640828455555,
+            "soil_ph_mean": 5.216666666666667,
+            "soil_awc_mean": 0.1304693046735059,
+            "soil_organic_matter_pct": 1.6574938935026868,
+            "landcover_agriculture_fraction": 0.2,
+            "landcover_forest_fraction": 0.56,
+            "landcover_grass_pasture_fraction": 0.16,
+            "landcover_developed_fraction": 0.04,
+            "climate_tmax_mean_c": 15.927593330014933,
+            "climate_tmin_mean_c": 5.085306122448979,
+            "climate_weekly_precip_mean_mm": 21.307090592334497,
+            "climate_weekly_gdd_mean": 33.27052264808362
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 661,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.5_-76.5": {
+          "bounds": [
+            40.5,
+            -76.5,
+            41.0,
+            -76.0
+          ],
+          "representative_latitude": 40.75,
+          "representative_longitude": -76.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42107",
+            "name": "Schuylkill"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 358.3938869898889,
+            "soil_ph_mean": 5.061513531032247,
+            "soil_awc_mean": 0.1291090584994328,
+            "soil_organic_matter_pct": 3.498358450818344,
+            "landcover_agriculture_fraction": 0.08,
+            "landcover_forest_fraction": 0.52,
+            "landcover_grass_pasture_fraction": 0.16,
+            "landcover_developed_fraction": 0.2,
+            "climate_tmax_mean_c": 15.33770657043305,
+            "climate_tmin_mean_c": 4.829325535092086,
+            "climate_weekly_precip_mean_mm": 23.096463414634147,
+            "climate_weekly_gdd_mean": 31.426506968641117
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 419,
+            "flowering_observations": 137,
+            "flowering_observation_years": 3,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_40.5_-76.0": {
+          "bounds": [
+            40.5,
+            -76.0,
+            41.0,
+            -75.5
+          ],
+          "representative_latitude": 40.75,
+          "representative_longitude": -75.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42025",
+            "name": "Carbon"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 251.642428928,
+            "soil_ph_mean": 5.3212027327613605,
+            "soil_awc_mean": 0.1255659860752562,
+            "soil_organic_matter_pct": 3.5652659834065403,
+            "landcover_agriculture_fraction": 0.2,
+            "landcover_forest_fraction": 0.4,
+            "landcover_grass_pasture_fraction": 0.2,
+            "landcover_developed_fraction": 0.12,
+            "climate_tmax_mean_c": 15.031731582877054,
+            "climate_tmin_mean_c": 4.752363738178199,
+            "climate_weekly_precip_mean_mm": 23.26681184668989,
+            "climate_weekly_gdd_mean": 30.556341463414636
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 840,
+            "flowering_observations": 59,
+            "flowering_observation_years": 2,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": 131,
+            "bee_sampling_events": 21,
+            "bee_observation_years": 1,
+            "native_bee_species": 22,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "Pennsylvania five-cell validation audit"
+          }
+        },
+        "PA_0p5_40.5_-75.5": {
+          "bounds": [
+            40.5,
+            -75.5,
+            41.0,
+            -75.0
+          ],
+          "representative_latitude": 40.75555555555556,
+          "representative_longitude": -75.31666666666666,
+          "state_area_fraction": 0.72,
+          "county": {
+            "geoid": "42095",
+            "name": "Northampton"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 198.73338911255556,
+            "soil_ph_mean": 5.543826714801444,
+            "soil_awc_mean": 0.1334620689655172,
+            "soil_organic_matter_pct": 4.318752105896511,
+            "landcover_agriculture_fraction": 0.0555555555555555,
+            "landcover_forest_fraction": 0.6111111111111112,
+            "landcover_grass_pasture_fraction": 0.1666666666666666,
+            "landcover_developed_fraction": 0.1666666666666666,
+            "climate_tmax_mean_c": 15.031731582877054,
+            "climate_tmin_mean_c": 4.752363738178199,
+            "climate_weekly_precip_mean_mm": 23.26681184668989,
+            "climate_weekly_gdd_mean": 30.556341463414636
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1353,
+            "flowering_observations": 105,
+            "flowering_observation_years": 7,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.0_-80.5": {
+          "bounds": [
+            41.0,
+            -80.5,
+            41.5,
+            -80.0
+          ],
+          "representative_latitude": 41.25,
+          "representative_longitude": -80.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42085",
+            "name": "Mercer"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 360.2407599554444,
+            "soil_ph_mean": 5.608891454965358,
+            "soil_awc_mean": 0.1723110084680523,
+            "soil_organic_matter_pct": 2.2865835257890685,
+            "landcover_agriculture_fraction": 0.12,
+            "landcover_forest_fraction": 0.48,
+            "landcover_grass_pasture_fraction": 0.24,
+            "landcover_developed_fraction": 0.12,
+            "climate_tmax_mean_c": 15.061410527625684,
+            "climate_tmin_mean_c": 4.546093827775013,
+            "climate_weekly_precip_mean_mm": 18.835540069686413,
+            "climate_weekly_gdd_mean": 30.842195121951224
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 725,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.0_-80.0": {
+          "bounds": [
+            41.0,
+            -80.0,
+            41.5,
+            -79.5
+          ],
+          "representative_latitude": 41.25,
+          "representative_longitude": -79.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42121",
+            "name": "Venango"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 392.5895555282223,
+            "soil_ph_mean": 4.997984202211691,
+            "soil_awc_mean": 0.1388009478672985,
+            "soil_organic_matter_pct": 4.73038830963665,
+            "landcover_agriculture_fraction": 0.12,
+            "landcover_forest_fraction": 0.76,
+            "landcover_grass_pasture_fraction": 0.04,
+            "landcover_developed_fraction": 0.04,
+            "climate_tmax_mean_c": 15.061410527625684,
+            "climate_tmin_mean_c": 4.546093827775013,
+            "climate_weekly_precip_mean_mm": 18.835540069686413,
+            "climate_weekly_gdd_mean": 30.842195121951224
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 185,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.0_-79.5": {
+          "bounds": [
+            41.0,
+            -79.5,
+            41.5,
+            -79.0
+          ],
+          "representative_latitude": 41.25,
+          "representative_longitude": -79.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42031",
+            "name": "Clarion"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 467.7938401963333,
+            "soil_ph_mean": 4.857617670682731,
+            "soil_awc_mean": 0.1317493975903614,
+            "soil_organic_matter_pct": 7.2443171084337346,
+            "landcover_agriculture_fraction": 0.08,
+            "landcover_forest_fraction": 0.72,
+            "landcover_grass_pasture_fraction": 0.16,
+            "landcover_developed_fraction": 0.04,
+            "climate_tmax_mean_c": 14.484436286709805,
+            "climate_tmin_mean_c": 4.0718056246889,
+            "climate_weekly_precip_mean_mm": 19.940087108013937,
+            "climate_weekly_gdd_mean": 28.81794425087108
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 347,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.0_-79.0": {
+          "bounds": [
+            41.0,
+            -79.0,
+            41.5,
+            -78.5
+          ],
+          "representative_latitude": 41.25,
+          "representative_longitude": -78.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42065",
+            "name": "Jefferson"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 527.6362202961112,
+            "soil_ph_mean": 4.833411580594679,
+            "soil_awc_mean": 0.1270438184663536,
+            "soil_organic_matter_pct": 7.522982159624413,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.76,
+            "landcover_grass_pasture_fraction": 0.16,
+            "landcover_developed_fraction": 0.04,
+            "climate_tmax_mean_c": 13.916743404678945,
+            "climate_tmin_mean_c": 3.62630537580886,
+            "climate_weekly_precip_mean_mm": 20.314006968641117,
+            "climate_weekly_gdd_mean": 27.026742160278747
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 399,
+            "flowering_observations": 3,
+            "flowering_observation_years": 1,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.0_-78.5": {
+          "bounds": [
+            41.0,
+            -78.5,
+            41.5,
+            -78.0
+          ],
+          "representative_latitude": 41.25,
+          "representative_longitude": -78.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42047",
+            "name": "Elk"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 495.6334262425556,
+            "soil_ph_mean": 4.7752576131687245,
+            "soil_awc_mean": 0.1280854320987654,
+            "soil_organic_matter_pct": 5.277040823045267,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.92,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 13.989675833748134,
+            "climate_tmin_mean_c": 3.5475796416127428,
+            "climate_weekly_precip_mean_mm": 19.863013937282236,
+            "climate_weekly_gdd_mean": 27.104033101045296
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 141,
+            "flowering_observations": 3,
+            "flowering_observation_years": 2,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.0_-78.0": {
+          "bounds": [
+            41.0,
+            -78.0,
+            41.5,
+            -77.5
+          ],
+          "representative_latitude": 41.25,
+          "representative_longitude": -77.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42035",
+            "name": "Clinton"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 474.28772311744456,
+            "soil_ph_mean": 4.6707746835443045,
+            "soil_awc_mean": 0.114397805907173,
+            "soil_organic_matter_pct": 5.348014008438819,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.96,
+            "landcover_grass_pasture_fraction": 0.04,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 14.01349863115978,
+            "climate_tmin_mean_c": 3.634885515181683,
+            "climate_weekly_precip_mean_mm": 20.08491289198606,
+            "climate_weekly_gdd_mean": 27.315688153310106
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 235,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.0_-77.5": {
+          "bounds": [
+            41.0,
+            -77.5,
+            41.5,
+            -77.0
+          ],
+          "representative_latitude": 41.25,
+          "representative_longitude": -77.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42081",
+            "name": "Lycoming"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 389.0831451416667,
+            "soil_ph_mean": 5.087583732057416,
+            "soil_awc_mean": 0.1141132376395534,
+            "soil_organic_matter_pct": 2.74457336523126,
+            "landcover_agriculture_fraction": 0.04,
+            "landcover_forest_fraction": 0.76,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.16,
+            "climate_tmax_mean_c": 14.01349863115978,
+            "climate_tmin_mean_c": 3.634885515181683,
+            "climate_weekly_precip_mean_mm": 20.08491289198606,
+            "climate_weekly_gdd_mean": 27.315688153310106
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 140,
+            "flowering_observations": 17,
+            "flowering_observation_years": 2,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.0_-77.0": {
+          "bounds": [
+            41.0,
+            -77.0,
+            41.5,
+            -76.5
+          ],
+          "representative_latitude": 41.25,
+          "representative_longitude": -76.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42081",
+            "name": "Lycoming"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 310.6155395507778,
+            "soil_ph_mean": 5.232958984375,
+            "soil_awc_mean": 0.1479150390625,
+            "soil_organic_matter_pct": 4.059476725260416,
+            "landcover_agriculture_fraction": 0.08,
+            "landcover_forest_fraction": 0.64,
+            "landcover_grass_pasture_fraction": 0.16,
+            "landcover_developed_fraction": 0.08,
+            "climate_tmax_mean_c": 13.920133773021403,
+            "climate_tmin_mean_c": 3.645382653061224,
+            "climate_weekly_precip_mean_mm": 20.677247386759586,
+            "climate_weekly_gdd_mean": 27.13312717770035
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 301,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.0_-76.5": {
+          "bounds": [
+            41.0,
+            -76.5,
+            41.5,
+            -76.0
+          ],
+          "representative_latitude": 41.25,
+          "representative_longitude": -76.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42079",
+            "name": "Luzerne"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 428.0330132378889,
+            "soil_ph_mean": 5.272486274509804,
+            "soil_awc_mean": 0.1698298039215686,
+            "soil_organic_matter_pct": 6.556654901960784,
+            "landcover_agriculture_fraction": 0.08,
+            "landcover_forest_fraction": 0.64,
+            "landcover_grass_pasture_fraction": 0.08,
+            "landcover_developed_fraction": 0.16,
+            "climate_tmax_mean_c": 14.085497760079642,
+            "climate_tmin_mean_c": 3.8326213290194127,
+            "climate_weekly_precip_mean_mm": 22.019407665505227,
+            "climate_weekly_gdd_mean": 27.626367595818817
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 318,
+            "flowering_observations": 1,
+            "flowering_observation_years": 1,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.0_-76.0": {
+          "bounds": [
+            41.0,
+            -76.0,
+            41.5,
+            -75.5
+          ],
+          "representative_latitude": 41.25,
+          "representative_longitude": -75.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42079",
+            "name": "Luzerne"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 435.90030456544,
+            "soil_ph_mean": 5.294103852596315,
+            "soil_awc_mean": 0.1557420435510887,
+            "soil_organic_matter_pct": 6.026291457286432,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.6,
+            "landcover_grass_pasture_fraction": 0.16,
+            "landcover_developed_fraction": 0.24,
+            "climate_tmax_mean_c": 13.71950037332006,
+            "climate_tmin_mean_c": 3.714148830263813,
+            "climate_weekly_precip_mean_mm": 22.56163763066202,
+            "climate_weekly_gdd_mean": 26.635749128919866
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 972,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.0_-75.5": {
+          "bounds": [
+            41.0,
+            -75.5,
+            41.5,
+            -75.0
+          ],
+          "representative_latitude": 41.25,
+          "representative_longitude": -75.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42103",
+            "name": "Pike"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 446.00538804788886,
+            "soil_ph_mean": 5.18909905341447,
+            "soil_awc_mean": 0.1530500338066261,
+            "soil_organic_matter_pct": 5.448875929682218,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.68,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.2,
+            "climate_tmax_mean_c": 14.52983200597312,
+            "climate_tmin_mean_c": 4.16679193628671,
+            "climate_weekly_precip_mean_mm": 22.495662020905925,
+            "climate_weekly_gdd_mean": 29.022412891986065
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 941,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": 1,
+            "bee_sampling_events": 1,
+            "bee_observation_years": 1,
+            "native_bee_species": 1,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "Pennsylvania five-cell validation audit"
+          }
+        },
+        "PA_0p5_41.0_-75.0": {
+          "bounds": [
+            41.0,
+            -75.0,
+            41.5,
+            -74.5
+          ],
+          "representative_latitude": 41.31666666666667,
+          "representative_longitude": -74.89999999999999,
+          "state_area_fraction": 0.24,
+          "county": {
+            "geoid": "42103",
+            "name": "Pike"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 313.7300338745,
+            "soil_ph_mean": 4.880012894906512,
+            "soil_awc_mean": 0.1145338491295938,
+            "soil_organic_matter_pct": 5.140296582849774,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.8333333333333334,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.1666666666666666,
+            "climate_tmax_mean_c": 14.52983200597312,
+            "climate_tmin_mean_c": 4.16679193628671,
+            "climate_weekly_precip_mean_mm": 22.495662020905925,
+            "climate_weekly_gdd_mean": 29.022412891986065
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 169,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.5_-80.5": {
+          "bounds": [
+            41.5,
+            -80.5,
+            42.0,
+            -80.0
+          ],
+          "representative_latitude": 41.75,
+          "representative_longitude": -80.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42039",
+            "name": "Crawford"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 373.7259318033333,
+            "soil_ph_mean": 5.177940146450175,
+            "soil_awc_mean": 0.1911244826488379,
+            "soil_organic_matter_pct": 4.0937710920089145,
+            "landcover_agriculture_fraction": 0.04,
+            "landcover_forest_fraction": 0.44,
+            "landcover_grass_pasture_fraction": 0.2,
+            "landcover_developed_fraction": 0.2,
+            "climate_tmax_mean_c": 13.7423606271777,
+            "climate_tmin_mean_c": 6.125340965654554,
+            "climate_weekly_precip_mean_mm": 17.74843205574913,
+            "climate_weekly_gdd_mean": 30.325583623693376
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 720,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.5_-80.0": {
+          "bounds": [
+            41.5,
+            -80.0,
+            42.0,
+            -79.5
+          ],
+          "representative_latitude": 41.75,
+          "representative_longitude": -79.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42039",
+            "name": "Crawford"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 469.2495897081112,
+            "soil_ph_mean": 5.312874341610233,
+            "soil_awc_mean": 0.1890045146726862,
+            "soil_organic_matter_pct": 2.710074492099323,
+            "landcover_agriculture_fraction": 0.12,
+            "landcover_forest_fraction": 0.6,
+            "landcover_grass_pasture_fraction": 0.16,
+            "landcover_developed_fraction": 0.04,
+            "climate_tmax_mean_c": 13.7423606271777,
+            "climate_tmin_mean_c": 6.125340965654554,
+            "climate_weekly_precip_mean_mm": 17.74843205574913,
+            "climate_weekly_gdd_mean": 30.325583623693376
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 234,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.5_-79.5": {
+          "bounds": [
+            41.5,
+            -79.5,
+            42.0,
+            -79.0
+          ],
+          "representative_latitude": 41.75,
+          "representative_longitude": -79.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42123",
+            "name": "Warren"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 497.1140204534444,
+            "soil_ph_mean": 4.795601023017903,
+            "soil_awc_mean": 0.1499113384484228,
+            "soil_organic_matter_pct": 9.181547314578005,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.76,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.12,
+            "climate_tmax_mean_c": 13.796088850174216,
+            "climate_tmin_mean_c": 4.145952588352414,
+            "climate_weekly_precip_mean_mm": 19.694146341463416,
+            "climate_weekly_gdd_mean": 27.979712543554005
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 192,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.5_-79.0": {
+          "bounds": [
+            41.5,
+            -79.0,
+            42.0,
+            -78.5
+          ],
+          "representative_latitude": 41.75,
+          "representative_longitude": -78.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42083",
+            "name": "McKean"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 577.02064819336,
+            "soil_ph_mean": 4.6638782051282055,
+            "soil_awc_mean": 0.1303413461538461,
+            "soil_organic_matter_pct": 5.2268870192307695,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.92,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.04,
+            "climate_tmax_mean_c": 13.328911772025885,
+            "climate_tmin_mean_c": 3.2889385266301643,
+            "climate_weekly_precip_mean_mm": 20.093641114982574,
+            "climate_weekly_gdd_mean": 25.7047212543554
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 213,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.5_-78.5": {
+          "bounds": [
+            41.5,
+            -78.5,
+            42.0,
+            -78.0
+          ],
+          "representative_latitude": 41.75,
+          "representative_longitude": -78.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42083",
+            "name": "McKean"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 573.1557718913333,
+            "soil_ph_mean": 4.979322060435259,
+            "soil_awc_mean": 0.1351503053076561,
+            "soil_organic_matter_pct": 5.637642868326288,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.84,
+            "landcover_grass_pasture_fraction": 0.08,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 13.12766550522648,
+            "climate_tmin_mean_c": 2.965588601294176,
+            "climate_weekly_precip_mean_mm": 18.92506968641115,
+            "climate_weekly_gdd_mean": 24.87209930313589
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 79,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.5_-78.0": {
+          "bounds": [
+            41.5,
+            -78.0,
+            42.0,
+            -77.5
+          ],
+          "representative_latitude": 41.75,
+          "representative_longitude": -77.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42105",
+            "name": "Potter"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 634.8176472982221,
+            "soil_ph_mean": 5.177609942638624,
+            "soil_awc_mean": 0.1401853281853282,
+            "soil_organic_matter_pct": 6.782942957297641,
+            "landcover_agriculture_fraction": 0.04,
+            "landcover_forest_fraction": 0.8,
+            "landcover_grass_pasture_fraction": 0.08,
+            "landcover_developed_fraction": 0.04,
+            "climate_tmax_mean_c": 13.35470881035341,
+            "climate_tmin_mean_c": 3.116052762568442,
+            "climate_weekly_precip_mean_mm": 18.913135888501746,
+            "climate_weekly_gdd_mean": 25.60918118466899
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 121,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.5_-77.5": {
+          "bounds": [
+            41.5,
+            -77.5,
+            42.0,
+            -77.0
+          ],
+          "representative_latitude": 41.75,
+          "representative_longitude": -77.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42117",
+            "name": "Tioga"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 544.9464586045556,
+            "soil_ph_mean": 5.547971698113208,
+            "soil_awc_mean": 0.1597940251572327,
+            "soil_organic_matter_pct": 5.965125786163522,
+            "landcover_agriculture_fraction": 0.12,
+            "landcover_forest_fraction": 0.72,
+            "landcover_grass_pasture_fraction": 0.16,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 13.35470881035341,
+            "climate_tmin_mean_c": 3.116052762568442,
+            "climate_weekly_precip_mean_mm": 18.913135888501746,
+            "climate_weekly_gdd_mean": 25.60918118466899
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 154,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": 21,
+            "bee_sampling_events": 2,
+            "bee_observation_years": 1,
+            "native_bee_species": 9,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "Pennsylvania five-cell validation audit"
+          }
+        },
+        "PA_0p5_41.5_-77.0": {
+          "bounds": [
+            41.5,
+            -77.0,
+            42.0,
+            -76.5
+          ],
+          "representative_latitude": 41.75,
+          "representative_longitude": -76.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42015",
+            "name": "Bradford"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 460.5266384548889,
+            "soil_ph_mean": 5.641859746679024,
+            "soil_awc_mean": 0.1671177015755328,
+            "soil_organic_matter_pct": 5.938812944084028,
+            "landcover_agriculture_fraction": 0.08,
+            "landcover_forest_fraction": 0.56,
+            "landcover_grass_pasture_fraction": 0.2,
+            "landcover_developed_fraction": 0.16,
+            "climate_tmax_mean_c": 14.23302762568442,
+            "climate_tmin_mean_c": 3.675989298158288,
+            "climate_weekly_precip_mean_mm": 19.222125435540068,
+            "climate_weekly_gdd_mean": 28.23280487804878
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 99,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.5_-76.5": {
+          "bounds": [
+            41.5,
+            -76.5,
+            42.0,
+            -76.0
+          ],
+          "representative_latitude": 41.75,
+          "representative_longitude": -76.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42015",
+            "name": "Bradford"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 432.4890645344445,
+            "soil_ph_mean": 5.491046698872786,
+            "soil_awc_mean": 0.1700072463768115,
+            "soil_organic_matter_pct": 4.9305958132045085,
+            "landcover_agriculture_fraction": 0.04,
+            "landcover_forest_fraction": 0.48,
+            "landcover_grass_pasture_fraction": 0.32,
+            "landcover_developed_fraction": 0.08,
+            "climate_tmax_mean_c": 14.031919487307118,
+            "climate_tmin_mean_c": 3.6679535838725736,
+            "climate_weekly_precip_mean_mm": 20.90672473867596,
+            "climate_weekly_gdd_mean": 27.816245644599302
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 59,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.5_-76.0": {
+          "bounds": [
+            41.5,
+            -76.0,
+            42.0,
+            -75.5
+          ],
+          "representative_latitude": 41.75,
+          "representative_longitude": -75.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "42115",
+            "name": "Susquehanna"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 404.5382351344445,
+            "soil_ph_mean": 5.463147410358566,
+            "soil_awc_mean": 0.1645941235059761,
+            "soil_organic_matter_pct": 6.754809926958831,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.72,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.12,
+            "climate_tmax_mean_c": 13.389393977103037,
+            "climate_tmin_mean_c": 3.301144848183176,
+            "climate_weekly_precip_mean_mm": 21.86231707317073,
+            "climate_weekly_gdd_mean": 25.84869337979094
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 275,
+            "flowering_observations": 24,
+            "flowering_observation_years": 2,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_41.5_-75.5": {
+          "bounds": [
+            41.5,
+            -75.5,
+            42.0,
+            -75.0
+          ],
+          "representative_latitude": 41.70789473684211,
+          "representative_longitude": -75.2921052631579,
+          "state_area_fraction": 0.76,
+          "county": {
+            "geoid": "42127",
+            "name": "Wayne"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 414.49958801266666,
+            "soil_ph_mean": 5.300022941041523,
+            "soil_awc_mean": 0.1618628125716907,
+            "soil_organic_matter_pct": 6.661619637531544,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.5789473684210527,
+            "landcover_grass_pasture_fraction": 0.1052631578947368,
+            "landcover_developed_fraction": 0.1052631578947368,
+            "climate_tmax_mean_c": 14.52983200597312,
+            "climate_tmin_mean_c": 4.16679193628671,
+            "climate_weekly_precip_mean_mm": 22.495662020905925,
+            "climate_weekly_gdd_mean": 29.022412891986065
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 142,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "PA_0p5_42.0_-80.5": {
+          "bounds": [
+            42.0,
+            -80.5,
+            42.5,
+            -80.0
+          ],
+          "representative_latitude": 42.19210526315789,
+          "representative_longitude": -80.23947368421052,
+          "state_area_fraction": 0.76,
+          "county": {
+            "geoid": "42049",
+            "name": "Erie"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 201.68908182755555,
+            "soil_ph_mean": 5.208461538461538,
+            "soil_awc_mean": 0.1740641025641025,
+            "soil_organic_matter_pct": 6.811217948717949,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.0526315789473684,
+            "landcover_grass_pasture_fraction": 0.0526315789473684,
+            "landcover_developed_fraction": 0.0526315789473684,
+            "climate_tmax_mean_c": 13.7423606271777,
+            "climate_tmin_mean_c": 6.125340965654554,
+            "climate_weekly_precip_mean_mm": 17.74843205574913,
+            "climate_weekly_gdd_mean": 30.325583623693376
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1178,
+            "flowering_observations": 758,
+            "flowering_observation_years": 6,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": 1199,
+            "bee_sampling_events": 61,
+            "bee_observation_years": 3,
+            "native_bee_species": 26,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "Pennsylvania five-cell validation audit"
+          }
+        },
+        "PA_0p5_42.0_-80.0": {
+          "bounds": [
+            42.0,
+            -80.0,
+            42.5,
+            -79.5
+          ],
+          "representative_latitude": 42.22777777777778,
+          "representative_longitude": -79.89444444444445,
+          "state_area_fraction": 0.36,
+          "county": {
+            "geoid": "42049",
+            "name": "Erie"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 264.77980041511114,
+            "soil_ph_mean": 5.319386745796241,
+            "soil_awc_mean": 0.1983818001978239,
+            "soil_organic_matter_pct": 3.361177052423343,
+            "landcover_agriculture_fraction": 0.1111111111111111,
+            "landcover_forest_fraction": 0.3333333333333333,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 13.7423606271777,
+            "climate_tmin_mean_c": 6.125340965654554,
+            "climate_weekly_precip_mean_mm": 17.74843205574913,
+            "climate_weekly_gdd_mean": 30.325583623693376
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 287,
+            "flowering_observations": 0,
+            "flowering_observation_years": 0,
+            "model_years": 3,
+            "documented_state_network_links": 362,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        }
+      }
+    },
+    "MD": {
+      "boundary_path": "data/reference/boundaries/MD.geojson",
+      "boundary_sha256": "3484b139e5f3bfac506d8d5e84b5d5be5149d74941362642dc0095e716615e7b",
+      "environment_source": "data/interim/maryland_environment_v25/md_ecological_grid_features.csv",
+      "cells": {
+        "MD_0p5_37.5_-76.5": {
+          "bounds": [
+            37.5,
+            -76.5,
+            38.0,
+            -76.0
+          ],
+          "representative_latitude": 37.95,
+          "representative_longitude": -76.25,
+          "state_area_fraction": 0.12,
+          "county": {
+            "geoid": "24037",
+            "name": "St. Mary's"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.1666666666666666,
+          "environment": {
+            "elevation_mean_m": -0.2066666683333333,
+            "soil_ph_mean": null,
+            "soil_awc_mean": null,
+            "soil_organic_matter_pct": null,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.0,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 18.356072672971628,
+            "climate_tmin_mean_c": 12.623659780985566,
+            "climate_weekly_precip_mean_mm": 21.3905574912892,
+            "climate_weekly_gdd_mean": 50.04566202090592
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": null,
+            "bee_sampling_events": null,
+            "bee_observation_years": null,
+            "native_bee_species": null,
+            "cell_validation_pass": null,
+            "bee_coverage_source": null
+          }
+        },
+        "MD_0p5_37.5_-76.0": {
+          "bounds": [
+            37.5,
+            -76.0,
+            38.0,
+            -75.5
+          ],
+          "representative_latitude": 37.95,
+          "representative_longitude": -75.8,
+          "state_area_fraction": 0.16,
+          "county": {
+            "geoid": "24039",
+            "name": "Somerset"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0833333333333333,
+          "environment": {
+            "elevation_mean_m": -0.2586803882499999,
+            "soil_ph_mean": null,
+            "soil_awc_mean": 0.2619999999999999,
+            "soil_organic_matter_pct": 52.28,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.0,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 18.501966774514685,
+            "climate_tmin_mean_c": 11.699174962667994,
+            "climate_weekly_precip_mean_mm": 24.04759581881533,
+            "climate_weekly_gdd_mean": 47.791132404181184
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 346,
+            "bee_sampling_events": 5,
+            "bee_observation_years": 1,
+            "native_bee_species": 13,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_38.0_-77.5": {
+          "bounds": [
+            38.0,
+            -77.5,
+            38.5,
+            -77.0
+          ],
+          "representative_latitude": 38.425,
+          "representative_longitude": -77.175,
+          "state_area_fraction": 0.16,
+          "county": {
+            "geoid": "24017",
+            "name": "Charles"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 6.47790115325,
+            "soil_ph_mean": 4.654242424242424,
+            "soil_awc_mean": 0.197030303030303,
+            "soil_organic_matter_pct": 2.8465454545454545,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.5,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 19.65440206570433,
+            "climate_tmin_mean_c": 9.801879044300646,
+            "climate_weekly_precip_mean_mm": 20.748554006968643,
+            "climate_weekly_gdd_mean": 48.13851916376306
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 18,
+            "bee_sampling_events": 7,
+            "bee_observation_years": 2,
+            "native_bee_species": 6,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_38.0_-77.0": {
+          "bounds": [
+            38.0,
+            -77.0,
+            38.5,
+            -76.5
+          ],
+          "representative_latitude": 38.3375,
+          "representative_longitude": -76.7375,
+          "state_area_fraction": 0.64,
+          "county": {
+            "geoid": "24037",
+            "name": "St. Mary's"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 16.276623381666667,
+            "soil_ph_mean": 5.392517006802721,
+            "soil_awc_mean": 0.1504353741496598,
+            "soil_organic_matter_pct": 2.2722535460992908,
+            "landcover_agriculture_fraction": 0.0625,
+            "landcover_forest_fraction": 0.5,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 19.65440206570433,
+            "climate_tmin_mean_c": 9.801879044300646,
+            "climate_weekly_precip_mean_mm": 20.748554006968643,
+            "climate_weekly_gdd_mean": 48.13851916376306
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 1261,
+            "bee_sampling_events": 64,
+            "bee_observation_years": 3,
+            "native_bee_species": 43,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_38.0_-76.5": {
+          "bounds": [
+            38.0,
+            -76.5,
+            38.5,
+            -76.0
+          ],
+          "representative_latitude": 38.25,
+          "representative_longitude": -76.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "24019",
+            "name": "Dorchester"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 0.8223164569999999,
+            "soil_ph_mean": 5.487973063973064,
+            "soil_awc_mean": 0.2049891156462585,
+            "soil_organic_matter_pct": 19.996954648526074,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.04,
+            "landcover_grass_pasture_fraction": 0.04,
+            "landcover_developed_fraction": 0.04,
+            "climate_tmax_mean_c": 18.97217707814833,
+            "climate_tmin_mean_c": 10.854242160278746,
+            "climate_weekly_precip_mean_mm": 21.07123693379791,
+            "climate_weekly_gdd_mean": 48.59268292682927
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 1264,
+            "bee_sampling_events": 82,
+            "bee_observation_years": 1,
+            "native_bee_species": 56,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_38.0_-76.0": {
+          "bounds": [
+            38.0,
+            -76.0,
+            38.5,
+            -75.5
+          ],
+          "representative_latitude": 38.25,
+          "representative_longitude": -75.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "24039",
+            "name": "Somerset"
+          },
+          "ecological_cluster": 2,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 3.718941791222222,
+            "soil_ph_mean": 5.415533588435374,
+            "soil_awc_mean": 0.1791517598343685,
+            "soil_organic_matter_pct": 11.10557453416149,
+            "landcover_agriculture_fraction": 0.12,
+            "landcover_forest_fraction": 0.0,
+            "landcover_grass_pasture_fraction": 0.08,
+            "landcover_developed_fraction": 0.04,
+            "climate_tmax_mean_c": 19.408953459432556,
+            "climate_tmin_mean_c": 9.7195837481334,
+            "climate_weekly_precip_mean_mm": 22.85076655052265,
+            "climate_weekly_gdd_mean": 46.96355400696864
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 773,
+            "bee_sampling_events": 48,
+            "bee_observation_years": 7,
+            "native_bee_species": 54,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_38.0_-75.5": {
+          "bounds": [
+            38.0,
+            -75.5,
+            38.5,
+            -75.0
+          ],
+          "representative_latitude": 38.273809523809526,
+          "representative_longitude": -75.28333333333333,
+          "state_area_fraction": 0.84,
+          "county": {
+            "geoid": "24047",
+            "name": "Worcester"
+          },
+          "ecological_cluster": 2,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 4.789027644555556,
+            "soil_ph_mean": 5.900317570700047,
+            "soil_awc_mean": 0.137463040446304,
+            "soil_organic_matter_pct": 8.675018544274455,
+            "landcover_agriculture_fraction": 0.238095238095238,
+            "landcover_forest_fraction": 0.1904761904761904,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.0476190476190476,
+            "climate_tmax_mean_c": 16.699419487307118,
+            "climate_tmin_mean_c": 12.281848556495769,
+            "climate_weekly_precip_mean_mm": 24.301550522648085,
+            "climate_weekly_gdd_mean": 42.961106271777005
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 1109,
+            "bee_sampling_events": 98,
+            "bee_observation_years": 7,
+            "native_bee_species": 52,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_38.5_-77.5": {
+          "bounds": [
+            38.5,
+            -77.5,
+            39.0,
+            -77.0
+          ],
+          "representative_latitude": 38.575,
+          "representative_longitude": -77.125,
+          "state_area_fraction": 0.16,
+          "county": {
+            "geoid": "24017",
+            "name": "Charles"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 33.2760572435,
+            "soil_ph_mean": 4.479266666666667,
+            "soil_awc_mean": 0.1687933333333333,
+            "soil_organic_matter_pct": 1.8473333333333333,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.75,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 19.65440206570433,
+            "climate_tmin_mean_c": 9.801879044300646,
+            "climate_weekly_precip_mean_mm": 20.748554006968643,
+            "climate_weekly_gdd_mean": 48.13851916376306
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 3864,
+            "bee_sampling_events": 282,
+            "bee_observation_years": 5,
+            "native_bee_species": 55,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_38.5_-77.0": {
+          "bounds": [
+            38.5,
+            -77.0,
+            39.0,
+            -76.5
+          ],
+          "representative_latitude": 38.75,
+          "representative_longitude": -76.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "24033",
+            "name": "Prince George's"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 40.82033943233333,
+            "soil_ph_mean": 5.066926701570681,
+            "soil_awc_mean": 0.1703221611721611,
+            "soil_organic_matter_pct": 2.3069336823734727,
+            "landcover_agriculture_fraction": 0.08,
+            "landcover_forest_fraction": 0.36,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.28,
+            "climate_tmax_mean_c": 18.88668180686909,
+            "climate_tmin_mean_c": 8.938670358387258,
+            "climate_weekly_precip_mean_mm": 21.060209059233447,
+            "climate_weekly_gdd_mean": 45.07133275261324
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 2302,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 13787,
+            "bee_sampling_events": 729,
+            "bee_observation_years": 10,
+            "native_bee_species": 84,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_38.5_-76.5": {
+          "bounds": [
+            38.5,
+            -76.5,
+            39.0,
+            -76.0
+          ],
+          "representative_latitude": 38.75,
+          "representative_longitude": -76.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "24041",
+            "name": "Talbot"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 3.947243895777777,
+            "soil_ph_mean": 5.372437275985663,
+            "soil_awc_mean": 0.1985806451612903,
+            "soil_organic_matter_pct": 4.837231182795699,
+            "landcover_agriculture_fraction": 0.12,
+            "landcover_forest_fraction": 0.0,
+            "landcover_grass_pasture_fraction": 0.04,
+            "landcover_developed_fraction": 0.08,
+            "climate_tmax_mean_c": 18.73884084121453,
+            "climate_tmin_mean_c": 9.710631533101044,
+            "climate_weekly_precip_mean_mm": 21.3555574912892,
+            "climate_weekly_gdd_mean": 46.05265679442508
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 405,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 19062,
+            "bee_sampling_events": 219,
+            "bee_observation_years": 10,
+            "native_bee_species": 72,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_38.5_-76.0": {
+          "bounds": [
+            38.5,
+            -76.0,
+            39.0,
+            -75.5
+          ],
+          "representative_latitude": 38.75,
+          "representative_longitude": -75.85,
+          "state_area_fraction": 0.6,
+          "county": {
+            "geoid": "24011",
+            "name": "Caroline"
+          },
+          "ecological_cluster": 2,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 9.667125317888887,
+            "soil_ph_mean": 5.701829826166514,
+            "soil_awc_mean": 0.1659225373589509,
+            "soil_organic_matter_pct": 9.969579139981702,
+            "landcover_agriculture_fraction": 0.3333333333333333,
+            "landcover_forest_fraction": 0.2666666666666666,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 18.874155674464905,
+            "climate_tmin_mean_c": 9.373535340965654,
+            "climate_weekly_precip_mean_mm": 21.59006968641115,
+            "climate_weekly_gdd_mean": 45.30268292682927
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 728,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 1761,
+            "bee_sampling_events": 113,
+            "bee_observation_years": 8,
+            "native_bee_species": 53,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.0_-79.5": {
+          "bounds": [
+            39.0,
+            -79.5,
+            39.5,
+            -79.0
+          ],
+          "representative_latitude": 39.392857142857146,
+          "representative_longitude": -79.35000000000001,
+          "state_area_fraction": 0.28,
+          "county": {
+            "geoid": "24023",
+            "name": "Garrett"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 785.6923217774286,
+            "soil_ph_mean": 4.99953488372093,
+            "soil_awc_mean": 0.1549483204134367,
+            "soil_organic_matter_pct": 2.679857881136951,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.5714285714285714,
+            "landcover_grass_pasture_fraction": 0.2857142857142857,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 15.867391737182675,
+            "climate_tmin_mean_c": 5.331179069188651,
+            "climate_weekly_precip_mean_mm": 20.811881533101047,
+            "climate_weekly_gdd_mean": 31.846602787456447
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 229,
+            "bee_sampling_events": 9,
+            "bee_observation_years": 2,
+            "native_bee_species": 25,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.0_-78.0": {
+          "bounds": [
+            39.0,
+            -78.0,
+            39.5,
+            -77.5
+          ],
+          "representative_latitude": 39.41,
+          "representative_longitude": -77.63,
+          "state_area_fraction": 0.2,
+          "county": {
+            "geoid": "24021",
+            "name": "Frederick"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 165.71751403820002,
+            "soil_ph_mean": 6.184920634920635,
+            "soil_awc_mean": 0.2150396825396825,
+            "soil_organic_matter_pct": 1.9494047619047616,
+            "landcover_agriculture_fraction": 0.2,
+            "landcover_forest_fraction": 0.0,
+            "landcover_grass_pasture_fraction": 0.4,
+            "landcover_developed_fraction": 0.4,
+            "climate_tmax_mean_c": 18.118102911896468,
+            "climate_tmin_mean_c": 7.195024265803883,
+            "climate_weekly_precip_mean_mm": 20.55165505226481,
+            "climate_weekly_gdd_mean": 40.71912891986062
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 3257,
+            "bee_sampling_events": 270,
+            "bee_observation_years": 5,
+            "native_bee_species": 52,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.0_-77.5": {
+          "bounds": [
+            39.0,
+            -77.5,
+            39.5,
+            -77.0
+          ],
+          "representative_latitude": 39.26739130434783,
+          "representative_longitude": -77.23695652173913,
+          "state_area_fraction": 0.92,
+          "county": {
+            "geoid": "24031",
+            "name": "Montgomery"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 137.40215725366667,
+            "soil_ph_mean": 5.622121212121212,
+            "soil_awc_mean": 0.1671742424242424,
+            "soil_organic_matter_pct": 1.8311026936026933,
+            "landcover_agriculture_fraction": 0.1304347826086956,
+            "landcover_forest_fraction": 0.2608695652173913,
+            "landcover_grass_pasture_fraction": 0.3043478260869565,
+            "landcover_developed_fraction": 0.3043478260869565,
+            "climate_tmax_mean_c": 18.118102911896468,
+            "climate_tmin_mean_c": 7.195024265803883,
+            "climate_weekly_precip_mean_mm": 20.55165505226481,
+            "climate_weekly_gdd_mean": 40.71912891986062
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 3992,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 2968,
+            "bee_sampling_events": 201,
+            "bee_observation_years": 9,
+            "native_bee_species": 57,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.0_-77.0": {
+          "bounds": [
+            39.0,
+            -77.0,
+            39.5,
+            -76.5
+          ],
+          "representative_latitude": 39.25,
+          "representative_longitude": -76.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "24005",
+            "name": "Baltimore"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 95.38394782266668,
+            "soil_ph_mean": 5.4749011466983,
+            "soil_awc_mean": 0.159671497584541,
+            "soil_organic_matter_pct": 2.088854290233294,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.36,
+            "landcover_grass_pasture_fraction": 0.08,
+            "landcover_developed_fraction": 0.48,
+            "climate_tmax_mean_c": 17.983353036336485,
+            "climate_tmin_mean_c": 7.709213539074166,
+            "climate_weekly_precip_mean_mm": 21.307020905923345,
+            "climate_weekly_gdd_mean": 41.14545296167248
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 4764,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 14658,
+            "bee_sampling_events": 1013,
+            "bee_observation_years": 11,
+            "native_bee_species": 90,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.0_-76.5": {
+          "bounds": [
+            39.0,
+            -76.5,
+            39.5,
+            -76.0
+          ],
+          "representative_latitude": 39.25,
+          "representative_longitude": -76.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "24029",
+            "name": "Kent"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 11.105653233,
+            "soil_ph_mean": 5.463702064896755,
+            "soil_awc_mean": 0.18876401179941,
+            "soil_organic_matter_pct": 6.418426253687316,
+            "landcover_agriculture_fraction": 0.24,
+            "landcover_forest_fraction": 0.08,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.16,
+            "climate_tmax_mean_c": 18.15051144848183,
+            "climate_tmin_mean_c": 8.347051393728224,
+            "climate_weekly_precip_mean_mm": 22.000034843205576,
+            "climate_weekly_gdd_mean": 42.43978222996516
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 1093,
+            "bee_sampling_events": 61,
+            "bee_observation_years": 8,
+            "native_bee_species": 61,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.0_-76.0": {
+          "bounds": [
+            39.0,
+            -76.0,
+            39.5,
+            -75.5
+          ],
+          "representative_latitude": 39.225,
+          "representative_longitude": -75.875,
+          "state_area_fraction": 0.48,
+          "county": {
+            "geoid": "24035",
+            "name": "Queen Anne's"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 16.124898327777778,
+            "soil_ph_mean": 5.622459016393442,
+            "soil_awc_mean": 0.1723497267759562,
+            "soil_organic_matter_pct": 3.141191256830601,
+            "landcover_agriculture_fraction": 0.5,
+            "landcover_forest_fraction": 0.5,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 18.874155674464905,
+            "climate_tmin_mean_c": 9.373535340965654,
+            "climate_weekly_precip_mean_mm": 21.59006968641115,
+            "climate_weekly_gdd_mean": 45.30268292682927
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 3113,
+            "bee_sampling_events": 146,
+            "bee_observation_years": 4,
+            "native_bee_species": 54,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.5_-79.5": {
+          "bounds": [
+            39.5,
+            -79.5,
+            40.0,
+            -79.0
+          ],
+          "representative_latitude": 39.6,
+          "representative_longitude": -79.25,
+          "state_area_fraction": 0.4,
+          "county": {
+            "geoid": "24023",
+            "name": "Garrett"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 757.7049628365555,
+            "soil_ph_mean": 4.92322695035461,
+            "soil_awc_mean": 0.135281914893617,
+            "soil_organic_matter_pct": 2.1170390070921985,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.7,
+            "landcover_grass_pasture_fraction": 0.1,
+            "landcover_developed_fraction": 0.1,
+            "climate_tmax_mean_c": 15.867391737182675,
+            "climate_tmin_mean_c": 5.331179069188651,
+            "climate_weekly_precip_mean_mm": 20.811881533101047,
+            "climate_weekly_gdd_mean": 31.846602787456447
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 316,
+            "bee_sampling_events": 25,
+            "bee_observation_years": 4,
+            "native_bee_species": 38,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.5_-79.0": {
+          "bounds": [
+            39.5,
+            -79.0,
+            40.0,
+            -78.5
+          ],
+          "representative_latitude": 39.7,
+          "representative_longitude": -78.75,
+          "state_area_fraction": 0.32,
+          "county": {
+            "geoid": "24001",
+            "name": "Allegany"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 430.486000061,
+            "soil_ph_mean": 5.205182481751825,
+            "soil_awc_mean": 0.1206533530571992,
+            "soil_organic_matter_pct": 3.053868613138686,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.75,
+            "landcover_grass_pasture_fraction": 0.125,
+            "landcover_developed_fraction": 0.125,
+            "climate_tmax_mean_c": 17.36260639621702,
+            "climate_tmin_mean_c": 6.04712481333997,
+            "climate_weekly_precip_mean_mm": 19.522177700348436,
+            "climate_weekly_gdd_mean": 36.56702961672474
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 1396,
+            "bee_sampling_events": 75,
+            "bee_observation_years": 7,
+            "native_bee_species": 68,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.5_-78.5": {
+          "bounds": [
+            39.5,
+            -78.5,
+            40.0,
+            -78.0
+          ],
+          "representative_latitude": 39.63,
+          "representative_longitude": -78.31,
+          "state_area_fraction": 0.2,
+          "county": {
+            "geoid": "24043",
+            "name": "Washington"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 173.416001892,
+            "soil_ph_mean": 5.983333333333333,
+            "soil_awc_mean": 0.1704166666666666,
+            "soil_organic_matter_pct": 1.6458333333333333,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.6,
+            "landcover_grass_pasture_fraction": 0.2,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 18.233771154803385,
+            "climate_tmin_mean_c": 6.813827152812345,
+            "climate_weekly_precip_mean_mm": 20.095,
+            "climate_weekly_gdd_mean": 40.25
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 74,
+            "bee_sampling_events": 3,
+            "bee_observation_years": 3,
+            "native_bee_species": 13,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.5_-78.0": {
+          "bounds": [
+            39.5,
+            -78.0,
+            40.0,
+            -77.5
+          ],
+          "representative_latitude": 39.605555555555554,
+          "representative_longitude": -77.72777777777777,
+          "state_area_fraction": 0.36,
+          "county": {
+            "geoid": "24043",
+            "name": "Washington"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 215.82499525277777,
+            "soil_ph_mean": 6.074689292543021,
+            "soil_awc_mean": 0.182787037037037,
+            "soil_organic_matter_pct": 4.262847222222222,
+            "landcover_agriculture_fraction": 0.4444444444444444,
+            "landcover_forest_fraction": 0.2222222222222222,
+            "landcover_grass_pasture_fraction": 0.1111111111111111,
+            "landcover_developed_fraction": 0.2222222222222222,
+            "climate_tmax_mean_c": 18.118102911896468,
+            "climate_tmin_mean_c": 7.195024265803883,
+            "climate_weekly_precip_mean_mm": 20.55165505226481,
+            "climate_weekly_gdd_mean": 40.71912891986062
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 685,
+            "bee_sampling_events": 45,
+            "bee_observation_years": 4,
+            "native_bee_species": 37,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.5_-77.5": {
+          "bounds": [
+            39.5,
+            -77.5,
+            40.0,
+            -77.0
+          ],
+          "representative_latitude": 39.6,
+          "representative_longitude": -77.25,
+          "state_area_fraction": 0.4,
+          "county": {
+            "geoid": "24013",
+            "name": "Carroll"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 159.59246317544444,
+            "soil_ph_mean": 5.577129094412332,
+            "soil_awc_mean": 0.1376050096339113,
+            "soil_organic_matter_pct": 1.7059826589595375,
+            "landcover_agriculture_fraction": 0.4,
+            "landcover_forest_fraction": 0.3,
+            "landcover_grass_pasture_fraction": 0.1,
+            "landcover_developed_fraction": 0.2,
+            "climate_tmax_mean_c": 18.118102911896468,
+            "climate_tmin_mean_c": 7.195024265803883,
+            "climate_weekly_precip_mean_mm": 20.55165505226481,
+            "climate_weekly_gdd_mean": 40.71912891986062
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 1587,
+            "bee_sampling_events": 356,
+            "bee_observation_years": 5,
+            "native_bee_species": 42,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.5_-77.0": {
+          "bounds": [
+            39.5,
+            -77.0,
+            40.0,
+            -76.5
+          ],
+          "representative_latitude": 39.6,
+          "representative_longitude": -76.75,
+          "state_area_fraction": 0.4,
+          "county": {
+            "geoid": "24005",
+            "name": "Baltimore"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 188.3709004718889,
+            "soil_ph_mean": 5.346704980842912,
+            "soil_awc_mean": 0.1783371647509578,
+            "soil_organic_matter_pct": 1.704425287356322,
+            "landcover_agriculture_fraction": 0.5,
+            "landcover_forest_fraction": 0.3,
+            "landcover_grass_pasture_fraction": 0.1,
+            "landcover_developed_fraction": 0.1,
+            "climate_tmax_mean_c": 17.983353036336485,
+            "climate_tmin_mean_c": 7.709213539074166,
+            "climate_weekly_precip_mean_mm": 21.307020905923345,
+            "climate_weekly_gdd_mean": 41.14545296167248
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 1147,
+            "bee_sampling_events": 54,
+            "bee_observation_years": 4,
+            "native_bee_species": 43,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.5_-76.5": {
+          "bounds": [
+            39.5,
+            -76.5,
+            40.0,
+            -76.0
+          ],
+          "representative_latitude": 39.6,
+          "representative_longitude": -76.25,
+          "state_area_fraction": 0.4,
+          "county": {
+            "geoid": "24025",
+            "name": "Harford"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 89.77366995133335,
+            "soil_ph_mean": 5.543333333333333,
+            "soil_awc_mean": 0.1702955974842767,
+            "soil_organic_matter_pct": 2.560796645702306,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.3,
+            "landcover_grass_pasture_fraction": 0.3,
+            "landcover_developed_fraction": 0.3,
+            "climate_tmax_mean_c": 18.15051144848183,
+            "climate_tmin_mean_c": 8.347051393728224,
+            "climate_weekly_precip_mean_mm": 22.000034843205576,
+            "climate_weekly_gdd_mean": 42.43978222996516
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 1265,
+            "bee_sampling_events": 17,
+            "bee_observation_years": 5,
+            "native_bee_species": 32,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        },
+        "MD_0p5_39.5_-76.0": {
+          "bounds": [
+            39.5,
+            -76.0,
+            40.0,
+            -75.5
+          ],
+          "representative_latitude": 39.6,
+          "representative_longitude": -75.9,
+          "state_area_fraction": 0.16,
+          "county": {
+            "geoid": "24015",
+            "name": "Cecil"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 50.2139172555,
+            "soil_ph_mean": 4.773611111111111,
+            "soil_awc_mean": 0.1877962962962962,
+            "soil_organic_matter_pct": 1.7553703703703705,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.75,
+            "landcover_grass_pasture_fraction": 0.25,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 18.37312468889995,
+            "climate_tmin_mean_c": 8.57439148830264,
+            "climate_weekly_precip_mean_mm": 22.2712543554007,
+            "climate_weekly_gdd_mean": 43.059259581881534
+          },
+          "has_published_recommendation": false,
+          "evidence": {
+            "plant_occurrence_records": 0,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 498,
+            "bee_occurrence_records": 375,
+            "bee_sampling_events": 36,
+            "bee_observation_years": 5,
+            "native_bee_species": 28,
+            "cell_validation_pass": false,
+            "bee_coverage_source": "MD leakage-controlled train/test cell audit"
+          }
+        }
+      }
+    },
+    "MI": {
+      "boundary_path": "data/reference/boundaries/MI.geojson",
+      "boundary_sha256": "b416f3413e01ec6e070f6286e3dc13cfe470b5f2ac2149b70d332c87276a93d9",
+      "environment_source": "data/interim/mi_environment_v30/mi_ecological_grid_features.csv",
+      "cells": {
+        "MI_0p5_41.5_-86.0": {
+          "bounds": [
+            41.5,
+            -86.0,
+            42.0,
+            -85.5
+          ],
+          "representative_latitude": 41.9,
+          "representative_longitude": -85.75,
+          "state_area_fraction": 0.4,
+          "county": {
+            "geoid": "26149",
+            "name": "St. Joseph"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 263.97718471944444,
+            "soil_ph_mean": 6.0299531615925055,
+            "soil_awc_mean": 0.1264677966101695,
+            "soil_organic_matter_pct": 1.4468680718188915,
+            "landcover_agriculture_fraction": 0.4,
+            "landcover_forest_fraction": 0.1,
+            "landcover_grass_pasture_fraction": 0.1,
+            "landcover_developed_fraction": 0.1,
+            "climate_tmax_mean_c": 15.286072672971628,
+            "climate_tmin_mean_c": 5.001312220009956,
+            "climate_weekly_precip_mean_mm": 18.2698606271777,
+            "climate_weekly_gdd_mean": 32.800156794425085
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 75,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 99,
+            "bee_sampling_events": 99,
+            "bee_observation_years": 7,
+            "native_bee_species": 30,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_41.5_-86.5": {
+          "bounds": [
+            41.5,
+            -86.5,
+            42.0,
+            -86.0
+          ],
+          "representative_latitude": 41.9,
+          "representative_longitude": -86.25,
+          "state_area_fraction": 0.4,
+          "county": {
+            "geoid": "26021",
+            "name": "Berrien"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 227.4488304985556,
+            "soil_ph_mean": 6.153803159173754,
+            "soil_awc_mean": 0.1811883424408014,
+            "soil_organic_matter_pct": 14.530774499089253,
+            "landcover_agriculture_fraction": 0.2,
+            "landcover_forest_fraction": 0.3,
+            "landcover_grass_pasture_fraction": 0.1,
+            "landcover_developed_fraction": 0.3,
+            "climate_tmax_mean_c": 14.444813962170231,
+            "climate_tmin_mean_c": 6.479683300149328,
+            "climate_weekly_precip_mean_mm": 18.86940766550523,
+            "climate_weekly_gdd_mean": 32.35967770034843
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 114,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 100,
+            "bee_sampling_events": 100,
+            "bee_observation_years": 8,
+            "native_bee_species": 24,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.0_-83.5": {
+          "bounds": [
+            42.0,
+            -83.5,
+            42.5,
+            -83.0
+          ],
+          "representative_latitude": 42.26363636363636,
+          "representative_longitude": -83.27727272727272,
+          "state_area_fraction": 0.88,
+          "county": {
+            "geoid": "26163",
+            "name": "Wayne"
+          },
+          "ecological_cluster": 2,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 191.56115383566663,
+            "soil_ph_mean": 6.886013500099265,
+            "soil_awc_mean": 0.1421272591764486,
+            "soil_organic_matter_pct": 3.079340480444709,
+            "landcover_agriculture_fraction": 0.0909090909090909,
+            "landcover_forest_fraction": 0.1818181818181818,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.6818181818181818,
+            "climate_tmax_mean_c": 14.564718143354904,
+            "climate_tmin_mean_c": 4.892313962170234,
+            "climate_weekly_precip_mean_mm": 16.123101045296167,
+            "climate_weekly_gdd_mean": 30.99884146341463
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 531,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 1387,
+            "bee_sampling_events": 1164,
+            "bee_observation_years": 11,
+            "native_bee_species": 36,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.0_-84.0": {
+          "bounds": [
+            42.0,
+            -84.0,
+            42.5,
+            -83.5
+          ],
+          "representative_latitude": 42.25,
+          "representative_longitude": -83.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26161",
+            "name": "Washtenaw"
+          },
+          "ecological_cluster": 2,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 257.3663991291112,
+            "soil_ph_mean": 6.526555613395801,
+            "soil_awc_mean": 0.1735600861926073,
+            "soil_organic_matter_pct": 5.731195093651583,
+            "landcover_agriculture_fraction": 0.44,
+            "landcover_forest_fraction": 0.08,
+            "landcover_grass_pasture_fraction": 0.08,
+            "landcover_developed_fraction": 0.28,
+            "climate_tmax_mean_c": 14.699462419113988,
+            "climate_tmin_mean_c": 4.183733822797412,
+            "climate_weekly_precip_mean_mm": 17.146829268292684,
+            "climate_weekly_gdd_mean": 30.61651567944251
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 2770,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 2576,
+            "bee_sampling_events": 2576,
+            "bee_observation_years": 11,
+            "native_bee_species": 41,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.0_-84.5": {
+          "bounds": [
+            42.0,
+            -84.5,
+            42.5,
+            -84.0
+          ],
+          "representative_latitude": 42.25,
+          "representative_longitude": -84.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26075",
+            "name": "Jackson"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 294.7523464627778,
+            "soil_ph_mean": 6.452984787213556,
+            "soil_awc_mean": 0.1972086770546899,
+            "soil_organic_matter_pct": 19.03129926672777,
+            "landcover_agriculture_fraction": 0.24,
+            "landcover_forest_fraction": 0.12,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.12,
+            "climate_tmax_mean_c": 14.619799029367844,
+            "climate_tmin_mean_c": 4.085945744151319,
+            "climate_weekly_precip_mean_mm": 17.885592334494774,
+            "climate_weekly_gdd_mean": 30.19766550522648
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1647,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 926,
+            "bee_sampling_events": 511,
+            "bee_observation_years": 11,
+            "native_bee_species": 55,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.0_-85.5": {
+          "bounds": [
+            42.0,
+            -85.5,
+            42.5,
+            -85.0
+          ],
+          "representative_latitude": 42.25,
+          "representative_longitude": -85.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26025",
+            "name": "Calhoun"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 278.5550130207778,
+            "soil_ph_mean": 6.163614163614164,
+            "soil_awc_mean": 0.1686263937427193,
+            "soil_organic_matter_pct": 4.168369945082376,
+            "landcover_agriculture_fraction": 0.24,
+            "landcover_forest_fraction": 0.2,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.16,
+            "climate_tmax_mean_c": 14.683997635639622,
+            "climate_tmin_mean_c": 4.24827899452464,
+            "climate_weekly_precip_mean_mm": 17.965174216027876,
+            "climate_weekly_gdd_mean": 30.56581881533101
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 295,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 536,
+            "bee_sampling_events": 536,
+            "bee_observation_years": 11,
+            "native_bee_species": 41,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.0_-86.0": {
+          "bounds": [
+            42.0,
+            -86.0,
+            42.5,
+            -85.5
+          ],
+          "representative_latitude": 42.25,
+          "representative_longitude": -85.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26077",
+            "name": "Kalamazoo"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 257.4009823268889,
+            "soil_ph_mean": 6.0884229390681,
+            "soil_awc_mean": 0.1789383350462487,
+            "soil_organic_matter_pct": 11.307441760877012,
+            "landcover_agriculture_fraction": 0.36,
+            "landcover_forest_fraction": 0.24,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.16,
+            "climate_tmax_mean_c": 14.627259830761574,
+            "climate_tmin_mean_c": 4.849588725734196,
+            "climate_weekly_precip_mean_mm": 18.652299651567944,
+            "climate_weekly_gdd_mean": 31.061942508710803
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 543,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 1223,
+            "bee_sampling_events": 983,
+            "bee_observation_years": 11,
+            "native_bee_species": 61,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.0_-86.5": {
+          "bounds": [
+            42.0,
+            -86.5,
+            42.5,
+            -86.0
+          ],
+          "representative_latitude": 42.25,
+          "representative_longitude": -86.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26159",
+            "name": "Van Buren"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 205.85785081644443,
+            "soil_ph_mean": 6.299026474880133,
+            "soil_awc_mean": 0.1412457786116323,
+            "soil_organic_matter_pct": 2.7544256827183653,
+            "landcover_agriculture_fraction": 0.12,
+            "landcover_forest_fraction": 0.16,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.04,
+            "climate_tmax_mean_c": 13.051960552513687,
+            "climate_tmin_mean_c": 7.135075908412146,
+            "climate_weekly_precip_mean_mm": 18.818310104529616,
+            "climate_weekly_gdd_mean": 29.412813588850177
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 170,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 449,
+            "bee_sampling_events": 449,
+            "bee_observation_years": 11,
+            "native_bee_species": 28,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.5_-83.0": {
+          "bounds": [
+            42.5,
+            -83.0,
+            43.0,
+            -82.5
+          ],
+          "representative_latitude": 42.75833333333333,
+          "representative_longitude": -82.75833333333334,
+          "state_area_fraction": 0.96,
+          "county": {
+            "geoid": "26099",
+            "name": "Macomb"
+          },
+          "ecological_cluster": 2,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 199.9481353761111,
+            "soil_ph_mean": 6.4191978193146415,
+            "soil_awc_mean": 0.1507180685358255,
+            "soil_organic_matter_pct": 2.6535416666666665,
+            "landcover_agriculture_fraction": 0.1666666666666666,
+            "landcover_forest_fraction": 0.1666666666666666,
+            "landcover_grass_pasture_fraction": 0.125,
+            "landcover_developed_fraction": 0.25,
+            "climate_tmax_mean_c": 13.561732827277252,
+            "climate_tmin_mean_c": 4.88072361871578,
+            "climate_weekly_precip_mean_mm": 16.262508710801395,
+            "climate_weekly_gdd_mean": 28.709425087108013
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 209,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 460,
+            "bee_sampling_events": 460,
+            "bee_observation_years": 10,
+            "native_bee_species": 33,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.5_-83.5": {
+          "bounds": [
+            42.5,
+            -83.5,
+            43.0,
+            -83.0
+          ],
+          "representative_latitude": 42.75,
+          "representative_longitude": -83.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26125",
+            "name": "Oakland"
+          },
+          "ecological_cluster": 2,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 271.4185689291111,
+            "soil_ph_mean": 6.570377051844629,
+            "soil_awc_mean": 0.1484947224236564,
+            "soil_organic_matter_pct": 2.0278831464326346,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.08,
+            "landcover_grass_pasture_fraction": 0.2,
+            "landcover_developed_fraction": 0.68,
+            "climate_tmax_mean_c": 13.895798282727725,
+            "climate_tmin_mean_c": 3.9047697859631656,
+            "climate_weekly_precip_mean_mm": 16.874216027874564,
+            "climate_weekly_gdd_mean": 28.159425087108016
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1086,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 2094,
+            "bee_sampling_events": 1917,
+            "bee_observation_years": 11,
+            "native_bee_species": 47,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.5_-84.0": {
+          "bounds": [
+            42.5,
+            -84.0,
+            43.0,
+            -83.5
+          ],
+          "representative_latitude": 42.75,
+          "representative_longitude": -83.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26093",
+            "name": "Livingston"
+          },
+          "ecological_cluster": 2,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 276.07404581711114,
+            "soil_ph_mean": 6.44648128149748,
+            "soil_awc_mean": 0.165618241654913,
+            "soil_organic_matter_pct": 12.361242751919765,
+            "landcover_agriculture_fraction": 0.16,
+            "landcover_forest_fraction": 0.32,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.28,
+            "climate_tmax_mean_c": 14.144025012444002,
+            "climate_tmin_mean_c": 3.8551306620209065,
+            "climate_weekly_precip_mean_mm": 17.078048780487805,
+            "climate_weekly_gdd_mean": 28.82592334494774
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 1019,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 1390,
+            "bee_sampling_events": 1328,
+            "bee_observation_years": 11,
+            "native_bee_species": 30,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.5_-84.5": {
+          "bounds": [
+            42.5,
+            -84.5,
+            43.0,
+            -84.0
+          ],
+          "representative_latitude": 42.75,
+          "representative_longitude": -84.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26065",
+            "name": "Ingham"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 266.5305480956667,
+            "soil_ph_mean": 6.424135667396061,
+            "soil_awc_mean": 0.1996587519025875,
+            "soil_organic_matter_pct": 13.35653881278539,
+            "landcover_agriculture_fraction": 0.32,
+            "landcover_forest_fraction": 0.16,
+            "landcover_grass_pasture_fraction": 0.16,
+            "landcover_developed_fraction": 0.08,
+            "climate_tmax_mean_c": 14.243850174216028,
+            "climate_tmin_mean_c": 3.8085459183673462,
+            "climate_weekly_precip_mean_mm": 17.495644599303137,
+            "climate_weekly_gdd_mean": 28.908989547038324
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 864,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 1852,
+            "bee_sampling_events": 1852,
+            "bee_observation_years": 11,
+            "native_bee_species": 76,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.5_-85.0": {
+          "bounds": [
+            42.5,
+            -85.0,
+            43.0,
+            -84.5
+          ],
+          "representative_latitude": 42.75,
+          "representative_longitude": -84.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26045",
+            "name": "Eaton"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 258.928097195,
+            "soil_ph_mean": 6.401309148264985,
+            "soil_awc_mean": 0.201488163787588,
+            "soil_organic_matter_pct": 8.44967850287908,
+            "landcover_agriculture_fraction": 0.4,
+            "landcover_forest_fraction": 0.04,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.24,
+            "climate_tmax_mean_c": 14.16413887506222,
+            "climate_tmin_mean_c": 3.8381539323046296,
+            "climate_weekly_precip_mean_mm": 17.46264808362369,
+            "climate_weekly_gdd_mean": 28.583214285714284
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 470,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 662,
+            "bee_sampling_events": 662,
+            "bee_observation_years": 11,
+            "native_bee_species": 49,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.5_-85.5": {
+          "bounds": [
+            42.5,
+            -85.5,
+            43.0,
+            -85.0
+          ],
+          "representative_latitude": 42.75,
+          "representative_longitude": -85.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26015",
+            "name": "Barry"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 258.80179341622227,
+            "soil_ph_mean": 6.266699963004069,
+            "soil_awc_mean": 0.1723102119460501,
+            "soil_organic_matter_pct": 10.955865098039212,
+            "landcover_agriculture_fraction": 0.36,
+            "landcover_forest_fraction": 0.24,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.08,
+            "climate_tmax_mean_c": 14.16413887506222,
+            "climate_tmin_mean_c": 3.8381539323046296,
+            "climate_weekly_precip_mean_mm": 17.46264808362369,
+            "climate_weekly_gdd_mean": 28.583214285714284
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 273,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 494,
+            "bee_sampling_events": 376,
+            "bee_observation_years": 11,
+            "native_bee_species": 44,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.5_-86.0": {
+          "bounds": [
+            42.5,
+            -86.0,
+            43.0,
+            -85.5
+          ],
+          "representative_latitude": 42.75,
+          "representative_longitude": -85.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26005",
+            "name": "Allegan"
+          },
+          "ecological_cluster": 1,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 221.9244774713333,
+            "soil_ph_mean": 6.195653739158894,
+            "soil_awc_mean": 0.1550913649898135,
+            "soil_organic_matter_pct": 4.950373765867418,
+            "landcover_agriculture_fraction": 0.28,
+            "landcover_forest_fraction": 0.24,
+            "landcover_grass_pasture_fraction": 0.08,
+            "landcover_developed_fraction": 0.36,
+            "climate_tmax_mean_c": 14.008940393230462,
+            "climate_tmin_mean_c": 4.319455574912892,
+            "climate_weekly_precip_mean_mm": 18.53663763066202,
+            "climate_weekly_gdd_mean": 28.855566202090596
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 763,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 1133,
+            "bee_sampling_events": 1133,
+            "bee_observation_years": 11,
+            "native_bee_species": 33,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_42.5_-86.5": {
+          "bounds": [
+            42.5,
+            -86.5,
+            43.0,
+            -86.0
+          ],
+          "representative_latitude": 42.75,
+          "representative_longitude": -86.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26005",
+            "name": "Allegan"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 183.1669938828889,
+            "soil_ph_mean": 5.687432036804684,
+            "soil_awc_mean": 0.1171929824561403,
+            "soil_organic_matter_pct": 7.411009445100354,
+            "landcover_agriculture_fraction": 0.12,
+            "landcover_forest_fraction": 0.12,
+            "landcover_grass_pasture_fraction": 0.04,
+            "landcover_developed_fraction": 0.04,
+            "climate_tmax_mean_c": 12.385545669487309,
+            "climate_tmin_mean_c": 6.694891737182678,
+            "climate_weekly_precip_mean_mm": 18.348118466898956,
+            "climate_weekly_gdd_mean": 26.961533101045298
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 229,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 525,
+            "bee_sampling_events": 525,
+            "bee_observation_years": 11,
+            "native_bee_species": 44,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_43.0_-86.0": {
+          "bounds": [
+            43.0,
+            -86.0,
+            43.5,
+            -85.5
+          ],
+          "representative_latitude": 43.25,
+          "representative_longitude": -85.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26081",
+            "name": "Kent"
+          },
+          "ecological_cluster": 2,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 238.91057671444443,
+            "soil_ph_mean": 6.152534140285537,
+            "soil_awc_mean": 0.1377779329608938,
+            "soil_organic_matter_pct": 2.188475325884544,
+            "landcover_agriculture_fraction": 0.2,
+            "landcover_forest_fraction": 0.24,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.36,
+            "climate_tmax_mean_c": 13.354072299651568,
+            "climate_tmin_mean_c": 3.438568317570931,
+            "climate_weekly_precip_mean_mm": 17.41686411149826,
+            "climate_weekly_gdd_mean": 26.92682055749129
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 200,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 260,
+            "bee_sampling_events": 260,
+            "bee_observation_years": 11,
+            "native_bee_species": 25,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_43.5_-84.5": {
+          "bounds": [
+            43.5,
+            -84.5,
+            44.0,
+            -84.0
+          ],
+          "representative_latitude": 43.75,
+          "representative_longitude": -84.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26111",
+            "name": "Midland"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 203.28288777677776,
+            "soil_ph_mean": 6.327412734082397,
+            "soil_awc_mean": 0.1250602247191011,
+            "soil_organic_matter_pct": 2.9591316853932583,
+            "landcover_agriculture_fraction": 0.32,
+            "landcover_forest_fraction": 0.08,
+            "landcover_grass_pasture_fraction": 0.04,
+            "landcover_developed_fraction": 0.12,
+            "climate_tmax_mean_c": 13.061800024888004,
+            "climate_tmin_mean_c": 2.5395632155301144,
+            "climate_weekly_precip_mean_mm": 16.597317073170732,
+            "climate_weekly_gdd_mean": 25.366097560975607
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 86,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 182,
+            "bee_sampling_events": 182,
+            "bee_observation_years": 10,
+            "native_bee_species": 28,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_43.5_-85.0": {
+          "bounds": [
+            43.5,
+            -85.0,
+            44.0,
+            -84.5
+          ],
+          "representative_latitude": 43.75,
+          "representative_longitude": -84.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26073",
+            "name": "Isabella"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 263.180170695,
+            "soil_ph_mean": 6.20782098441058,
+            "soil_awc_mean": 0.1774436194895591,
+            "soil_organic_matter_pct": 13.067764578499611,
+            "landcover_agriculture_fraction": 0.36,
+            "landcover_forest_fraction": 0.2,
+            "landcover_grass_pasture_fraction": 0.24,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 12.57415443006471,
+            "climate_tmin_mean_c": 2.4398425833748134,
+            "climate_weekly_precip_mean_mm": 16.82397212543554,
+            "climate_weekly_gdd_mean": 24.467900696864117
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 119,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 268,
+            "bee_sampling_events": 268,
+            "bee_observation_years": 10,
+            "native_bee_species": 29,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_43.5_-85.5": {
+          "bounds": [
+            43.5,
+            -85.5,
+            44.0,
+            -85.0
+          ],
+          "representative_latitude": 43.75,
+          "representative_longitude": -85.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26107",
+            "name": "Mecosta"
+          },
+          "ecological_cluster": 3,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 316.8588358562222,
+            "soil_ph_mean": 6.016369724025974,
+            "soil_awc_mean": 0.1770888888888889,
+            "soil_organic_matter_pct": 19.30239444444445,
+            "landcover_agriculture_fraction": 0.16,
+            "landcover_forest_fraction": 0.2,
+            "landcover_grass_pasture_fraction": 0.2,
+            "landcover_developed_fraction": 0.12,
+            "climate_tmax_mean_c": 12.57415443006471,
+            "climate_tmin_mean_c": 2.4398425833748134,
+            "climate_weekly_precip_mean_mm": 16.82397212543554,
+            "climate_weekly_gdd_mean": 24.467900696864117
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 53,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 119,
+            "bee_sampling_events": 119,
+            "bee_observation_years": 10,
+            "native_bee_species": 20,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_43.5_-86.5": {
+          "bounds": [
+            43.5,
+            -86.5,
+            44.0,
+            -86.0
+          ],
+          "representative_latitude": 43.75,
+          "representative_longitude": -86.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26127",
+            "name": "Oceana"
+          },
+          "ecological_cluster": 2,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 227.79317389577776,
+            "soil_ph_mean": 5.961181988742964,
+            "soil_awc_mean": 0.1119854596622889,
+            "soil_organic_matter_pct": 2.915271263289556,
+            "landcover_agriculture_fraction": 0.24,
+            "landcover_forest_fraction": 0.36,
+            "landcover_grass_pasture_fraction": 0.08,
+            "landcover_developed_fraction": 0.12,
+            "climate_tmax_mean_c": 12.015622200099552,
+            "climate_tmin_mean_c": 5.2549807117969145,
+            "climate_weekly_precip_mean_mm": 16.97191637630662,
+            "climate_weekly_gdd_mean": 25.12502613240418
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 40,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 167,
+            "bee_sampling_events": 167,
+            "bee_observation_years": 9,
+            "native_bee_species": 24,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_44.5_-85.0": {
+          "bounds": [
+            44.5,
+            -85.0,
+            45.0,
+            -84.5
+          ],
+          "representative_latitude": 44.75,
+          "representative_longitude": -84.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26039",
+            "name": "Crawford"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 375.1636928982223,
+            "soil_ph_mean": 5.05399775811012,
+            "soil_awc_mean": 0.1249915722173786,
+            "soil_organic_matter_pct": 13.255481836675385,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.56,
+            "landcover_grass_pasture_fraction": 0.08,
+            "landcover_developed_fraction": 0.08,
+            "climate_tmax_mean_c": 11.210081508213042,
+            "climate_tmin_mean_c": 2.13663887506222,
+            "climate_weekly_precip_mean_mm": 17.6852787456446,
+            "climate_weekly_gdd_mean": 21.43705574912892
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 102,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 194,
+            "bee_sampling_events": 194,
+            "bee_observation_years": 10,
+            "native_bee_species": 21,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_44.5_-86.0": {
+          "bounds": [
+            44.5,
+            -86.0,
+            45.0,
+            -85.5
+          ],
+          "representative_latitude": 44.75,
+          "representative_longitude": -85.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26055",
+            "name": "Grand Traverse"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 241.2270423041111,
+            "soil_ph_mean": 5.477548607461903,
+            "soil_awc_mean": 0.1490312837108953,
+            "soil_organic_matter_pct": 15.059595469255664,
+            "landcover_agriculture_fraction": 0.04,
+            "landcover_forest_fraction": 0.2,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.08,
+            "climate_tmax_mean_c": 10.693357391737184,
+            "climate_tmin_mean_c": 5.230321055251369,
+            "climate_weekly_precip_mean_mm": 17.35158536585366,
+            "climate_weekly_gdd_mean": 22.271454703832752
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 385,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 307,
+            "bee_sampling_events": 307,
+            "bee_observation_years": 10,
+            "native_bee_species": 32,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_44.5_-86.5": {
+          "bounds": [
+            44.5,
+            -86.5,
+            45.0,
+            -86.0
+          ],
+          "representative_latitude": 44.75,
+          "representative_longitude": -86.25,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26019",
+            "name": "Benzie"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 186.868182712,
+            "soil_ph_mean": 5.179837398373984,
+            "soil_awc_mean": 0.13352,
+            "soil_organic_matter_pct": 12.844666666666669,
+            "landcover_agriculture_fraction": 0.04,
+            "landcover_forest_fraction": 0.12,
+            "landcover_grass_pasture_fraction": 0.0,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 9.669724987555998,
+            "climate_tmin_mean_c": 6.670373942259832,
+            "climate_weekly_precip_mean_mm": 16.814790940766553,
+            "climate_weekly_gdd_mean": 20.335975609756098
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 234,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 219,
+            "bee_sampling_events": 219,
+            "bee_observation_years": 10,
+            "native_bee_species": 20,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_45.0_-85.0": {
+          "bounds": [
+            45.0,
+            -85.0,
+            45.5,
+            -84.5
+          ],
+          "representative_latitude": 45.25,
+          "representative_longitude": -84.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26029",
+            "name": "Charlevoix"
+          },
+          "ecological_cluster": 4,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 283.17057800311113,
+            "soil_ph_mean": 5.686222378242554,
+            "soil_awc_mean": 0.1518171944316965,
+            "soil_organic_matter_pct": 15.327303809086734,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.52,
+            "landcover_grass_pasture_fraction": 0.04,
+            "landcover_developed_fraction": 0.08,
+            "climate_tmax_mean_c": 9.99209681433549,
+            "climate_tmin_mean_c": 4.045148083623693,
+            "climate_weekly_precip_mean_mm": 17.430400696864112,
+            "climate_weekly_gdd_mean": 20.24502613240418
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 494,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 219,
+            "bee_sampling_events": 216,
+            "bee_observation_years": 10,
+            "native_bee_species": 27,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        },
+        "MI_0p5_45.5_-85.0": {
+          "bounds": [
+            45.5,
+            -85.0,
+            46.0,
+            -84.5
+          ],
+          "representative_latitude": 45.75,
+          "representative_longitude": -84.75,
+          "state_area_fraction": 1.0,
+          "county": {
+            "geoid": "26047",
+            "name": "Emmet"
+          },
+          "ecological_cluster": 5,
+          "environment_missing_fraction": 0.0,
+          "environment": {
+            "elevation_mean_m": 205.7343970405556,
+            "soil_ph_mean": 6.074449173760641,
+            "soil_awc_mean": 0.1929771653543307,
+            "soil_organic_matter_pct": 28.940053018372705,
+            "landcover_agriculture_fraction": 0.0,
+            "landcover_forest_fraction": 0.2,
+            "landcover_grass_pasture_fraction": 0.12,
+            "landcover_developed_fraction": 0.0,
+            "climate_tmax_mean_c": 9.274795296167248,
+            "climate_tmin_mean_c": 3.642590841214535,
+            "climate_weekly_precip_mean_mm": 17.634216027874565,
+            "climate_weekly_gdd_mean": 18.535923344947737
+          },
+          "has_published_recommendation": true,
+          "evidence": {
+            "plant_occurrence_records": 282,
+            "flowering_observations": null,
+            "flowering_observation_years": null,
+            "model_years": 3,
+            "documented_state_network_links": 570,
+            "bee_occurrence_records": 387,
+            "bee_sampling_events": 384,
+            "bee_observation_years": 10,
+            "native_bee_species": 32,
+            "cell_validation_pass": true,
+            "bee_coverage_source": "MI leakage-controlled train/test cell audit"
+          }
+        }
+      }
+    }
+  }
+}

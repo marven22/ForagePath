@@ -1,0 +1,17 @@
+{
+  "validation_designs": {
+    "rolling_origin": "The model and all learned link evidence precede the held-out calendar year.",
+    "leave_one_study_out": "No interaction labels from the held-out study enter CatBoost or two-tower training; earlier local timing supports remain available for the decision."
+  },
+  "link_layers": [
+    "strict documented training links",
+    "full-feature CatBoost",
+    "trait two-tower neural model"
+  ],
+  "mixture_sizes": [
+    3,
+    5,
+    7
+  ],
+  "not_claimed": "Field benefit, bee health, abundance, pollination, or crop yield."
+}

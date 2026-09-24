@@ -1,0 +1,565 @@
+{
+  "version": "v1",
+  "profiles": [
+    {
+      "scientific_name": "acer rubrum",
+      "common_name": "red maple",
+      "growth_form": "tree",
+      "season_group": "early",
+      "habitat": "transition",
+      "moisture_guidance": "Broad moisture tolerance in this coarse screen",
+      "light_guidance": "Broad light context in this coarse screen",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PA candidate habitat class and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/acer-rubrum.jpg",
+        "source_url": "https://www.inaturalist.org/photos/371065093",
+        "creator": "mefisher",
+        "license": "CC0",
+        "title": "red maple (acer rubrum)"
+      }
+    },
+    {
+      "scientific_name": "amelanchier arborea",
+      "common_name": "downy serviceberry",
+      "growth_form": "small tree",
+      "season_group": "early",
+      "habitat": "upland",
+      "moisture_guidance": "Moderately moist sites",
+      "light_guidance": "Woodland edge or partial-shade context",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PA candidate habitat class and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/amelanchier-arborea.jpg",
+        "source_url": "https://www.inaturalist.org/observations/321062446",
+        "creator": "(c) Dominic, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "common serviceberry (amelanchier arborea)"
+      }
+    },
+    {
+      "scientific_name": "apocynum cannabinum",
+      "common_name": "Indian hemp",
+      "growth_form": "perennial forb",
+      "season_group": null,
+      "habitat": null,
+      "moisture_guidance": "Dry to moderately moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "USDA PLANTS and Pennsylvania candidate habitat class",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/apocynum-cannabinum.jpg",
+        "source_url": "https://www.inaturalist.org/observations/330464073",
+        "creator": "(c) Tom Scavo, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "hemp dogbane (apocynum cannabinum)"
+      }
+    },
+    {
+      "scientific_name": "asclepias syriaca",
+      "common_name": "common milkweed",
+      "growth_form": "forb",
+      "season_group": "mid",
+      "habitat": "upland",
+      "moisture_guidance": "Dry to moderately moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PA candidate habitat class and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/asclepias-syriaca.jpg",
+        "source_url": "https://www.inaturalist.org/observations/51355351",
+        "creator": "(c) Douglas Goldman, some rights reserved (CC BY-SA)",
+        "license": "CC-BY-SA",
+        "title": "common milkweed (asclepias syriaca)"
+      }
+    },
+    {
+      "scientific_name": "asclepias tuberosa",
+      "common_name": "butterfly milkweed",
+      "growth_form": "forb",
+      "season_group": "mid",
+      "habitat": "upland",
+      "moisture_guidance": "Dry, well-drained sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PA candidate habitat class and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/asclepias-tuberosa.jpg",
+        "source_url": "https://www.inaturalist.org/photos/206558098",
+        "creator": "Michael J. Papay",
+        "license": "CC-BY",
+        "title": "butterfly milkweed (asclepias tuberosa)"
+      }
+    },
+    {
+      "scientific_name": "cephalanthus occidentalis",
+      "common_name": "buttonbush",
+      "growth_form": "shrub",
+      "season_group": "mid",
+      "habitat": "wetland",
+      "moisture_guidance": "Wet or consistently moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PNHP Pennsylvania candidate habitat class",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/cephalanthus-occidentalis.jpg",
+        "source_url": "https://www.inaturalist.org/photos/679712269",
+        "creator": "Michael J. Papay",
+        "license": "CC-BY",
+        "title": "buttonbush (cephalanthus occidentalis)"
+      }
+    },
+    {
+      "scientific_name": "cercis canadensis",
+      "common_name": "eastern redbud",
+      "growth_form": "small tree",
+      "season_group": "early",
+      "habitat": "upland",
+      "moisture_guidance": "Moderately moist sites",
+      "light_guidance": "Woodland edge or partial-shade context",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PA candidate habitat class and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/cercis-canadensis.jpg",
+        "source_url": "https://www.inaturalist.org/observations/72378649",
+        "creator": "(c) Michael J. Papay, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "eastern redbud (cercis canadensis)"
+      }
+    },
+    {
+      "scientific_name": "claytonia virginica",
+      "common_name": "spring beauty",
+      "growth_form": "forb",
+      "season_group": "early",
+      "habitat": "upland",
+      "moisture_guidance": "Moderately moist sites",
+      "light_guidance": "woodland",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PA candidate habitat class and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/claytonia-virginica.jpg",
+        "source_url": "https://www.inaturalist.org/observations/75274135",
+        "creator": "(c) victoriaelizabe, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "Virginia Springbeauty (claytonia virginica)"
+      }
+    },
+    {
+      "scientific_name": "cornus sericea",
+      "common_name": "red-osier dogwood",
+      "growth_form": "shrub",
+      "season_group": null,
+      "habitat": null,
+      "moisture_guidance": "Wet or consistently moist sites",
+      "light_guidance": "Woodland edge or partial-shade context",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "USDA PLANTS and Pennsylvania candidate habitat class",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/cornus-sericea.jpg",
+        "source_url": "https://www.inaturalist.org/observations/80861808",
+        "creator": "(c) Tom Norton, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "red osier dogwood (cornus sericea)"
+      }
+    },
+    {
+      "scientific_name": "erythronium americanum",
+      "common_name": "yellow trout lily",
+      "growth_form": "spring ephemeral forb",
+      "season_group": null,
+      "habitat": null,
+      "moisture_guidance": "Moderately moist sites",
+      "light_guidance": "woodland",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "USA-NPN candidate review and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/erythronium-americanum.jpg",
+        "source_url": "https://www.inaturalist.org/photos/495479600",
+        "creator": "mrdace",
+        "license": "CC-BY",
+        "title": "yellow trout lily (erythronium americanum)"
+      }
+    },
+    {
+      "scientific_name": "eupatorium perfoliatum",
+      "common_name": "boneset",
+      "growth_form": "forb",
+      "season_group": "mid-late",
+      "habitat": "wetland",
+      "moisture_guidance": "Wet or consistently moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PA candidate habitat class and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/eupatorium-perfoliatum.jpg",
+        "source_url": "https://www.inaturalist.org/observations/95581044",
+        "creator": "(c) Zihao Wang, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "common boneset (eupatorium perfoliatum)"
+      }
+    },
+    {
+      "scientific_name": "euthamia graminifolia",
+      "common_name": "grass-leaved goldenrod",
+      "growth_form": "forb",
+      "season_group": "late",
+      "habitat": "upland",
+      "moisture_guidance": "Dry to moderately moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PNHP and Xerces Pennsylvania candidate habitat class",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/euthamia-graminifolia.jpg",
+        "source_url": "https://www.inaturalist.org/observations/32169304",
+        "creator": "(c) Rob Foster, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "flat-topped goldenrod (euthamia graminifolia)"
+      }
+    },
+    {
+      "scientific_name": "eutrochium maculatum",
+      "common_name": "spotted Joe-Pye weed",
+      "growth_form": "perennial forb",
+      "season_group": null,
+      "habitat": null,
+      "moisture_guidance": "Wet or consistently moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "USA-NPN candidate review and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/eutrochium-maculatum.jpg",
+        "source_url": "https://www.inaturalist.org/observations/178218836",
+        "creator": "(c) Andrew Murray, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "spotted Joe-Pye weed (eutrochium maculatum)"
+      }
+    },
+    {
+      "scientific_name": "helenium autumnale",
+      "common_name": "common sneezeweed",
+      "growth_form": "forb",
+      "season_group": "mid-late",
+      "habitat": "wetland",
+      "moisture_guidance": "Wet or consistently moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PNHP and Xerces Pennsylvania candidate habitat class",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/helenium-autumnale.jpg",
+        "source_url": "https://www.inaturalist.org/observations/56891482",
+        "creator": "no rights reserved",
+        "license": "CC0",
+        "title": "common sneezeweed (helenium autumnale)"
+      }
+    },
+    {
+      "scientific_name": "kalmia latifolia",
+      "common_name": "mountain laurel",
+      "growth_form": "evergreen shrub",
+      "season_group": null,
+      "habitat": null,
+      "moisture_guidance": "Moderately moist sites",
+      "light_guidance": "woodland",
+      "acidic_preference": true,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "USA-NPN and USDA candidate review",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/kalmia-latifolia.jpg",
+        "source_url": "https://www.inaturalist.org/photos/395501030",
+        "creator": "Alex Abair",
+        "license": "CC-BY",
+        "title": "mountain laurel (kalmia latifolia)"
+      }
+    },
+    {
+      "scientific_name": "lindera benzoin",
+      "common_name": "northern spicebush",
+      "growth_form": "shrub",
+      "season_group": "early",
+      "habitat": "upland",
+      "moisture_guidance": "Moderately moist sites",
+      "light_guidance": "woodland",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PA candidate habitat class and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/lindera-benzoin.jpg",
+        "source_url": "https://www.inaturalist.org/photos/313884891",
+        "creator": "Sandy Wolkenberg",
+        "license": "CC-BY",
+        "title": "northern spicebush (lindera benzoin)"
+      }
+    },
+    {
+      "scientific_name": "liriodendron tulipifera",
+      "common_name": "tuliptree",
+      "growth_form": "tree",
+      "season_group": null,
+      "habitat": null,
+      "moisture_guidance": "Moderately moist sites",
+      "light_guidance": "Woodland edge or partial-shade context",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "USA-NPN and USDA candidate review",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/liriodendron-tulipifera.jpg",
+        "source_url": "https://www.inaturalist.org/observations/240131367",
+        "creator": "(c) Michael J. Papay, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "American tuliptree (liriodendron tulipifera)"
+      }
+    },
+    {
+      "scientific_name": "monarda fistulosa",
+      "common_name": "wild bergamot",
+      "growth_form": "forb",
+      "season_group": "mid",
+      "habitat": "upland",
+      "moisture_guidance": "Dry to moderately moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PA candidate habitat class and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/monarda-fistulosa.jpg",
+        "source_url": "https://www.inaturalist.org/observations/224042873",
+        "creator": "(c) Alaina Krakowiak, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "wild bergamot (monarda fistulosa)"
+      }
+    },
+    {
+      "scientific_name": "penstemon digitalis",
+      "common_name": "tall white beardtongue",
+      "growth_form": "forb",
+      "season_group": "early-mid",
+      "habitat": "upland",
+      "moisture_guidance": "Dry to moderately moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PNHP and Xerces Pennsylvania candidate habitat class",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/penstemon-digitalis.jpg",
+        "source_url": "https://www.inaturalist.org/observations/223048084",
+        "creator": "(c) Tom Norton, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "foxglove beardtongue (penstemon digitalis)"
+      }
+    },
+    {
+      "scientific_name": "pycnanthemum virginianum",
+      "common_name": "Virginia mountain mint",
+      "growth_form": "forb",
+      "season_group": "mid",
+      "habitat": "transition",
+      "moisture_guidance": "Moderately moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PA candidate habitat class and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/pycnanthemum-virginianum.jpg",
+        "source_url": "https://www.inaturalist.org/observations/29410760",
+        "creator": "no rights reserved",
+        "license": "CC0",
+        "title": "Virginia mountain mint (pycnanthemum virginianum)"
+      }
+    },
+    {
+      "scientific_name": "rudbeckia hirta",
+      "common_name": "black-eyed Susan",
+      "growth_form": "forb",
+      "season_group": "mid",
+      "habitat": "upland",
+      "moisture_guidance": "Dry to moderately moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PA candidate habitat class and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/rudbeckia-hirta.jpg",
+        "source_url": "https://www.inaturalist.org/photos/7861779",
+        "creator": "Brady Reed",
+        "license": "CC0",
+        "title": "black-eyed Susan (rudbeckia hirta)"
+      }
+    },
+    {
+      "scientific_name": "solidago nemoralis",
+      "common_name": "gray goldenrod",
+      "growth_form": "forb",
+      "season_group": "late",
+      "habitat": "upland",
+      "moisture_guidance": "Dry, well-drained sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PNHP and Xerces Pennsylvania candidate habitat class",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/solidago-nemoralis.jpg",
+        "source_url": "https://www.inaturalist.org/observations/236986585",
+        "creator": "(c) Edie, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "field goldenrod (solidago nemoralis)"
+      }
+    },
+    {
+      "scientific_name": "solidago rugosa",
+      "common_name": "wrinkleleaf goldenrod",
+      "growth_form": "forb",
+      "season_group": "late",
+      "habitat": "transition",
+      "moisture_guidance": "Moderately moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "Xerces Pennsylvania candidate habitat class",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/solidago-rugosa.jpg",
+        "source_url": "https://www.inaturalist.org/observations/67122797",
+        "creator": "no rights reserved",
+        "license": "CC0",
+        "title": "common wrinkle-leaved goldenrod (solidago rugosa)"
+      }
+    },
+    {
+      "scientific_name": "symphyotrichum novae-angliae",
+      "common_name": "New England aster",
+      "growth_form": "forb",
+      "season_group": "late",
+      "habitat": "upland",
+      "moisture_guidance": "Moderately moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PA candidate habitat class and ecological screening",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/symphyotrichum-novae-angliae.jpg",
+        "source_url": "https://www.inaturalist.org/observations/188152678",
+        "creator": "(c) er-birds, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "New England aster (symphyotrichum novae-angliae)"
+      }
+    },
+    {
+      "scientific_name": "vaccinium angustifolium",
+      "common_name": "lowbush blueberry",
+      "growth_form": "low shrub",
+      "season_group": null,
+      "habitat": null,
+      "moisture_guidance": "Dry, well-drained sites",
+      "light_guidance": "Woodland edge or partial-shade context",
+      "acidic_preference": true,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "USDA PLANTS and Pennsylvania candidate habitat class",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/vaccinium-angustifolium.jpg",
+        "source_url": "https://www.inaturalist.org/observations/173995865",
+        "creator": "no rights reserved",
+        "license": "CC0",
+        "title": "lowbush blueberry (vaccinium angustifolium)"
+      }
+    },
+    {
+      "scientific_name": "vaccinium corymbosum",
+      "common_name": "highbush blueberry",
+      "growth_form": "shrub",
+      "season_group": "early",
+      "habitat": "wetland",
+      "moisture_guidance": "Wet or consistently moist sites",
+      "light_guidance": "Woodland edge or partial-shade context",
+      "acidic_preference": true,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "Pennsylvania crop and native habitat guidance",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/vaccinium-corymbosum.jpg",
+        "source_url": "https://www.inaturalist.org/observations/180422226",
+        "creator": "(c) Tom Scavo, some rights reserved (CC BY)",
+        "license": "CC-BY",
+        "title": "Northern highbush blueberry (vaccinium corymbosum)"
+      }
+    },
+    {
+      "scientific_name": "vernonia noveboracensis",
+      "common_name": "New York ironweed",
+      "growth_form": "forb",
+      "season_group": "late",
+      "habitat": "wetland",
+      "moisture_guidance": "Wet or consistently moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PNHP and Xerces Pennsylvania candidate habitat class",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/vernonia-noveboracensis.jpg",
+        "source_url": "https://www.inaturalist.org/observations/254319219",
+        "creator": "no rights reserved",
+        "license": "CC0",
+        "title": "New York ironweed (vernonia noveboracensis)"
+      }
+    },
+    {
+      "scientific_name": "zizia aurea",
+      "common_name": "golden alexanders",
+      "growth_form": "forb",
+      "season_group": "early",
+      "habitat": "upland",
+      "moisture_guidance": "Dry to moderately moist sites",
+      "light_guidance": "Open site; evaluate full-sun exposure",
+      "acidic_preference": false,
+      "guidance_status": "coarse research rule",
+      "guidance_source": "PNHP and Xerces Pennsylvania candidate habitat class",
+      "practical_note": "Use this as a site-screening clue; confirm stock, spacing, preparation, and establishment requirements with regional extension or nursery guidance.",
+      "image": {
+        "local_path": "/plants/zizia-aurea.jpg",
+        "source_url": "https://www.inaturalist.org/photos/387361379",
+        "creator": "christine123",
+        "license": "CC-BY",
+        "title": "golden Alexanders (zizia aurea)"
+      }
+    }
+  ]
+}
