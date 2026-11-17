@@ -4,6 +4,8 @@ ForagePath is an evidence-governed decision-support system for identifying nativ
 
 The accompanying manuscript is **ForagePath: Evidence-governed Forecasting of Seasonal Pollinator Forage Support and Habitat Mixtures from Heterogeneous Ecological Records**.
 
+**Live application:** [pollinator-forage-ui.onrender.com](https://pollinator-forage-ui.onrender.com/)
+
 ## What this repository contains
 
 The repository has two deliberately separated layers.
