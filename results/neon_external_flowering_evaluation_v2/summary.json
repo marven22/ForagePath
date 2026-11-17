@@ -1,0 +1,14 @@
+{
+  "external_years": [
+    2024,
+    2025
+  ],
+  "sites": 42,
+  "plants": 342,
+  "ecoregion_codes": 28,
+  "ft_weight": 0.14,
+  "hierarchical_tau": 1.0,
+  "weather_coverage": 1.0,
+  "nearby_usnpn_training_site_coordinates_excluded": 74,
+  "soil_policy": "NEON soil covariates are unavailable, so full models use USA-NPN training-median imputation. This is a partial-covariate external test, not a full deployment test."
+}

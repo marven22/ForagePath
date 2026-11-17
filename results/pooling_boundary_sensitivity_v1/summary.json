@@ -1,0 +1,139 @@
+{
+  "flowering": {
+    "selected_tau": 100.0,
+    "table": [
+      {
+        "tau": 0.1,
+        "validation_brier": 0.03847869142908268,
+        "offset_count": 741
+      },
+      {
+        "tau": 0.2,
+        "validation_brier": 0.03717610994009239,
+        "offset_count": 741
+      },
+      {
+        "tau": 0.35,
+        "validation_brier": 0.03640931936846814,
+        "offset_count": 741
+      },
+      {
+        "tau": 0.5,
+        "validation_brier": 0.03613184816144072,
+        "offset_count": 741
+      },
+      {
+        "tau": 0.75,
+        "validation_brier": 0.03597936519761303,
+        "offset_count": 741
+      },
+      {
+        "tau": 1.0,
+        "validation_brier": 0.03593434171228164,
+        "offset_count": 741
+      },
+      {
+        "tau": 1.25,
+        "validation_brier": 0.03591674143867443,
+        "offset_count": 741
+      },
+      {
+        "tau": 1.5,
+        "validation_brier": 0.03590884073409852,
+        "offset_count": 741
+      },
+      {
+        "tau": 2.0,
+        "validation_brier": 0.035902586796548355,
+        "offset_count": 741
+      },
+      {
+        "tau": 2.5,
+        "validation_brier": 0.03590065807492824,
+        "offset_count": 741
+      },
+      {
+        "tau": 3.0,
+        "validation_brier": 0.03589988446056552,
+        "offset_count": 741
+      },
+      {
+        "tau": 4.0,
+        "validation_brier": 0.03589934089892722,
+        "offset_count": 741
+      },
+      {
+        "tau": 5.0,
+        "validation_brier": 0.03589914709110857,
+        "offset_count": 741
+      },
+      {
+        "tau": 7.5,
+        "validation_brier": 0.03589901333404308,
+        "offset_count": 741
+      },
+      {
+        "tau": 10.0,
+        "validation_brier": 0.03589898023327321,
+        "offset_count": 741
+      },
+      {
+        "tau": 15.0,
+        "validation_brier": 0.03589896092614387,
+        "offset_count": 741
+      },
+      {
+        "tau": 20.0,
+        "validation_brier": 0.0358989549124914,
+        "offset_count": 741
+      },
+      {
+        "tau": 50.0,
+        "validation_brier": 0.035898948708821446,
+        "offset_count": 741
+      },
+      {
+        "tau": 100.0,
+        "validation_brier": 0.03589894785514988,
+        "offset_count": 741
+      }
+    ]
+  },
+  "bee": {
+    "selected_tau": 25.0,
+    "table": [
+      {
+        "tau": 5.0,
+        "partial_validation_cross_entropy": 2.847491038918992
+      },
+      {
+        "tau": 10.0,
+        "partial_validation_cross_entropy": 2.836976104536675
+      },
+      {
+        "tau": 15.0,
+        "partial_validation_cross_entropy": 2.8320284345861033
+      },
+      {
+        "tau": 20.0,
+        "partial_validation_cross_entropy": 2.829944105679803
+      },
+      {
+        "tau": 25.0,
+        "partial_validation_cross_entropy": 2.8295608093619964
+      },
+      {
+        "tau": 50.0,
+        "partial_validation_cross_entropy": 2.8384568361817664
+      },
+      {
+        "tau": 100.0,
+        "partial_validation_cross_entropy": 2.8679345546755437
+      },
+      {
+        "tau": 200.0,
+        "partial_validation_cross_entropy": 2.9207886484906127
+      }
+    ]
+  }
+}

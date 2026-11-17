@@ -1,0 +1,100 @@
+{
+  "registry_version": "v1",
+  "status_definitions": {
+    "READY WITH QUALIFIER": "The result can be reported when the stated interpretation boundary is retained.",
+    "READY WITH PROTOCOL NOTE": "Direct comparisons must use the common splits described in the registry.",
+    "READY WITH SCOPE LIMIT": "The experiment is valid for its measured retrospective outcome only."
+  },
+  "automated_checks": {
+    "flower_primary_window": {
+      "train": "2015-2022",
+      "validation": "2023",
+      "test": "2024-2025",
+      "train_rows": 546675,
+      "screening_train_rows": 181432,
+      "validation_rows": 105112,
+      "test_rows": 203012,
+      "ft_transformer_weight": 0.5,
+      "selected_random_effect_prior_sd_tau": 1.0,
+      "policy": "Each model sees only its stated historical window. Ensemble weight, global calibration, and plant random-effect prior are selected from 2023 only."
+    },
+    "bee_training_eligible": 288,
+    "bee_scored_later_species": 281,
+    "link_common_core_splits": [
+      "future_year",
+      "held_event",
+      "unseen_bee",
+      "unseen_pair",
+      "unseen_plant"
+    ],
+    "rich_gnn_completed_splits": 10,
+    "rich_gnn_total_splits": 10,
+    "mixture_completed_outer_folds": 20,
+    "mixture_validation_designs": {
+      "rolling_origin": "The model and all learned link evidence precede the held-out calendar year.",
+      "leave_one_study_out": "No interaction labels from the held-out study enter CatBoost or two-tower training; earlier local timing supports remain available for the decision."
+    }
+  },
+  "rows": [
+    {
+      "experiment_id": "F1",
+      "paper_role": "Internal flowering development benchmark",
+      "question": "Which flowering model best estimates later-year weekly flowering probability?",
+      "train_validation_test": "Train 2015-2022 | validation 2023 | inspected development benchmark 2024-2025",
+      "evaluation_cohort": "203,012 plant-week rows and 587,240 observation checks",
+      "model_scope": "Seasonal, generalized linear, boosted, neural, transformer, and calibrated ensemble candidates",
+      "statistical_evidence": "Paired site-year bootstrap, 2,895 site-years, 1,000 replicates",
+      "status": "READY WITH QUALIFIER",
+      "manuscript_use": "Internal model comparison only. Do not describe 2024-2025 as an untouched final test.",
+      "primary_artifacts": "results\\flowering_history_window_sensitivity_v1\\experiment_manifest.json | results\\flowering_history_window_sensitivity_v1\\train_2015_2022\\final_test_metrics.csv | results\\paper_uncertainty_intervals_v1\\flowering_bootstrap_ci.csv"
+    },
+    {
+      "experiment_id": "F2",
+      "paper_role": "Cross-source external flowering evaluation",
+      "question": "Does the flowering approach retain value on an independent source?",
+      "train_validation_test": "USA-NPN-trained models | NEON records from 2024-2025",
+      "evaluation_cohort": "42,294 weekly rows from 42 sites and 342 plants",
+      "model_scope": "Seasonal reference, CatBoost, FT-Transformer, global ensemble, hierarchical ensemble",
+      "statistical_evidence": "Site-clustered bootstrap confidence intervals use all 42 NEON sites and 2,000 replicates. Model uses training-median soil imputation because NEON soil covariates are unavailable.",
+      "status": "READY WITH QUALIFIER",
+      "manuscript_use": "External cross-source evaluation. Describe it as partial-covariate, not a full deployment simulation.",
+      "primary_artifacts": "results\\neon_external_flowering_evaluation_v2\\summary.json | results\\neon_external_flowering_evaluation_v2\\metrics.csv | results\\paper_uncertainty_intervals_v1\\neon_site_bootstrap_ci_v1.csv"
+    },
+    {
+      "experiment_id": "B1",
+      "paper_role": "Future-year native bee seasonal activity",
+      "question": "Which seasonal activity model best allocates probability to later observed bee weeks?",
+      "train_validation_test": "Training eligibility and model fitting 2015-2022 | validation 2023 | test 2024-2025",
+      "evaluation_cohort": "281 training-eligible species appearing later and 163,616 scored later occurrence records. Training eligible pool equals 288 species.",
+      "model_scope": "Raw weekly histogram, circular kernel, cyclic spline, spatial partial pooling, trait-family partial pooling",
+      "statistical_evidence": "Paired species bootstrap confidence intervals use the verified 281-species cohort, 10,000 replicates, and a fixed random seed.",
+      "status": "READY",
+      "manuscript_use": "Use the corrected point metrics and verified 281-species confidence intervals.",
+      "primary_artifacts": "results\\national_bee_history_window_sensitivity_v1\\train_2015_2022\\summary.json | results\\national_bee_history_window_sensitivity_v1\\train_2015_2022\\final_test_metrics_summary.csv | results\\national_bee_history_window_sensitivity_v1\\train_2015_2022\\final_test_metrics_by_bee.csv | results\\paper_uncertainty_intervals_v1\\bee_activity_verified_281_bootstrap_ci.csv"
+    },
+    {
+      "experiment_id": "L1",
+      "paper_role": "Plant-bee link ranking",
+      "question": "Can methods rank documented links under held-event and novelty conditions?",
+      "train_validation_test": "Shared V16 split protocol. Common core splits are held event, unseen pair, unseen plant, unseen bee, and future year.",
+      "evaluation_cohort": "All four output groups contain the same future_year, held_event, unseen_bee, unseen_pair, unseen_plant core splits. Example held-event split contains 8,669 candidate rows and 359 events.",
+      "model_scope": "Strict evidence, degree heuristic, CatBoost, two-tower neural, compact and rich GraphSAGE, compact and rich HGT",
+      "statistical_evidence": "Study-unit bootstrap intervals are available for strict evidence, heuristic, CatBoost, two-tower, rich GraphSAGE, and rich HGT.",
+      "status": "READY WITH PROTOCOL NOTE",
+      "manuscript_use": "Use the common core splits for direct family comparison. Do not use the stale parent progress file as evidence of incompleteness because rich-GNN progress confirms all 10 splits completed.",
+      "primary_artifacts": "results\\phase1_v16_appalachian_all\\baselines\\metrics.csv | results\\phase1_v16_appalachian_all\\two_tower\\factorized_ai_metrics.csv | results\\phase1_v16_appalachian_all\\compact_gnns\\metrics.csv | results\\phase1_v16_appalachian_all\\rich_gnns\\metrics.csv | results\\paper_uncertainty_intervals_v1\\phase1_link_bootstrap_ci.csv"
+    },
+    {
+      "experiment_id": "M1",
+      "paper_role": "Decision-level plant-mixture backtest",
+      "question": "Do integrated seasonal-support mixtures improve future observed plant-bee overlap over baselines?",
+      "train_validation_test": "Rolling-origin years and leave-one-study-out evaluations. Each held year or study is excluded from learned link information.",
+      "evaluation_cohort": "23 site keys. Rolling-origin years 2002, 2003, 2009, 2010, 2012, 2014, 2015, 2016, 2017. Leave-one-study-out studies 11. Mixture sizes 3, 5, and 7.",
+      "model_scope": "Random mean, strict documented network, CatBoost-supported links, two-tower-supported links",
+      "statistical_evidence": "Paired decision bootstrap comparisons available. The result summary records 23 paired decisions for the reported comparisons.",
+      "status": "READY WITH SCOPE LIMIT",
+      "manuscript_use": "Supports retrospective observed seasonal overlap, not field benefit, bee health, abundance, crop pollination, or yield.",
+      "primary_artifacts": "results\\phase2_v16_appalachian_robust_validation\\summary.json | results\\phase2_v16_appalachian_robust_validation\\robust_validation_metrics.csv | results\\phase2_v16_appalachian_robust_validation\\paired_bootstrap_comparisons.csv"
+    }
+  ]
+}

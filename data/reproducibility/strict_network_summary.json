@@ -1,0 +1,15 @@
+{
+  "candidate_plants": 1138,
+  "native_bee_targets": 436,
+  "observed_pairs_with_any_association": 8497,
+  "strict_admitted_pairs_A_or_B": 5236,
+  "grade_counts": {
+    "A": 2081,
+    "B": 3155,
+    "C": 3261
+  },
+  "plants_with_strict_admitted_edge": 571,
+  "bees_with_strict_admitted_edge": 436,
+  "policy": "A/B edges are direct, source-traceable floral evidence. C edges and unobserved pairs are retained as non-admitted uncertainty; they are not biologically negative and cannot enter strict recommendations.",
+  "taxonomic_policy": "Exact plant candidate keys and exact BeeGap-reconciled native bee keys only; names not passing that gate are excluded rather than guessed."
+}

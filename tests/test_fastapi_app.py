@@ -89,13 +89,15 @@ class FastAPIApplicationTests(unittest.TestCase):
         })
 
     def test_replay_supported_local_grid_overrides_statewide_fallback(self) -> None:
-        cells = self.client.get("/v1/states/AZ/cells")
+        # MA_0p5_42.0_-72.5 is one of the exact-grid products that survived
+        # the corrected, leakage-controlled 2022-to-2023 replay release.
+        cells = self.client.get("/v1/states/MA/cells")
         self.assertEqual(200, cells.status_code)
-        self.assertEqual(128, len(cells.json()["cells"]))
+        self.assertEqual(17, len(cells.json()["cells"]))
         self.assertEqual(1, sum(cell["has_published_recommendation"] for cell in cells.json()["cells"]))
         response = self.client.get("/v1/recommendations", params={
-            "state": "AZ", "planting_class": "statewide native forage mix",
-            "latitude": 32.2, "longitude": -110.8,
+            "state": "MA", "planting_class": "statewide native forage mix",
+            "latitude": 42.25, "longitude": -72.25,
         })
         self.assertEqual(200, response.status_code, response.text)
         payload = response.json()

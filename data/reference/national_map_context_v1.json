@@ -1,6 +1,6 @@
 {
   "catalog": "national-map-context-v1",
-  "generated_at_utc": "2026-08-21T23:46:39.204026+00:00",
+  "generated_at_utc": "2026-10-07T02:29:19.030421+00:00",
   "boundary_source": "U.S. Census Bureau 2024 cartographic boundary file",
   "states": {
     "TX": {
@@ -8147,7 +8147,7 @@
           "center_longitude": -89.75,
           "resolution_degrees": 0.5,
           "state_area_fraction": 0.6666666666666666,
-          "local_replay_supported": true
+          "local_replay_supported": false
         },
         {
           "cell_id": "LA_0p5_30.0_-90.5",
@@ -8553,7 +8553,7 @@
           "center_longitude": -73.75,
           "resolution_degrees": 0.5,
           "state_area_fraction": 1.0,
-          "local_replay_supported": true
+          "local_replay_supported": false
         },
         {
           "cell_id": "NY_0p5_41.5_-74.5",
@@ -14537,7 +14537,7 @@
           "center_longitude": -82.75,
           "resolution_degrees": 0.5,
           "state_area_fraction": 1.0,
-          "local_replay_supported": true
+          "local_replay_supported": false
         },
         {
           "cell_id": "OH_0p5_40.0_-83.5",
@@ -15549,7 +15549,7 @@
           "center_longitude": -122.25,
           "resolution_degrees": 0.5,
           "state_area_fraction": 1.0,
-          "local_replay_supported": true
+          "local_replay_supported": false
         },
         {
           "cell_id": "WA_0p5_45.5_-123.0",
@@ -16253,7 +16253,7 @@
           "center_longitude": -122.25,
           "resolution_degrees": 0.5,
           "state_area_fraction": 1.0,
-          "local_replay_supported": true
+          "local_replay_supported": false
         },
         {
           "cell_id": "WA_0p5_48.5_-123.0",
@@ -18805,7 +18805,7 @@
           "center_longitude": -104.75,
           "resolution_degrees": 0.5,
           "state_area_fraction": 1.0,
-          "local_replay_supported": true
+          "local_replay_supported": false
         },
         {
           "cell_id": "CO_0p5_40.5_-105.5",
@@ -19195,7 +19195,7 @@
           "center_longitude": -78.75,
           "resolution_degrees": 0.5,
           "state_area_fraction": 1.0,
-          "local_replay_supported": true
+          "local_replay_supported": false
         },
         {
           "cell_id": "NC_0p5_35.5_-79.5",
@@ -19251,7 +19251,7 @@
           "center_longitude": -82.25,
           "resolution_degrees": 0.5,
           "state_area_fraction": 1.0,
-          "local_replay_supported": true
+          "local_replay_supported": false
         },
         {
           "cell_id": "NC_0p5_35.5_-83.0",
@@ -25109,7 +25109,7 @@
           "center_longitude": -70.75,
           "resolution_degrees": 0.5,
           "state_area_fraction": 0.6666666666666666,
-          "local_replay_supported": true
+          "local_replay_supported": false
         },
         {
           "cell_id": "ME_0p5_43.5_-70.0",
@@ -25703,7 +25703,7 @@
           "center_longitude": -73.25,
           "resolution_degrees": 0.5,
           "state_area_fraction": 0.7777777777777778,
-          "local_replay_supported": true
+          "local_replay_supported": false
         },
         {
           "cell_id": "CT_0p5_41.0_-74.0",
@@ -39709,7 +39709,7 @@
           "center_longitude": -71.75,
           "resolution_degrees": 0.5,
           "state_area_fraction": 0.8888888888888888,
-          "local_replay_supported": true
+          "local_replay_supported": false
         },
         {
           "cell_id": "NH_0p5_44.5_-71.5",
@@ -39875,7 +39875,7 @@
           "center_longitude": -110.75,
           "resolution_degrees": 0.5,
           "state_area_fraction": 1.0,
-          "local_replay_supported": true
+          "local_replay_supported": false
         },
         {
           "cell_id": "AZ_0p5_32.0_-111.5",

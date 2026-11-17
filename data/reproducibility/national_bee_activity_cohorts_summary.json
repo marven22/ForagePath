@@ -1,0 +1,15 @@
+{
+  "snapshot": "data/snapshots/gbif-us-native-bees-2009-2025-v1",
+  "target_native_bees": 436,
+  "bees_with_cleaned_occurrences": 433,
+  "weekly_positive_records": 289305,
+  "cohort_counts": {
+    "individual_supported": 268,
+    "partially_pooled": 98,
+    "group_only": 67,
+    "no_activity_evidence": 3
+  },
+  "declared_rule": "individual_supported: >=100 occurrence records, >=5 years, >=20 observed weeks, >=10 0.5-degree cells; partially_pooled: >=25 records, >=3 years, >=10 weeks, >=3 cells; otherwise group_only if records exist; no_activity_evidence if none.",
+  "critical_limitation": "GBIF records are opportunistic positive occurrences. Cohorts support relative seasonal occurrence/activity evidence only; they do not convert unobserved grid-weeks into absences, abundance, health, or causal response.",
+  "next_modeling_policy": "Fit individual seasonal models only for individual_supported species; use partial pooling only for partially_pooled species; group_only species must remain indirect and high-uncertainty; no_activity_evidence species receive no GBIF-derived activity score."
+}

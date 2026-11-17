@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use ForagePath, please cite the associated manuscript and this software release."
+title: "ForagePath: Evidence-governed Forecasting of Seasonal Pollinator Forage Support and Habitat Mixtures from Heterogeneous Ecological Records"
+version: 0.1.0
+date-released: 2026-11-17
+url: "https://github.com/marven22/ForagePath"
+authors:
+  - family-names: Kazanjian
+    given-names: Garik
+  - family-names: Choton
+    given-names: Jahid C.
+  - family-names: Grijalva
+    given-names: Ivan
+  - family-names: Spiesman
+    given-names: Brian J.
+  - family-names: Hsu
+    given-names: William
+  - family-names: Margapuri
+    given-names: Venkat

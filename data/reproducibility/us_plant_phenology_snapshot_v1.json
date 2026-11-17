@@ -1,0 +1,34 @@
+{
+  "snapshot_id": "us-plant-phenology-2009-2025-v2",
+  "candidate_snapshot_id": "us-plants-2026-08-18-v3",
+  "candidate_path": "data/snapshots/us-plants-2026-08-18-v3/derived/candidate_native_flowering_plants.csv",
+  "source": {
+    "name": "USA National Phenology Network Status and Intensity API",
+    "endpoint": "https://services.usanpn.org/npn_portal/observations/getObservations.json"
+  },
+  "scope": {
+    "country_code": "US",
+    "states_plus_dc": [
+      "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN",
+      "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV",
+      "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN",
+      "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY", "DC"
+    ],
+    "start_year": 2009,
+    "end_year": 2025,
+    "end_year_rule": "Last complete calendar year before the 2026-08-18 snapshot"
+  },
+  "phenophases": {
+    "500": "Flowers or flower buds",
+    "501": "Open flowers",
+    "502": "Pollen release (flowers)"
+  },
+  "primary_model_phenophase_id": 501,
+  "species_batch_size": 10,
+  "adequacy_screen": {
+    "direct": {"minimum_usable_open_flower_records": 100, "minimum_years": 3, "minimum_sites": 3},
+    "limited": {"minimum_usable_open_flower_records": 20, "minimum_years": 2, "minimum_sites": 2},
+    "both_positive_and_negative_statuses_required": true,
+    "note": "These are preregistered screening thresholds and must later be sensitivity-tested; they are not biological laws."
+  }
+}

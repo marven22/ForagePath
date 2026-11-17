@@ -1,0 +1,10 @@
+family,unit,model,baseline,metric,point_estimate,difference,ci95_low,ci95_high,n_units,bootstrap_replicates
+flowering,site-year,seasonal_climatology,,weighted_brier,0.04328371573005077,,0.0401400187523368,0.046672605335770494,2895,1000
+flowering,site-year,catboost_full_features_corrected_ecoregion,,weighted_brier,0.04224033675954267,,0.038951725770592735,0.04589743646221363,2895,1000
+flowering,site-year,catboost_full_features_corrected_ecoregion,seasonal_climatology,weighted_brier_difference,,-0.001043378970508102,-0.0021546153026644815,0.0003948691637364996,2895,1000
+flowering,site-year,seasonal_climatology,,weighted_roc_auc,0.8708047847491417,,0.8530447849107523,0.885925221600827,2895,1000
+flowering,site-year,catboost_full_features_corrected_ecoregion,,weighted_roc_auc,0.8876102629518555,,0.8710455517967263,0.9013695369157869,2895,1000
+flowering,site-year,catboost_full_features_corrected_ecoregion,seasonal_climatology,weighted_roc_auc_difference,,0.01680547820271383,0.011377707956538386,0.02148187565974045,2895,1000
+flowering,site-year,seasonal_climatology,,weighted_average_precision,0.5323984362484331,,0.5107321427116638,0.5539509848906771,2895,1000
+flowering,site-year,catboost_full_features_corrected_ecoregion,,weighted_average_precision,0.5585728331419056,,0.5390490122721245,0.5802108275573798,2895,1000
+flowering,site-year,catboost_full_features_corrected_ecoregion,seasonal_climatology,weighted_average_precision_difference,,0.026174396893472562,0.013939728655031153,0.040379820302340386,2895,1000

@@ -1,0 +1,15 @@
+{
+  "release": "0.1.0",
+  "purpose": "Compact reproducibility package for the ForagePath manuscript and released application.",
+  "source_policy": "Derived compact artifacts are included. Bulk third-party source records remain with their original providers and terms.",
+  "primary_experiments": {
+    "F1": "Internal future-year flowering benchmark",
+    "F2": "Cross-source NEON flowering evaluation",
+    "B1": "Future-year native-bee seasonal timing evaluation",
+    "L1": "Plant-bee link-ranking evaluation",
+    "M1": "Retrospective mixture decision replay"
+  },
+  "verification_script": "scripts/verify_paper_release.py",
+  "registry": "results/paper_experiment_registry_v1/paper_experiment_registry.md",
+  "claim_boundary": "Artifacts support retrospective forecasting, ranking, and seasonal-overlap comparisons. They do not establish causal field benefit, bee abundance, health, survival, crop pollination, yield, or plant establishment."
+}

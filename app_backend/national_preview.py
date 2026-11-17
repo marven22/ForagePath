@@ -12,7 +12,7 @@ from .spatial_context import point_in_geometry
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_PATH = ROOT / "data/reference/national_statewide_preview.json"
-LOCAL_CATALOG_PATH = ROOT / "data/reference/national_localized_guidance_v1.json"
+LOCAL_CATALOG_PATH = ROOT / "data/reference/national_localized_guidance_v2.json"
 MAP_CONTEXT_PATH = ROOT / "data/reference/national_map_context_v1.json"
 
 
@@ -253,7 +253,7 @@ class NationalStatewidePreview:
                         "requested_latitude": latitude, "requested_longitude": longitude, "resolved_cell_id": cell_id,
                         "modeled_cell_center": [(local["bounds"][0] + local["bounds"][2]) / 2, (local["bounds"][1] + local["bounds"][3]) / 2],
                         "distance_to_modeled_cell_km": 0.0},
-            "spatial_decision": {"policy_version": "national-localized-guidance-v1", "level": "local_grid", "evidence_grade": "local_replay_supported",
+            "spatial_decision": {"policy_version": "national-localized-guidance-v2", "level": "local_grid", "evidence_grade": "local_replay_supported",
                                  "label": "Exact-grid evidence-supported guidance", "county_name": None, "target_cell_id": cell_id,
                                  "source_cell_id": cell_id, "distance_km": 0.0, "county_limit_km": 0.1, "ecological_limit_km": 0.1,
                                  "environmental_similarity": None, "environment_features_compared": local["local_evidence"]["environment_features_available"],

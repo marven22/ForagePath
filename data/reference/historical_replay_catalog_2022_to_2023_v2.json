@@ -1,0 +1,706 @@
+{
+  "catalog": "historical-replay-2022-to-2023-v2",
+  "purpose": "Immutable analysis snapshot for the temporal local-versus-statewide replay. It is not the live application catalog.",
+  "cutoff_year": 2022,
+  "held_out_test_year": 2023,
+  "promotion_rule": {
+    "minimum_test_bee_week_events": 20,
+    "minimum_test_flower_week_records": 10,
+    "minimum_local_minus_statewide_overlap": 0.05
+  },
+  "states": {
+    "CA": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 858
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 708
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 1013
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 162
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 436
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 92
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 117
+        }
+      ],
+      "promoted_local_mixtures": []
+    },
+    "CO": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 931
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 436
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 224
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 217
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 789
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 17
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 29
+        }
+      ],
+      "promoted_local_mixtures": []
+    },
+    "CT": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 199
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 94
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 3
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 82
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 61
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 12
+        }
+      ],
+      "promoted_local_mixtures": []
+    },
+    "MA": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 1637
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 195
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 1034
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 931
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 199
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 1186
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 197
+        }
+      ],
+      "promoted_local_mixtures": [
+        {
+          "cell_id": "MA_0p5_42.0_-72.5",
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 199
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 3
+            }
+          ],
+          "held_out_2023_documented_overlap": 0.11864406779661017,
+          "held_out_2023_statewide_overlap": 0.06779661016949153,
+          "held_out_difference": 0.05084745762711865
+        }
+      ]
+    },
+    "MD": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 202
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 195
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 1034
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 1186
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 199
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 197
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 1202
+        }
+      ],
+      "promoted_local_mixtures": [
+        {
+          "cell_id": "MD_0p5_38.5_-77.0",
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 7
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 3
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 82
+            }
+          ],
+          "held_out_2023_documented_overlap": 0.06060606060606061,
+          "held_out_2023_statewide_overlap": 0.0,
+          "held_out_difference": 0.06060606060606061
+        },
+        {
+          "cell_id": "MD_0p5_39.0_-77.5",
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 202
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 8
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 7
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 176
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 33
+            },
+            {
+              "ordinal": 6,
+              "npn_species_id": 1065
+            },
+            {
+              "ordinal": 7,
+              "npn_species_id": 3
+            }
+          ],
+          "held_out_2023_documented_overlap": 0.15,
+          "held_out_2023_statewide_overlap": 0.08333333333333333,
+          "held_out_difference": 0.06666666666666667
+        }
+      ]
+    },
+    "ME": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 1637
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 195
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 94
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 199
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 197
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 326
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 299
+        }
+      ],
+      "promoted_local_mixtures": []
+    },
+    "MN": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 195
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 931
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 1034
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 203
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 1637
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 199
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 845
+        }
+      ],
+      "promoted_local_mixtures": []
+    },
+    "MO": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 195
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 201
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 197
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 176
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 7
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 1065
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 1016
+        }
+      ],
+      "promoted_local_mixtures": []
+    },
+    "NC": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 195
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 202
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 1637
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 912
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 199
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 94
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 786
+        }
+      ],
+      "promoted_local_mixtures": [
+        {
+          "cell_id": "NC_0p5_36.0_-79.0",
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 195
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 202
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 912
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 1637
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 147
+            }
+          ],
+          "held_out_2023_documented_overlap": 0.40559440559440557,
+          "held_out_2023_statewide_overlap": 0.3356643356643357,
+          "held_out_difference": 0.0699300699300699
+        }
+      ]
+    },
+    "NY": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 195
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 202
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 1034
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 1637
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 931
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 199
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 326
+        }
+      ],
+      "promoted_local_mixtures": [
+        {
+          "cell_id": "NY_0p5_41.0_-74.0",
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 166
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 3
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 82
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 915
+            }
+          ],
+          "held_out_2023_documented_overlap": 0.0913978494623656,
+          "held_out_2023_statewide_overlap": 0.0,
+          "held_out_difference": 0.0913978494623656
+        }
+      ]
+    },
+    "OH": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 931
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 1034
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 195
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 202
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 201
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 1186
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 203
+        }
+      ],
+      "promoted_local_mixtures": []
+    },
+    "OR": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 92
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 436
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 162
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 815
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 312
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 924
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 1001
+        }
+      ],
+      "promoted_local_mixtures": [
+        {
+          "cell_id": "OR_0p5_45.0_-123.0",
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 92
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 1637
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 321
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 997
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 719
+            },
+            {
+              "ordinal": 6,
+              "npn_species_id": 942
+            },
+            {
+              "ordinal": 7,
+              "npn_species_id": 1
+            }
+          ],
+          "held_out_2023_documented_overlap": 0.28888888888888886,
+          "held_out_2023_statewide_overlap": 0.15555555555555556,
+          "held_out_difference": 0.1333333333333333
+        }
+      ]
+    },
+    "PA": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 195
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 931
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 202
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 1637
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 199
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 8
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 29
+        }
+      ],
+      "promoted_local_mixtures": []
+    },
+    "VT": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 94
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 726
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 6
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 28
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 3
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 2
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 325
+        }
+      ],
+      "promoted_local_mixtures": []
+    },
+    "WA": {
+      "statewide_mixture": [
+        {
+          "ordinal": 1,
+          "npn_species_id": 92
+        },
+        {
+          "ordinal": 2,
+          "npn_species_id": 312
+        },
+        {
+          "ordinal": 3,
+          "npn_species_id": 924
+        },
+        {
+          "ordinal": 4,
+          "npn_species_id": 1001
+        },
+        {
+          "ordinal": 5,
+          "npn_species_id": 1670
+        },
+        {
+          "ordinal": 6,
+          "npn_species_id": 217
+        },
+        {
+          "ordinal": 7,
+          "npn_species_id": 104
+        }
+      ],
+      "promoted_local_mixtures": [
+        {
+          "cell_id": "WA_0p5_47.5_-122.5",
+          "plants": [
+            {
+              "ordinal": 1,
+              "npn_species_id": 92
+            },
+            {
+              "ordinal": 2,
+              "npn_species_id": 924
+            },
+            {
+              "ordinal": 3,
+              "npn_species_id": 311
+            },
+            {
+              "ordinal": 4,
+              "npn_species_id": 104
+            },
+            {
+              "ordinal": 5,
+              "npn_species_id": 312
+            },
+            {
+              "ordinal": 6,
+              "npn_species_id": 70
+            },
+            {
+              "ordinal": 7,
+              "npn_species_id": 107
+            }
+          ],
+          "held_out_2023_documented_overlap": 0.5221238938053098,
+          "held_out_2023_statewide_overlap": 0.4336283185840708,
+          "held_out_difference": 0.08849557522123896
+        }
+      ]
+    }
+  }
+}
