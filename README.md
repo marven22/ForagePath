@@ -59,3 +59,9 @@ ForagePath reports potential seasonal support based on the available evidence. I
 ## Security
 
 Do not commit API keys, downloaded credentials, browser profiles, or raw records with access restrictions. Local secrets belong in `.secrets.json` or `.env`, both of which are ignored by Git. See [SECURITY.md](SECURITY.md).
+
+## License
+
+The ForagePath software is released under the [MIT License](LICENSE).
+Provider terms continue to govern the external source datasets. Raw provider
+downloads and credentials are intentionally not distributed in this repository.

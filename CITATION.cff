@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use ForagePath, please cite the associated manuscript and this software release."
 title: "ForagePath: Evidence-governed Forecasting of Seasonal Pollinator Forage Support and Habitat Mixtures from Heterogeneous Ecological Records"
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-11-17
 url: "https://github.com/marven22/ForagePath"
 authors:
